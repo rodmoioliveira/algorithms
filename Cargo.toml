@@ -1,0 +1,3 @@
+[workspace]
+    members = ["sorting_quicksort"]
+    resolver = "2"
