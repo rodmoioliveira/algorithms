@@ -1,5 +1,9 @@
 # algorithms
 
+# index
+
+  - [Make Recipes](#make-recipes)
+
 # Make Recipes
 
 [back^](#index)
@@ -29,6 +33,8 @@ rs-outdated          Display when dependencies are out of date
 rs-tests             Run tests
 rs-uninstall         Uninstall binary
 rs-update-cargo      Update dependencies
+toml-fmt             Format toml code
+toml-lint            Check toml yaml code
 typos                Check typos
 typos-fix            Fix typos
 yaml-fmt             Format yaml code
