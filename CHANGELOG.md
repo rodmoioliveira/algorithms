@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.2](https://github.com/rodmoioliveira/algorithms/compare/0.1.1...0.1.2) - 2024-11-10
+
+[3b78ea5](https://github.com/rodmoioliveira/algorithms/commit/3b78ea59d175c8c2857e2b432eee1c79b1797e49)...[1bc0c56](https://github.com/rodmoioliveira/algorithms/commit/1bc0c5647f8f8bfe4f63260f077b33dbdfe3269f)
+
+### Bug Fixes
+
+- [e9b61f3](https://github.com/rodmoioliveira/algorithms/commit/e9b61f33861e18c00517c00a288fcc201862e8f7) - Fix Cargo.toml version
+- [880ef59](https://github.com/rodmoioliveira/algorithms/commit/880ef594f89d79686ac98b413211d12b6fa4da48) - Remove std::fmt::Debug from lomuto_clrs()
+
+### Miscellaneous Tasks
+
+- [1bc0c56](https://github.com/rodmoioliveira/algorithms/commit/1bc0c5647f8f8bfe4f63260f077b33dbdfe3269f) - Bump version
+
+### Releases
+
+- [8f5d769](https://github.com/rodmoioliveira/algorithms/commit/8f5d769208ed27d378907b9521c36220868cba12) - 0.1.1
+
 ## [0.1.1](https://github.com/rodmoioliveira/algorithms/compare/0.1.0...0.1.1) - 2024-11-10
 
 [3e04759](https://github.com/rodmoioliveira/algorithms/commit/3e047595b8d5e38b45f8cc8de7d40cf59d9b2bd4)...[3b78ea5](https://github.com/rodmoioliveira/algorithms/commit/3b78ea59d175c8c2857e2b432eee1c79b1797e49)
