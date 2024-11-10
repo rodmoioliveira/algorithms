@@ -12,7 +12,7 @@
 // [Wild2012, p.35]
 // Algorithm 2. Quicksort variant from [CLRS2009, Chapter 7]. It uses a particularly simple partitioning
 // scheme, which is not based on HOARE’s crossing pointers technique.
-pub fn _lomuto_clrs<T: Ord + std::fmt::Debug>(a: &mut [T], left: usize, right: usize) {
+pub fn _lomuto_clrs<T: Ord>(a: &mut [T], left: usize, right: usize) {
     if left < right {
         let pivot_i = right;
         let mut i = left;
@@ -31,7 +31,7 @@ pub fn _lomuto_clrs<T: Ord + std::fmt::Debug>(a: &mut [T], left: usize, right: u
     }
 }
 
-pub fn lomuto_clrs<T: Ord + std::fmt::Debug>(a: &mut [T]) {
+pub fn lomuto_clrs<T: Ord>(a: &mut [T]) {
     let len = a.len();
     if len > 1 {
         _lomuto_clrs(a, 0, len - 1);
