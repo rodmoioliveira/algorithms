@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.1](https://github.com/rodmoioliveira/algorithms/compare/0.1.0...0.1.1) - 2024-11-10
+
+[3e04759](https://github.com/rodmoioliveira/algorithms/commit/3e047595b8d5e38b45f8cc8de7d40cf59d9b2bd4)...[3b78ea5](https://github.com/rodmoioliveira/algorithms/commit/3b78ea59d175c8c2857e2b432eee1c79b1797e49)
+
+### Features
+
+- [3b78ea5](https://github.com/rodmoioliveira/algorithms/commit/3b78ea59d175c8c2857e2b432eee1c79b1797e49) - Add quicksort::lomuto_clrs
+
+### Releases
+
+- [5bcfab2](https://github.com/rodmoioliveira/algorithms/commit/5bcfab28d0a05f2e391965f2e76f85b430c0f155) - 0.1.0
+
 ## [0.1.0](https://github.com/rodmoioliveira/algorithms/compare/...0.1.0) - 2024-11-09
 
 ### Features
