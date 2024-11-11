@@ -27,7 +27,7 @@ pub fn _classic_hoare<T: Ord>(a: &mut [T], left: usize, right: usize) {
                 j -= 1;
             }
 
-            if j == 0 || i >= j {
+            if i >= j {
                 break;
             }
 
