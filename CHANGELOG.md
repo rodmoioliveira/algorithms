@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.3](https://github.com/rodmoioliveira/algorithms/compare/0.1.2...0.1.3) - 2024-11-11
+
+[1bc0c56](https://github.com/rodmoioliveira/algorithms/commit/1bc0c5647f8f8bfe4f63260f077b33dbdfe3269f)...[b0682c1](https://github.com/rodmoioliveira/algorithms/commit/b0682c1b1970ec23872a494937d35771a8794197)
+
+### Features
+
+- [26c3268](https://github.com/rodmoioliveira/algorithms/commit/26c32685f054eab86995b7b1277c27976ab818e6) - Add quicksort::classic_hoare
+
+### Miscellaneous Tasks
+
+- [b0682c1](https://github.com/rodmoioliveira/algorithms/commit/b0682c1b1970ec23872a494937d35771a8794197) - Bump version
+
+### Releases
+
+- [330c27d](https://github.com/rodmoioliveira/algorithms/commit/330c27d9b22d98257ed970e5c6f9a08d86812274) - 0.1.2
+
 ## [0.1.2](https://github.com/rodmoioliveira/algorithms/compare/0.1.1...0.1.2) - 2024-11-10
 
 [3b78ea5](https://github.com/rodmoioliveira/algorithms/commit/3b78ea59d175c8c2857e2b432eee1c79b1797e49)...[1bc0c56](https://github.com/rodmoioliveira/algorithms/commit/1bc0c5647f8f8bfe4f63260f077b33dbdfe3269f)
