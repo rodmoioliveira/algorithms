@@ -32,11 +32,11 @@ pub fn _three_way<T: Ord>(a: &mut [T], left: usize, right: usize) {
                 }
             }
         }
-
         a.swap(pivot_i, lt);
-        let checked_right = lt.checked_sub(1).unwrap_or_default();
 
-        _three_way(a, left, checked_right);
+        if lt > 0 {
+            _three_way(a, left, lt - 1);
+        }
         _three_way(a, gt, right);
     }
 }

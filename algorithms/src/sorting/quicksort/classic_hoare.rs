@@ -39,9 +39,10 @@ pub fn _classic_hoare<T: Ord>(a: &mut [T], left: usize, right: usize) {
             }
         }
         a.swap(i, pivot_i);
-        let checked_right = i.checked_sub(1).unwrap_or_default();
 
-        _classic_hoare(a, left, checked_right);
+        if i > 0 {
+            _classic_hoare(a, left, i - 1);
+        }
         _classic_hoare(a, i + 1, right);
     }
 }

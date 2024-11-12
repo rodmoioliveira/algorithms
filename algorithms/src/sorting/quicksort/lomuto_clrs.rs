@@ -24,9 +24,10 @@ pub fn _lomuto_clrs<T: Ord>(a: &mut [T], left: usize, right: usize) {
             }
         }
         a.swap(i, right);
-        let checked_right = i.checked_sub(1).unwrap_or_default();
 
-        _lomuto_clrs(a, left, checked_right);
+        if i > 0 {
+            _lomuto_clrs(a, left, i - 1);
+        }
         _lomuto_clrs(a, i + 1, right);
     }
 }
