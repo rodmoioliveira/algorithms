@@ -37,15 +37,27 @@ backlink() {
 }
 
 algorithms_list() {
-  find . -name '*.rs' |
+  find algorithms -name '*.rs' |
     grep mod -v |
     grep utils -v |
     grep main -v |
     grep lib -v |
     sort |
-    sed 's@./algorithms/src/@@g' |
+    sed 's@algorithms/src/@@g' |
     sed -E 's/\.rs$//g' |
     sed -E 's@(.+)@  - [\1](/algorithms/src/\1.rs)@g'
+}
+
+leetcode_list() {
+  find leetcode -name '*.rs' |
+    grep mod -v |
+    grep utils -v |
+    grep main -v |
+    grep lib -v |
+    sort |
+    sed 's@leetcode/src/@@g' |
+    sed -E 's/\.rs$//g' |
+    sed -E 's@(.+)@  - [\1](/leetcode/src/\1.rs)@g'
 }
 
 readme() {
@@ -59,6 +71,10 @@ $(index)
 # Algorithms
 
 $(algorithms_list)
+
+# Leetcode
+
+$(leetcode_list)
 
 # Make Recipes
 

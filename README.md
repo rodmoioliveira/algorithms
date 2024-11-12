@@ -3,6 +3,7 @@
 # index
 
   - [Algorithms](#algorithms)
+  - [Leetcode](#leetcode)
   - [Make Recipes](#make-recipes)
 
 # Algorithms
@@ -13,6 +14,12 @@
   - [sorting/quicksort/lomuto_clrs](/algorithms/src/sorting/quicksort/lomuto_clrs.rs)
   - [sorting/quicksort/three_way_bentley_mcilroy](/algorithms/src/sorting/quicksort/three_way_bentley_mcilroy.rs)
   - [sorting/quicksort/three_way](/algorithms/src/sorting/quicksort/three_way.rs)
+
+# Leetcode
+
+[back^](#index)
+
+  - [_1431_kids_with_the_greatest_number_of_candies](/leetcode/src/_1431_kids_with_the_greatest_number_of_candies.rs)
 
 # Make Recipes
 
