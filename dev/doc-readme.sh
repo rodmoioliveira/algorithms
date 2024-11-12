@@ -64,6 +64,8 @@ readme() {
   cat <<EOF >|README.md
 # algorithms
 
+I've reimplemented a few algorithms and resolved some problems for fun.
+
 # index
 
 $(index)
