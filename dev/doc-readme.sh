@@ -36,6 +36,18 @@ backlink() {
   sed -i -E '/^#{1,} [A-Z]/a\\n\[back^\](#index)' README.md
 }
 
+algorithms_list() {
+  find . -name '*.rs' |
+    grep mod -v |
+    grep utils -v |
+    grep main -v |
+    grep lib -v |
+    sort |
+    sed 's@./algorithms/src/@@g' |
+    sed -E 's/\.rs$//g' |
+    sed -E 's@(.+)@  - [\1](/algorithms/src/\1.rs)@g'
+}
+
 readme() {
   cat <<EOF >|README.md
 # algorithms
@@ -43,6 +55,10 @@ readme() {
 # index
 
 $(index)
+
+# Algorithms
+
+$(algorithms_list)
 
 # Make Recipes
 
