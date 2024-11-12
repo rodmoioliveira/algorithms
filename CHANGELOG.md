@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.4](https://github.com/rodmoioliveira/algorithms/compare/0.1.3...0.1.4) - 2024-11-12
+
+[b0682c1](https://github.com/rodmoioliveira/algorithms/commit/b0682c1b1970ec23872a494937d35771a8794197)...[ff0688e](https://github.com/rodmoioliveira/algorithms/commit/ff0688e259828d002540c41f6b41f5dd7ea4fb50)
+
+### Features
+
+- [5b556ef](https://github.com/rodmoioliveira/algorithms/commit/5b556ef086c4cbcd85d8b7d03acb00a8d9e8950c) - Add quicksort::three_way
+
+### Miscellaneous Tasks
+
+- [e87459a](https://github.com/rodmoioliveira/algorithms/commit/e87459ac6ab84d9f7f0052dbdf12f0fd45d94393) - Remove break condition from quicksort::classic_hoare
+- [ff0688e](https://github.com/rodmoioliveira/algorithms/commit/ff0688e259828d002540c41f6b41f5dd7ea4fb50) - Bump version
+
+### Releases
+
+- [2eb104c](https://github.com/rodmoioliveira/algorithms/commit/2eb104c2ce97d4ae420327c9cfd695c866b5b708) - 0.1.3
+
 ## [0.1.3](https://github.com/rodmoioliveira/algorithms/compare/0.1.2...0.1.3) - 2024-11-11
 
 [1bc0c56](https://github.com/rodmoioliveira/algorithms/commit/1bc0c5647f8f8bfe4f63260f077b33dbdfe3269f)...[b0682c1](https://github.com/rodmoioliveira/algorithms/commit/b0682c1b1970ec23872a494937d35771a8794197)
