@@ -1,75 +1,100 @@
 // REFERENCES:
 //
-// - [Hoa1961a] C. A. R. Hoare, 1961. Algorithm 63: Partition. Communications of the ACM, 4(7):321. doi:10.1145/366622.366642.
-// - [Hoa1961b] C. A. R. Hoare, 1961. Algorithm 65: Find. Communications of the ACM, 4(7):321–322. doi:10.1145/366622.366647.
-// - [SF1996] R. Sedgewick and P. Flajolet, 1996. An Introduction to the Analysis of Algorithms. Addison-Wesley-Longman. ISBN 978-0-201-40009-0.
-// - [Sed1975] R. Sedgewick, 1975. Quicksort. PhD Thesis, Stanford University.
-// - [Sed1978] R. Sedgewick, 1978. Implementing Quicksort programs. Communications of the ACM, 21(10):847–857. doi:10.1145/359619.359631.
+// - [BM93] J. L. J. Bentley and M. D. McIlroy, 1993. Engineering a sort function. Software: Practice and Experience, 23(11):1249–1265. doi:10.1002/spe.4380231105.
+// - https://medium.com/@mcguire.crsr/quicksort-c850a4c6e47 [PERFECT!]
+// - https://sedgewick.io/wp-content/uploads/2022/03/2002QuicksortIsOptimal.pdf
+// - https://stackoverflow.com/questions/7264101/implementing-bentley-mcilroy-three-way-partitioning-using-stl-iterators
+// - https://www.cs.princeton.edu/courses/archive/spring20/cos226/demos/23DemoPartitioning.pdf
 
-// [Wild2012, p.26]
-// Algorithm 1. Classic Quicksort implementation by SEDGEWICK as given and discussed in detail in
-// [Sed1975, Sed1978]. We take the rightmost element as pivot instead of the leftmost, as it is done in
-// Program 1.2 of [SF1996]. Partitioning is done as follows: Two pointers i and j scan the array from
-// left and right until they hit an element that does not belong in this subfile. Then the elements
-// A[i] and A[j] are exchanged. This crossing pointers technique dates back to HOARE’s original
-// formulation of Quicksort [Hoa1961a].
-pub fn _classic_hoare<T: Ord>(a: &mut [T], left: usize, right: usize) {
+// [Wild2012, p.37]
+// Algorithm 4. Quicksort with BENTLEY and MCILROY’s three-way partitioning method proposed in
+// [BM93].
+pub fn _three_way_bentley_mcilroy<T: Ord>(a: &mut [T], left: usize, right: usize) {
     if left < right {
-        let pivot_i = right;
+        let pivot_i = left;
+
         let mut i = left;
-        let mut j = right - 1;
+        let mut j = right;
+
+        let mut p = left;
+        let mut q = right;
 
         loop {
-            while a[i] < a[pivot_i] {
+            while i < j && a[i] <= a[pivot_i] {
+                if a[i] == a[pivot_i] {
+                    a.swap(i, p);
+                    p += 1;
+                }
                 i += 1;
             }
-            while j > 0 && a[j] > a[pivot_i] {
+            while i < j && a[pivot_i] <= a[j] {
+                if a[j] == a[pivot_i] {
+                    a.swap(j, q);
+                    q -= 1;
+                }
                 j -= 1;
             }
-
             if i >= j {
                 break;
             }
+            a.swap(i, j);
+        }
 
-            if a[i] != a[j] {
-                a.swap(i, j);
-            } else {
-                i += 1;
+        if a[i] <= a[pivot_i] && i < right {
+            i += 1;
+        }
+        if a[pivot_i] <= a[j] && left < j {
+            j -= 1;
+        }
+
+        if p <= j {
+            while left < p {
+                p -= 1;
+                a.swap(p, j);
                 j -= 1;
             }
+        } else {
+            j = left
         }
-        a.swap(i, pivot_i);
 
-        if i > 0 {
-            _classic_hoare(a, left, i - 1);
+        if i <= q {
+            while q < right {
+                q += 1;
+                a.swap(q, i);
+                i += 1;
+            }
+        } else {
+            i = right
         }
-        _classic_hoare(a, i + 1, right);
+
+        _three_way_bentley_mcilroy(a, left, j);
+        _three_way_bentley_mcilroy(a, i, right);
     }
 }
 
-pub fn classic_hoare<T: Ord>(a: &mut [T]) {
+pub fn three_way_bentley_mcilroy<T: Ord>(a: &mut [T]) {
     let len = a.len();
     if len > 1 {
-        _classic_hoare(a, 0, len - 1);
+        _three_way_bentley_mcilroy(a, 0, len - 1);
     }
 }
 
 pub fn example() {
     let mut res = vec![13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11];
-    classic_hoare(&mut res);
-    eprintln!("{res:?} sorting::quicksort::classic_hoare");
+    three_way_bentley_mcilroy(&mut res);
+    eprintln!("{res:?} sorting::quicksort::three_way_bentley_mcilroy");
 }
 
 #[cfg(test)]
 mod tests {
-    use super::classic_hoare;
+    use super::three_way_bentley_mcilroy;
     use crate::sorting::utils::*;
 
     #[test]
     fn basic() {
         let mut res = vec![13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11];
         let cloned = res.clone();
-        classic_hoare(&mut res);
+        three_way_bentley_mcilroy(&mut res);
 
         assert!(is_sorted(&res));
         assert!(have_same_elements(&res, &cloned));
@@ -79,7 +104,7 @@ mod tests {
     fn basic_string() {
         let mut res = vec!["a", "bb", "d", "cc"];
         let cloned = res.clone();
-        classic_hoare(&mut res);
+        three_way_bentley_mcilroy(&mut res);
 
         assert!(is_sorted(&res));
         assert!(have_same_elements(&res, &cloned));
@@ -89,7 +114,7 @@ mod tests {
     fn empty() {
         let mut res = Vec::<u8>::new();
         let cloned = res.clone();
-        classic_hoare(&mut res);
+        three_way_bentley_mcilroy(&mut res);
 
         assert!(is_sorted(&res));
         assert!(have_same_elements(&res, &cloned));
@@ -99,7 +124,7 @@ mod tests {
     fn one_element() {
         let mut res = vec![1];
         let cloned = res.clone();
-        classic_hoare(&mut res);
+        three_way_bentley_mcilroy(&mut res);
 
         assert!(is_sorted(&res));
         assert!(have_same_elements(&res, &cloned));
@@ -109,7 +134,7 @@ mod tests {
     fn pre_sorted() {
         let mut res = vec![1, 2, 3, 4];
         let cloned = res.clone();
-        classic_hoare(&mut res);
+        three_way_bentley_mcilroy(&mut res);
 
         assert!(is_sorted(&res));
         assert!(have_same_elements(&res, &cloned));
@@ -119,7 +144,7 @@ mod tests {
     fn reverse_sorted() {
         let mut res = vec![4, 3, 2, 1];
         let cloned = res.clone();
-        classic_hoare(&mut res);
+        three_way_bentley_mcilroy(&mut res);
 
         assert!(is_sorted(&res));
         assert!(have_same_elements(&res, &cloned));
@@ -130,7 +155,7 @@ mod tests {
         let mut res = generate_random_vec(300000, 0, 1000000);
         let cloned = res.clone();
         log_timed("large elements test", || {
-            classic_hoare(&mut res);
+            three_way_bentley_mcilroy(&mut res);
         });
 
         assert!(is_sorted(&res));
@@ -142,7 +167,7 @@ mod tests {
         let mut res = generate_nearly_ordered_vec(3000, 10);
         let cloned = res.clone();
         log_timed("nearly ordered elements test", || {
-            classic_hoare(&mut res);
+            three_way_bentley_mcilroy(&mut res);
         });
 
         assert!(is_sorted(&res));
@@ -154,7 +179,7 @@ mod tests {
         let mut res = generate_repeated_elements_vec(1_000_000, 3);
         let cloned = res.clone();
         log_timed("repeated elements test", || {
-            classic_hoare(&mut res);
+            three_way_bentley_mcilroy(&mut res);
         });
 
         assert!(is_sorted(&res));

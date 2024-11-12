@@ -42,7 +42,7 @@ pub fn lomuto_clrs<T: Ord>(a: &mut [T]) {
 pub fn example() {
     let mut res = vec![13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11];
     lomuto_clrs(&mut res);
-    eprintln!("sorting::quicksort::lomuto_clrs: {res:?}");
+    eprintln!("{res:?} sorting::quicksort::lomuto_clrs");
 }
 
 #[cfg(test)]
