@@ -11,6 +11,7 @@
 
   - [sorting/quicksort/classic_hoare](/algorithms/src/sorting/quicksort/classic_hoare.rs)
   - [sorting/quicksort/lomuto_clrs](/algorithms/src/sorting/quicksort/lomuto_clrs.rs)
+  - [sorting/quicksort/three_way_bentley_mcilroy](/algorithms/src/sorting/quicksort/three_way_bentley_mcilroy.rs)
   - [sorting/quicksort/three_way](/algorithms/src/sorting/quicksort/three_way.rs)
 
 # Make Recipes

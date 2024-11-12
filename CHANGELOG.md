@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.1.5](https://github.com/rodmoioliveira/algorithms/compare/0.1.4...0.1.5) - 2024-11-12
+
+[ff0688e](https://github.com/rodmoioliveira/algorithms/commit/ff0688e259828d002540c41f6b41f5dd7ea4fb50)...[6d3b25e](https://github.com/rodmoioliveira/algorithms/commit/6d3b25ecab0b5b5fe6e22023d4ba406b73e371b4)
+
+### Documentation
+
+- [dcb2504](https://github.com/rodmoioliveira/algorithms/commit/dcb25048476bf28b1f033b3454f654c98e81224e) - Add algorithms_list
+
+### Features
+
+- [a956ca8](https://github.com/rodmoioliveira/algorithms/commit/a956ca8d7f9533c4fd7f6d5242785d215e40dbbd) - Add quicksort::three_way_bentley_mcilroy
+
+### Miscellaneous Tasks
+
+- [3c0aa56](https://github.com/rodmoioliveira/algorithms/commit/3c0aa56e224b4211d8a3b91c3394f7b6c9ebfc32) - Remove checked_sub() from usize
+- [6d3b25e](https://github.com/rodmoioliveira/algorithms/commit/6d3b25ecab0b5b5fe6e22023d4ba406b73e371b4) - Bump version
+
+### Releases
+
+- [884e036](https://github.com/rodmoioliveira/algorithms/commit/884e036e9c9f7dfbee68a122215fbcb5e71de1b4) - 0.1.4
+
 ## [0.1.4](https://github.com/rodmoioliveira/algorithms/compare/0.1.3...0.1.4) - 2024-11-12
 
 [b0682c1](https://github.com/rodmoioliveira/algorithms/commit/b0682c1b1970ec23872a494937d35771a8794197)...[ff0688e](https://github.com/rodmoioliveira/algorithms/commit/ff0688e259828d002540c41f6b41f5dd7ea4fb50)
