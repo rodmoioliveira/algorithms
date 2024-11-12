@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.6](https://github.com/rodmoioliveira/algorithms/compare/0.1.5...0.1.6) - 2024-11-12
+
+[6d3b25e](https://github.com/rodmoioliveira/algorithms/commit/6d3b25ecab0b5b5fe6e22023d4ba406b73e371b4)...[e998333](https://github.com/rodmoioliveira/algorithms/commit/e998333cd22b3fdafde34ad6c18377f2814276e0)
+
+### Features
+
+- [ea71586](https://github.com/rodmoioliveira/algorithms/commit/ea71586e3a0754b9eb12669d54057ddc8e9b7ad6) - Add leetcode
+- [746e4cc](https://github.com/rodmoioliveira/algorithms/commit/746e4ccf684e0a2052752ab43f883ffff848aef0) - Add leetcode_list
+
+### Miscellaneous Tasks
+
+- [e998333](https://github.com/rodmoioliveira/algorithms/commit/e998333cd22b3fdafde34ad6c18377f2814276e0) - Bump version
+
+### Releases
+
+- [b6edb00](https://github.com/rodmoioliveira/algorithms/commit/b6edb007a8de3a018a9250a1b8718b0eb61f3d69) - 0.1.5
+
 ## [0.1.5](https://github.com/rodmoioliveira/algorithms/compare/0.1.4...0.1.5) - 2024-11-12
 
 [ff0688e](https://github.com/rodmoioliveira/algorithms/commit/ff0688e259828d002540c41f6b41f5dd7ea4fb50)...[6d3b25e](https://github.com/rodmoioliveira/algorithms/commit/6d3b25ecab0b5b5fe6e22023d4ba406b73e371b4)
