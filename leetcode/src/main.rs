@@ -1,5 +1,6 @@
 use leetcode::*;
 
 fn main() {
-    _1431_kids_with_the_greatest_number_of_candies::testcase();
+    _000151_reverse_words_in_a_string::testcase();
+    _001431_kids_with_the_greatest_number_of_candies::testcase();
 }

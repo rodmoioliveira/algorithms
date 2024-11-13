@@ -51,7 +51,7 @@ pub fn testcase() {
     let extra_candies = 3;
     let result = kids_with_candies(candies, extra_candies);
     eprintln!(
-        "_1431_kids_with_the_greatest_number_of_candies: {:?}",
+        "_001431_kids_with_the_greatest_number_of_candies: {:?}",
         result
     );
 }

@@ -21,7 +21,8 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 
 [back^](#index)
 
-  - [_1431_kids_with_the_greatest_number_of_candies](/leetcode/src/_1431_kids_with_the_greatest_number_of_candies.rs)
+  - [_000151_reverse_words_in_a_string](/leetcode/src/_000151_reverse_words_in_a_string.rs)
+  - [_001431_kids_with_the_greatest_number_of_candies](/leetcode/src/_001431_kids_with_the_greatest_number_of_candies.rs)
 
 # Make Recipes
 
