@@ -61,11 +61,28 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test() {
+    fn test_1() {
         let candies = vec![2, 3, 5, 1, 3];
         let extra_candies = 3;
         let result = kids_with_candies(candies, extra_candies);
         let expected = vec![true, true, true, false, true];
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_2() {
+        let candies = vec![4, 2, 1, 1, 2];
+        let extra_candies = 1;
+        let result = kids_with_candies(candies, extra_candies);
+        let expected = vec![true, false, false, false, false];
+        assert_eq!(result, expected);
+    }
+    #[test]
+    fn test_3() {
+        let candies = vec![12, 1, 12];
+        let extra_candies = 10;
+        let result = kids_with_candies(candies, extra_candies);
+        let expected = vec![true, false, true];
         assert_eq!(result, expected);
     }
 }
