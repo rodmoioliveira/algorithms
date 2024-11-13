@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.2.0](https://github.com/rodmoioliveira/algorithms/compare/0.1.7...0.2.0) - 2024-11-13
+
+[25e367d](https://github.com/rodmoioliveira/algorithms/commit/25e367d14348bc7c0e5989cdff37f6d3cc995870)...[dbbbfc0](https://github.com/rodmoioliveira/algorithms/commit/dbbbfc0313f6b1c2dd82f6fc1d50f84bf92ff03a)
+
+### Features
+
+- [873bf7f](https://github.com/rodmoioliveira/algorithms/commit/873bf7fc66f9e9c8d06fcc1fbe7d3dcbf1a034f8) - Add leetcode _001768_merge_strings_alternately
+- [40ae00e](https://github.com/rodmoioliveira/algorithms/commit/40ae00e77ef24458f42f0a26031535fa3b3686cd) - Rename leetcode to problems
+
+### Miscellaneous Tasks
+
+- [dbbbfc0](https://github.com/rodmoioliveira/algorithms/commit/dbbbfc0313f6b1c2dd82f6fc1d50f84bf92ff03a) - Bump version
+
+### Releases
+
+- [e95b331](https://github.com/rodmoioliveira/algorithms/commit/e95b331db7a5305e131d5ac505cb8cf8d7b8d947) - 0.1.7
+
+### Testing
+
+- [ef347b8](https://github.com/rodmoioliveira/algorithms/commit/ef347b8c19b08887a5b2873b509022cb2e75f788) - Add more test cases to leetcode 001431
+
 ## [0.1.7](https://github.com/rodmoioliveira/algorithms/compare/0.1.6...0.1.7) - 2024-11-13
 
 [e998333](https://github.com/rodmoioliveira/algorithms/commit/e998333cd22b3fdafde34ad6c18377f2814276e0)...[25e367d](https://github.com/rodmoioliveira/algorithms/commit/25e367d14348bc7c0e5989cdff37f6d3cc995870)
