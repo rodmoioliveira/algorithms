@@ -48,16 +48,16 @@ algorithms_list() {
     sed -E 's@(.+)@  - [\1](/algorithms/src/\1.rs)@g'
 }
 
-leetcode_list() {
-  find leetcode -name '*.rs' |
+problems_list() {
+  find problems -name '*.rs' |
     grep mod -v |
     grep utils -v |
     grep main -v |
     grep lib -v |
     sort |
-    sed 's@leetcode/src/@@g' |
+    sed 's@problems/src/@@g' |
     sed -E 's/\.rs$//g' |
-    sed -E 's@(.+)@  - [\1](/leetcode/src/\1.rs)@g'
+    sed -E 's@(.+)@  - [\1](/problems/src/\1.rs)@g'
 }
 
 readme() {
@@ -74,9 +74,9 @@ $(index)
 
 $(algorithms_list)
 
-# Leetcode
+# Problems
 
-$(leetcode_list)
+$(problems_list)
 
 # Make Recipes
 

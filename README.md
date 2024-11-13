@@ -5,7 +5,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 # index
 
   - [Algorithms](#algorithms)
-  - [Leetcode](#leetcode)
+  - [Problems](#problems)
   - [Make Recipes](#make-recipes)
 
 # Algorithms
@@ -17,12 +17,13 @@ I've reimplemented a few algorithms and resolved some problems for fun.
   - [sorting/quicksort/three_way_bentley_mcilroy](/algorithms/src/sorting/quicksort/three_way_bentley_mcilroy.rs)
   - [sorting/quicksort/three_way](/algorithms/src/sorting/quicksort/three_way.rs)
 
-# Leetcode
+# Problems
 
 [back^](#index)
 
-  - [_000151_reverse_words_in_a_string](/leetcode/src/_000151_reverse_words_in_a_string.rs)
-  - [_001431_kids_with_the_greatest_number_of_candies](/leetcode/src/_001431_kids_with_the_greatest_number_of_candies.rs)
+  - [leetcode/_000151_reverse_words_in_a_string](/problems/src/leetcode/_000151_reverse_words_in_a_string.rs)
+  - [leetcode/_001431_kids_with_the_greatest_number_of_candies](/problems/src/leetcode/_001431_kids_with_the_greatest_number_of_candies.rs)
+  - [leetcode/_001768_merge_strings_alternately](/problems/src/leetcode/_001768_merge_strings_alternately.rs)
 
 # Make Recipes
 

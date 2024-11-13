@@ -1,7 +1,6 @@
 [package]
-    name = "algorithms"
+    name = "problems"
     version = "0.1.7"
     edition = "2021"
 
 [dependencies]
-    rand = "0.8.5"
