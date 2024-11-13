@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.1.7](https://github.com/rodmoioliveira/algorithms/compare/0.1.6...0.1.7) - 2024-11-13
+
+[e998333](https://github.com/rodmoioliveira/algorithms/commit/e998333cd22b3fdafde34ad6c18377f2814276e0)...[25e367d](https://github.com/rodmoioliveira/algorithms/commit/25e367d14348bc7c0e5989cdff37f6d3cc995870)
+
+### Documentation
+
+- [a500457](https://github.com/rodmoioliveira/algorithms/commit/a5004572a1dc65472d45587bb4bfe3c4b6f96611) - Add project description
+
+### Features
+
+- [5b05182](https://github.com/rodmoioliveira/algorithms/commit/5b051821ae4bd1a515fc1317b3e43337ee8ae1a9) - Add leetcode _000151_reverse_words_in_a_string
+
+### Miscellaneous Tasks
+
+- [25e367d](https://github.com/rodmoioliveira/algorithms/commit/25e367d14348bc7c0e5989cdff37f6d3cc995870) - Bump version
+
+### Releases
+
+- [a080c21](https://github.com/rodmoioliveira/algorithms/commit/a080c215d46291a0022c0e36569f540c18307681) - 0.1.6
+
 ## [0.1.6](https://github.com/rodmoioliveira/algorithms/compare/0.1.5...0.1.6) - 2024-11-12
 
 [6d3b25e](https://github.com/rodmoioliveira/algorithms/commit/6d3b25ecab0b5b5fe6e22023d4ba406b73e371b4)...[e998333](https://github.com/rodmoioliveira/algorithms/commit/e998333cd22b3fdafde34ad6c18377f2814276e0)
