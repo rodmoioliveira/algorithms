@@ -36,6 +36,7 @@
 //     1 <= word1.length, word2.length <= 100
 //     word1 and word2 consist of lowercase English letters.
 //
+// ---
 pub fn merge_alternately(word1: String, word2: String) -> String {
     let w1_len = word1.len();
     let w2_len = word2.len();
@@ -55,6 +56,7 @@ pub fn merge_alternately(word1: String, word2: String) -> String {
     }
     s
 }
+// ---
 
 pub fn testcase() {
     let word1 = "ab".to_string();

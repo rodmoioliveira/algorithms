@@ -21,6 +21,7 @@
 //     There are no two adjacent flowers in flowerbed.
 //     0 <= n <= flowerbed.length
 //
+// ---
 pub fn can_place_flowers(flowerbed: Vec<i32>, n: i32) -> bool {
     let mut flowerbed_mut = flowerbed.clone();
     let flowerbed_len = flowerbed_mut.len();
@@ -36,6 +37,7 @@ pub fn can_place_flowers(flowerbed: Vec<i32>, n: i32) -> bool {
     }
     slots_available >= n
 }
+// ---
 
 pub fn testcase() {
     let flowerbed = vec![1, 0, 0, 0, 1];

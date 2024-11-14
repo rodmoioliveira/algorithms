@@ -33,12 +33,14 @@
 //
 // Follow-up: If the string data type is mutable in your language, can you solve it in-place with O(1) extra space?
 //
+// ---
 pub fn reverse_words(s: String) -> String {
     s.split_ascii_whitespace()
         .rev()
         .collect::<Vec<&str>>()
         .join(" ")
 }
+// ---
 
 pub fn testcase() {
     let s = String::from("the sky is blue");

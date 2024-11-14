@@ -39,10 +39,12 @@
 //     1 <= candies[i] <= 100
 //     1 <= extraCandies <= 50
 //
+// ---
 pub fn kids_with_candies(candies: Vec<i32>, extra_candies: i32) -> Vec<bool> {
     let max: i32 = *candies.iter().max().unwrap();
     candies.iter().map(|v| v + extra_candies >= max).collect()
 }
+// ---
 
 pub fn testcase() {
     let candies = vec![2, 3, 5, 1, 3];
