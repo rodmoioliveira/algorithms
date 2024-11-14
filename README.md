@@ -22,6 +22,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
   - [codewars/_5667e8f4e3f572a8f2000039_mumbling](/problems/src/codewars/_5667e8f4e3f572a8f2000039_mumbling.rs)
   - [leetcode/_0000151_reverse_words_in_a_string](/problems/src/leetcode/_0000151_reverse_words_in_a_string.rs)
   - [leetcode/_0000605_can_place_flowers](/problems/src/leetcode/_0000605_can_place_flowers.rs)
+  - [leetcode/_0000724_find_pivot_index](/problems/src/leetcode/_0000724_find_pivot_index.rs)
   - [leetcode/_0001431_kids_with_the_greatest_number_of_candies](/problems/src/leetcode/_0001431_kids_with_the_greatest_number_of_candies.rs)
   - [leetcode/_0001768_merge_strings_alternately](/problems/src/leetcode/_0001768_merge_strings_alternately.rs)
 

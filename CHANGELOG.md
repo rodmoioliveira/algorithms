@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.3](https://github.com/rodmoioliveira/algorithms/compare/0.2.2...0.2.3) - 2024-11-14
+
+[5b8ab1f](https://github.com/rodmoioliveira/algorithms/commit/5b8ab1f03dc9b31088f7f501ba14b07b0cd162a1)...[52000bc](https://github.com/rodmoioliveira/algorithms/commit/52000bc163a1d33c13213ea94fb0350e619f7bf1)
+
+### Features
+
+- [52504f5](https://github.com/rodmoioliveira/algorithms/commit/52504f5c13cdd90d771df782e02997ae5aa3bbe7) - Add leetcode _0000724_find_pivot_index
+- [cce951e](https://github.com/rodmoioliveira/algorithms/commit/cce951eb9bb4538b609dfb2cb09b42a415e05319) - Enhance leetcode _0000724_find_pivot_index
+
+### Miscellaneous Tasks
+
+- [52000bc](https://github.com/rodmoioliveira/algorithms/commit/52000bc163a1d33c13213ea94fb0350e619f7bf1) - Bump version
+
+### Releases
+
+- [0f883f0](https://github.com/rodmoioliveira/algorithms/commit/0f883f0dd3643cc1f6b8dab358cf99cf953988b3) - 0.2.2
+
 ## [0.2.2](https://github.com/rodmoioliveira/algorithms/compare/0.2.1...0.2.2) - 2024-11-14
 
 [096a60e](https://github.com/rodmoioliveira/algorithms/commit/096a60edd9eb3776a1c5a03cd28dd2af1c0a5ec2)...[5b8ab1f](https://github.com/rodmoioliveira/algorithms/commit/5b8ab1f03dc9b31088f7f501ba14b07b0cd162a1)
