@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.2](https://github.com/rodmoioliveira/algorithms/compare/0.2.1...0.2.2) - 2024-11-14
+
+[096a60e](https://github.com/rodmoioliveira/algorithms/commit/096a60edd9eb3776a1c5a03cd28dd2af1c0a5ec2)...[5b8ab1f](https://github.com/rodmoioliveira/algorithms/commit/5b8ab1f03dc9b31088f7f501ba14b07b0cd162a1)
+
+### Features
+
+- [7ae368c](https://github.com/rodmoioliveira/algorithms/commit/7ae368c2e07bf7e3e81d3b093e993f21f449f0d7) - Add markers to leetcode problems
+- [efef571](https://github.com/rodmoioliveira/algorithms/commit/efef571da2fc86e7fbe26a996837f33e23452d23) - Add codewars _5667e8f4e3f572a8f2000039_mumbling
+
+### Miscellaneous Tasks
+
+- [5b8ab1f](https://github.com/rodmoioliveira/algorithms/commit/5b8ab1f03dc9b31088f7f501ba14b07b0cd162a1) - Bump version
+
+### Releases
+
+- [b7837b8](https://github.com/rodmoioliveira/algorithms/commit/b7837b8cdf31ab99a7abd853cc9d537baaca9f1b) - 0.2.1
+
 ## [0.2.1](https://github.com/rodmoioliveira/algorithms/compare/0.2.0...0.2.1) - 2024-11-14
 
 [dbbbfc0](https://github.com/rodmoioliveira/algorithms/commit/dbbbfc0313f6b1c2dd82f6fc1d50f84bf92ff03a)...[096a60e](https://github.com/rodmoioliveira/algorithms/commit/096a60edd9eb3776a1c5a03cd28dd2af1c0a5ec2)
