@@ -43,7 +43,7 @@ pub fn testcase() {
     let flowerbed = vec![1, 0, 0, 0, 1];
     let n = 1;
     let result = can_place_flowers(flowerbed, n);
-    eprintln!("0000605_can_place_flowers: {:?}", result);
+    eprintln!("leetcode/0000605_can_place_flowers: {:?}", result);
 }
 
 #[cfg(test)]

@@ -51,7 +51,7 @@ pub fn testcase() {
     let extra_candies = 3;
     let result = kids_with_candies(candies, extra_candies);
     eprintln!(
-        "0001431_kids_with_the_greatest_number_of_candies: {:?}",
+        "leetcode/0001431_kids_with_the_greatest_number_of_candies: {:?}",
         result
     );
 }

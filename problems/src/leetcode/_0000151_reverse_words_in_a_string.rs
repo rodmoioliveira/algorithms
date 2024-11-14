@@ -45,7 +45,7 @@ pub fn reverse_words(s: String) -> String {
 pub fn testcase() {
     let s = String::from("the sky is blue");
     let result = reverse_words(s);
-    eprintln!("0000151_reverse_words_in_a_string: {:?}", result);
+    eprintln!("leetcode/0000151_reverse_words_in_a_string: {:?}", result);
 }
 
 #[cfg(test)]

@@ -62,7 +62,7 @@ pub fn testcase() {
     let word1 = "ab".to_string();
     let word2 = "pqrs".to_string();
     let result = merge_alternately(word1, word2);
-    eprintln!("0001768_merge_strings_alternately: {}", result);
+    eprintln!("leetcode/0001768_merge_strings_alternately: {}", result);
 }
 
 #[cfg(test)]
