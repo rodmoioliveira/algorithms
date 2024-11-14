@@ -40,25 +40,22 @@
 //
 // ---
 pub fn pivot_index(nums: Vec<i32>) -> i32 {
-    let num_len = nums.len();
+    let sum_total: i32 = nums.iter().sum();
+    let mut sum_left = 0;
 
-    for pivot in 0..num_len {
-        let sum_left: i32 = nums[0..pivot].iter().sum();
-        let sum_right: i32 = nums[pivot + 1..num_len].iter().sum();
+    for (pivot, n) in nums.iter().enumerate() {
+        let sum_right = sum_total - sum_left - n;
         if sum_left == sum_right {
             return pivot as i32;
         }
+        sum_left += n;
     }
     -1
 }
 // ---
 
-// [0..2][1,7]        [2..5][3,6,5]     8.cmp(14) cmp:Less
-// [0..4][1,7,3,6]    [4..5][5]         17.cmp(5) cmp:Greater
-// [0..3][1,7,3]      [3..3][]          11.cmp(0) cmp:Greater
-
 pub fn testcase() {
-    let nums = vec![-1, -1, 0, 1, 1, 0];
+    let nums = vec![1, 7, 3, 6, 5, 6];
     let result = pivot_index(nums);
     eprintln!("leetcode/0000724_find_pivot_index: {:?}", result);
 }
