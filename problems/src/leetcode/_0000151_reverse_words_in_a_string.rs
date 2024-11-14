@@ -1,5 +1,5 @@
+// 0000151. Reverse Words in a String
 // https://leetcode.com/problems/reverse-words-in-a-string/description/
-//
 // Given an input string s, reverse the order of the words.
 //
 // A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
@@ -32,6 +32,7 @@
 //     There is at least one word in s.
 //
 // Follow-up: If the string data type is mutable in your language, can you solve it in-place with O(1) extra space?
+//
 pub fn reverse_words(s: String) -> String {
     s.split_ascii_whitespace()
         .rev()
@@ -42,7 +43,7 @@ pub fn reverse_words(s: String) -> String {
 pub fn testcase() {
     let s = String::from("the sky is blue");
     let result = reverse_words(s);
-    eprintln!("_000151_reverse_words_in_a_string: {:?}", result);
+    eprintln!("0000151_reverse_words_in_a_string: {:?}", result);
 }
 
 #[cfg(test)]

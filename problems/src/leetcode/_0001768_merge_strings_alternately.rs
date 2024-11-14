@@ -1,5 +1,5 @@
+// 0001768. Merge Strings Alternately
 // https://leetcode.com/problems/merge-strings-alternately/description/
-//
 // You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
 //
 // Return the merged string.
@@ -60,7 +60,7 @@ pub fn testcase() {
     let word1 = "ab".to_string();
     let word2 = "pqrs".to_string();
     let result = merge_alternately(word1, word2);
-    eprintln!("_001768_merge_strings_alternately: {}", result);
+    eprintln!("0001768_merge_strings_alternately: {}", result);
 }
 
 #[cfg(test)]
