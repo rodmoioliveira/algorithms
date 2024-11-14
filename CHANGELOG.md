@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.2.1](https://github.com/rodmoioliveira/algorithms/compare/0.2.0...0.2.1) - 2024-11-14
+
+[dbbbfc0](https://github.com/rodmoioliveira/algorithms/commit/dbbbfc0313f6b1c2dd82f6fc1d50f84bf92ff03a)...[096a60e](https://github.com/rodmoioliveira/algorithms/commit/096a60edd9eb3776a1c5a03cd28dd2af1c0a5ec2)
+
+### Bug Fixes
+
+- [68dd9f3](https://github.com/rodmoioliveira/algorithms/commit/68dd9f3941279025c2236b720b6ea18d578ac543) - Remove heading from README
+
+### Features
+
+- [d64b6ed](https://github.com/rodmoioliveira/algorithms/commit/d64b6ed0f237b940b350febf9b7f413b4af6ed0f) - Add leetcode _0000605_can_place_flowers
+
+### Miscellaneous Tasks
+
+- [096a60e](https://github.com/rodmoioliveira/algorithms/commit/096a60edd9eb3776a1c5a03cd28dd2af1c0a5ec2) - Bump version
+
+### Releases
+
+- [2056670](https://github.com/rodmoioliveira/algorithms/commit/2056670abad6de70010738b3d9b92d59eca0865e) - 0.2.0
+
 ## [0.2.0](https://github.com/rodmoioliveira/algorithms/compare/0.1.7...0.2.0) - 2024-11-13
 
 [25e367d](https://github.com/rodmoioliveira/algorithms/commit/25e367d14348bc7c0e5989cdff37f6d3cc995870)...[dbbbfc0](https://github.com/rodmoioliveira/algorithms/commit/dbbbfc0313f6b1c2dd82f6fc1d50f84bf92ff03a)

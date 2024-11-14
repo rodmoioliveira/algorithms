@@ -19,9 +19,10 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 
 [back^](#index)
 
-  - [leetcode/_000151_reverse_words_in_a_string](/problems/src/leetcode/_000151_reverse_words_in_a_string.rs)
-  - [leetcode/_001431_kids_with_the_greatest_number_of_candies](/problems/src/leetcode/_001431_kids_with_the_greatest_number_of_candies.rs)
-  - [leetcode/_001768_merge_strings_alternately](/problems/src/leetcode/_001768_merge_strings_alternately.rs)
+  - [leetcode/_0000151_reverse_words_in_a_string](/problems/src/leetcode/_0000151_reverse_words_in_a_string.rs)
+  - [leetcode/_0000605_can_place_flowers](/problems/src/leetcode/_0000605_can_place_flowers.rs)
+  - [leetcode/_0001431_kids_with_the_greatest_number_of_candies](/problems/src/leetcode/_0001431_kids_with_the_greatest_number_of_candies.rs)
+  - [leetcode/_0001768_merge_strings_alternately](/problems/src/leetcode/_0001768_merge_strings_alternately.rs)
 
 # Make Recipes
 
