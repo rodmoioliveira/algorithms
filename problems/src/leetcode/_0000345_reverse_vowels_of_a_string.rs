@@ -30,16 +30,16 @@ pub fn reverse_vowels(s: String) -> String {
         return s;
     }
 
-    let vowels_set: HashSet<char> = HashSet::from_iter("aeiou".chars());
+    let v_set: HashSet<char> = HashSet::from_iter("AEIOUaeiou".chars());
     let mut chars: Vec<char> = s.chars().collect();
     let mut left = 0;
     let mut right = s_len - 1;
 
     loop {
-        while left < right && !vowels_set.contains(&chars[left].to_ascii_lowercase()) {
+        while left < right && !v_set.contains(&chars[left]) {
             left += 1;
         }
-        while right > 0 && !vowels_set.contains(&chars[right].to_ascii_lowercase()) {
+        while right > 0 && !v_set.contains(&chars[right]) {
             right -= 1;
         }
         if left >= right {
