@@ -21,39 +21,33 @@
 //     s consist of printable ASCII characters.
 //
 // ---
+fn is_vowel(b: u8) -> bool {
+    matches!(
+        b,
+        b'a' | b'e' | b'i' | b'o' | b'u' | b'A' | b'E' | b'I' | b'O' | b'U'
+    )
+}
+
 pub fn reverse_vowels(s: String) -> String {
-    use std::char;
-    use std::collections::HashSet;
-
-    let s_len = s.len();
-    if s_len < 2 {
-        return s;
-    }
-
-    let v_set: HashSet<char> = HashSet::from_iter("AEIOUaeiou".chars());
-    let mut chars: Vec<char> = s.chars().collect();
+    let mut b = s.as_bytes().to_vec();
     let mut left = 0;
-    let mut right = s_len - 1;
+    let mut right = s.len() - 1;
 
-    loop {
-        while left < right && !v_set.contains(&chars[left]) {
+    while left < right {
+        while left < right && !is_vowel(b[left]) {
             left += 1;
         }
-        while right > 0 && !v_set.contains(&chars[right]) {
+        while right > 0 && !is_vowel(b[right]) {
             right -= 1;
         }
-        if left >= right {
-            break;
+        if left < right {
+            b.swap(left, right);
+            left += 1;
+            right -= 1;
         }
-
-        if left != right {
-            chars.swap(left, right);
-        }
-        left += 1;
-        right -= 1;
     }
 
-    chars.into_iter().collect()
+    String::from_utf8(b).unwrap()
 }
 // ---
 
