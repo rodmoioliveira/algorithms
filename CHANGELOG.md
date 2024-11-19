@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.5](https://github.com/rodmoioliveira/algorithms/compare/0.2.4...0.2.5) - 2024-11-19
+
+[0969857](https://github.com/rodmoioliveira/algorithms/commit/0969857baa598cf6b49bca196672ae2f92ed25db)...[838414f](https://github.com/rodmoioliveira/algorithms/commit/838414f6c8704634e0a7a91c7b87bf904dab664c)
+
+### Features
+
+- [6784b98](https://github.com/rodmoioliveira/algorithms/commit/6784b981321b86386fcceea39c78107755477639) - Enhance leetcode _0000345_reverse_vowels_of_a_string
+- [8265869](https://github.com/rodmoioliveira/algorithms/commit/82658694af8d537033ec369958f828c48021f476) - Enhance leetcode _0000345_reverse_vowels_of_a_string
+
+### Miscellaneous Tasks
+
+- [838414f](https://github.com/rodmoioliveira/algorithms/commit/838414f6c8704634e0a7a91c7b87bf904dab664c) - Bump version
+
+### Releases
+
+- [3b6478a](https://github.com/rodmoioliveira/algorithms/commit/3b6478a86aa555f961ea314b36f215d14ac839cf) - 0.2.4
+
 ## [0.2.4](https://github.com/rodmoioliveira/algorithms/compare/0.2.3...0.2.4) - 2024-11-17
 
 [52000bc](https://github.com/rodmoioliveira/algorithms/commit/52000bc163a1d33c13213ea94fb0350e619f7bf1)...[0969857](https://github.com/rodmoioliveira/algorithms/commit/0969857baa598cf6b49bca196672ae2f92ed25db)
