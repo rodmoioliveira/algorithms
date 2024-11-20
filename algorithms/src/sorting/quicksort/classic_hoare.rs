@@ -33,12 +33,9 @@ pub fn _classic_hoare<T: Ord>(a: &mut [T], left: usize, right: usize) {
                 break;
             }
 
-            if a[i] != a[j] {
-                a.swap(i, j);
-            } else {
-                i += 1;
-                j -= 1;
-            }
+            a.swap(i, j);
+            i += 1;
+            j -= 1;
         }
         a.swap(i, pivot_i);
 
