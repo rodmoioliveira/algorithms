@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.2.7](https://github.com/rodmoioliveira/algorithms/compare/0.2.6...0.2.7) - 2024-11-20
+
+[19dafd3](https://github.com/rodmoioliveira/algorithms/commit/19dafd3d8ed8ca5b6cf87c89dbf605d90a8ee6dd)...[1d99f87](https://github.com/rodmoioliveira/algorithms/commit/1d99f87ebfc2ff56f77eda36df49d076d988febc)
+
+### Documentation
+
+- [c645949](https://github.com/rodmoioliveira/algorithms/commit/c64594974a44e96014f221a3eac55d495ae0906d) - Add Wild2016 reference to quicksort
+- [c1ed57a](https://github.com/rodmoioliveira/algorithms/commit/c1ed57a98df08822f4c3efe5e5287aad70e3fdf9) - Add reference to lomuto_clrs
+
+### Features
+
+- [d58e95c](https://github.com/rodmoioliveira/algorithms/commit/d58e95c991bf8320c14c74fe42b3b7b815d3a302) - Add quicksort/dual_pivot_yaroslavskiy_bentley_bloch
+
+### Miscellaneous Tasks
+
+- [b4f4012](https://github.com/rodmoioliveira/algorithms/commit/b4f40122a8e34c22f8d7f519a8878973d1835a56) - Remove if/else from classic_hoare
+- [1d99f87](https://github.com/rodmoioliveira/algorithms/commit/1d99f87ebfc2ff56f77eda36df49d076d988febc) - Bump version
+
+### Releases
+
+- [a83f917](https://github.com/rodmoioliveira/algorithms/commit/a83f9171b4d5d06bcae1b2854d2ca2a858ed3ca5) - 0.2.6
+
 ## [0.2.6](https://github.com/rodmoioliveira/algorithms/compare/0.2.5...0.2.6) - 2024-11-20
 
 [838414f](https://github.com/rodmoioliveira/algorithms/commit/838414f6c8704634e0a7a91c7b87bf904dab664c)...[19dafd3](https://github.com/rodmoioliveira/algorithms/commit/19dafd3d8ed8ca5b6cf87c89dbf605d90a8ee6dd)
