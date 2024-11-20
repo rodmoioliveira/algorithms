@@ -6,4 +6,5 @@ fn main() {
     problems::leetcode::_0000724_find_pivot_index::testcase();
     problems::leetcode::_0001431_kids_with_the_greatest_number_of_candies::testcase();
     problems::leetcode::_0001768_merge_strings_alternately::testcase();
+    problems::leetcode::_0002215_find_the_difference_of_two_arrays::testcase();
 }
