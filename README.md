@@ -26,6 +26,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
   - [leetcode/_0000724_find_pivot_index](/problems/src/leetcode/_0000724_find_pivot_index.rs)
   - [leetcode/_0001431_kids_with_the_greatest_number_of_candies](/problems/src/leetcode/_0001431_kids_with_the_greatest_number_of_candies.rs)
   - [leetcode/_0001768_merge_strings_alternately](/problems/src/leetcode/_0001768_merge_strings_alternately.rs)
+  - [leetcode/_0002215_find_the_difference_of_two_arrays](/problems/src/leetcode/_0002215_find_the_difference_of_two_arrays.rs)
 
 # Make Recipes
 

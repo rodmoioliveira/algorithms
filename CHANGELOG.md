@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.6](https://github.com/rodmoioliveira/algorithms/compare/0.2.5...0.2.6) - 2024-11-20
+
+[838414f](https://github.com/rodmoioliveira/algorithms/commit/838414f6c8704634e0a7a91c7b87bf904dab664c)...[19dafd3](https://github.com/rodmoioliveira/algorithms/commit/19dafd3d8ed8ca5b6cf87c89dbf605d90a8ee6dd)
+
+### Features
+
+- [a811dfc](https://github.com/rodmoioliveira/algorithms/commit/a811dfc9b0b36e0106c1e6fb3b6ec004495c0520) - Add leetcode _0002215_find_the_difference_of_two_arrays
+
+### Miscellaneous Tasks
+
+- [829251f](https://github.com/rodmoioliveira/algorithms/commit/829251f2b5b007226984df7d0a48cf71f8ec800f) - Shorten the problem descriptions
+- [19dafd3](https://github.com/rodmoioliveira/algorithms/commit/19dafd3d8ed8ca5b6cf87c89dbf605d90a8ee6dd) - Bump version
+
+### Releases
+
+- [10b7daa](https://github.com/rodmoioliveira/algorithms/commit/10b7daadcbaf81cc2ab0f10f0c354ea4d6d0682e) - 0.2.5
+
 ## [0.2.5](https://github.com/rodmoioliveira/algorithms/compare/0.2.4...0.2.5) - 2024-11-19
 
 [0969857](https://github.com/rodmoioliveira/algorithms/commit/0969857baa598cf6b49bca196672ae2f92ed25db)...[838414f](https://github.com/rodmoioliveira/algorithms/commit/838414f6c8704634e0a7a91c7b87bf904dab664c)
