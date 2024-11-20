@@ -3,8 +3,9 @@
 // - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
 // - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
 // - [Yar09] V. Yaroslavskiy, 2009. Dual-Pivot Quicksort. URL: https://codeblab.com/wp-content/uploads/2009/09/DualPivotQuicksort.pdf
+// - https://learnforeverlearn.com/yaro_web/
 // - https://www.geeksforgeeks.org/dual-pivot-quicksort/
-
+//
 // [Wild2016, p.139]
 // Since Java 7, the reference implementation of the Java runtime library uses dual-pivot Quicksort
 // as default sorting method for primitive-type arrays. At its core is the ternary partitioning

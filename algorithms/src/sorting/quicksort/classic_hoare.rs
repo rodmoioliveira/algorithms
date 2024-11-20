@@ -7,7 +7,7 @@
 // - [Sed1978] R. Sedgewick, 1978. Implementing Quicksort programs. Communications of the ACM, 21(10):847–857. doi:10.1145/359619.359631.
 // - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
 // - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
-
+//
 // [Wild2012, p.26]
 // Algorithm 1. Classic Quicksort implementation by SEDGEWICK as given and discussed in detail in
 // [Sed1975, Sed1978]. We take the rightmost element as pivot instead of the leftmost, as it is done in

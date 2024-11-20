@@ -7,7 +7,7 @@
 // - https://sedgewick.io/wp-content/uploads/2022/03/2002QuicksortIsOptimal.pdf
 // - https://stackoverflow.com/questions/7264101/implementing-bentley-mcilroy-three-way-partitioning-using-stl-iterators
 // - https://www.cs.princeton.edu/courses/archive/spring20/cos226/demos/23DemoPartitioning.pdf
-
+//
 // [Wild2012, p.37]
 // Algorithm 4. Quicksort with BENTLEY and MCILROY’s three-way partitioning method proposed in
 // [BM93].
