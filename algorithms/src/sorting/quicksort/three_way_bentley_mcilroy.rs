@@ -11,9 +11,9 @@
 // [Wild2012, p.37]
 // Algorithm 4. Quicksort with BENTLEY and MCILROY’s three-way partitioning method proposed in
 // [BM93].
-pub fn _three_way_bentley_mcilroy<T: Ord>(a: &mut [T], left: usize, right: usize) {
+pub fn _three_way_bentley_mcilroy<T: Copy + Ord>(a: &mut [T], left: usize, right: usize) {
     if left < right {
-        let pivot_i = left;
+        let pivot = a[left];
 
         let mut i = left;
         let mut j = right;
@@ -22,15 +22,15 @@ pub fn _three_way_bentley_mcilroy<T: Ord>(a: &mut [T], left: usize, right: usize
         let mut q = right;
 
         loop {
-            while i < j && a[i] <= a[pivot_i] {
-                if a[i] == a[pivot_i] {
+            while i < j && a[i] <= pivot {
+                if a[i] == pivot {
                     a.swap(i, p);
                     p += 1;
                 }
                 i += 1;
             }
-            while i < j && a[pivot_i] <= a[j] {
-                if a[j] == a[pivot_i] {
+            while i < j && pivot <= a[j] {
+                if a[j] == pivot {
                     a.swap(j, q);
                     q -= 1;
                 }
@@ -42,10 +42,10 @@ pub fn _three_way_bentley_mcilroy<T: Ord>(a: &mut [T], left: usize, right: usize
             a.swap(i, j);
         }
 
-        if a[i] <= a[pivot_i] && i < right {
+        if a[i] <= pivot && i < right {
             i += 1;
         }
-        if a[pivot_i] <= a[j] && left < j {
+        if pivot <= a[j] && left < j {
             j -= 1;
         }
 
@@ -74,7 +74,7 @@ pub fn _three_way_bentley_mcilroy<T: Ord>(a: &mut [T], left: usize, right: usize
     }
 }
 
-pub fn three_way_bentley_mcilroy<T: Ord>(a: &mut [T]) {
+pub fn three_way_bentley_mcilroy<T: Copy + Ord>(a: &mut [T]) {
     let len = a.len();
     if len > 1 {
         _three_way_bentley_mcilroy(a, 0, len - 1);

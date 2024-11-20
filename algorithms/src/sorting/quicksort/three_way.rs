@@ -8,17 +8,17 @@
 // Algorithm 3. Quicksort with simple three-way partitioning from [SW11, page 299]. Note the
 // resemblance to Algorithm 8; in fact YAROSLAVSKIY’s algorithm can be seen as improved version of
 // this algorithm’s partitioning scheme.
-pub fn _three_way<T: Ord>(a: &mut [T], left: usize, right: usize) {
+pub fn _three_way<T: Copy + Ord>(a: &mut [T], left: usize, right: usize) {
     use std::cmp::Ordering;
 
     if left < right {
-        let pivot_i = left;
+        let pivot = a[left];
         let mut lt = left;
         let mut gt = right + 1;
         let mut i = left + 1;
 
         while i < gt {
-            let comp = a[i].cmp(&a[pivot_i]);
+            let comp = a[i].cmp(&pivot);
             match comp {
                 Ordering::Less => {
                     a.swap(i, lt + 1);
@@ -34,7 +34,7 @@ pub fn _three_way<T: Ord>(a: &mut [T], left: usize, right: usize) {
                 }
             }
         }
-        a.swap(pivot_i, lt);
+        a.swap(left, lt);
 
         if lt > 0 {
             _three_way(a, left, lt - 1);
@@ -43,7 +43,7 @@ pub fn _three_way<T: Ord>(a: &mut [T], left: usize, right: usize) {
     }
 }
 
-pub fn three_way<T: Ord>(a: &mut [T]) {
+pub fn three_way<T: Copy + Ord>(a: &mut [T]) {
     let len = a.len();
     if len > 1 {
         _three_way(a, 0, len - 1);

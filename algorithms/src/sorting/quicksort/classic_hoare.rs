@@ -15,17 +15,17 @@
 // left and right until they hit an element that does not belong in this subfile. Then the elements
 // A[i] and A[j] are exchanged. This crossing pointers technique dates back to HOARE’s original
 // formulation of Quicksort [Hoa1961a].
-pub fn _classic_hoare<T: Ord>(a: &mut [T], left: usize, right: usize) {
+pub fn _classic_hoare<T: Copy + Ord>(a: &mut [T], left: usize, right: usize) {
     if left < right {
-        let pivot_i = right;
+        let pivot = a[right];
         let mut i = left;
         let mut j = right - 1;
 
         loop {
-            while a[i] < a[pivot_i] {
+            while a[i] < pivot {
                 i += 1;
             }
-            while j > 0 && a[j] > a[pivot_i] {
+            while j > 0 && a[j] > pivot {
                 j -= 1;
             }
 
@@ -37,7 +37,7 @@ pub fn _classic_hoare<T: Ord>(a: &mut [T], left: usize, right: usize) {
             i += 1;
             j -= 1;
         }
-        a.swap(i, pivot_i);
+        a.swap(i, right);
 
         if i > 0 {
             _classic_hoare(a, left, i - 1);
@@ -46,7 +46,7 @@ pub fn _classic_hoare<T: Ord>(a: &mut [T], left: usize, right: usize) {
     }
 }
 
-pub fn classic_hoare<T: Ord>(a: &mut [T]) {
+pub fn classic_hoare<T: Copy + Ord>(a: &mut [T]) {
     let len = a.len();
     if len > 1 {
         _classic_hoare(a, 0, len - 1);

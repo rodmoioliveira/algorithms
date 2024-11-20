@@ -15,7 +15,11 @@
 // pivots. From personal communication with the three I learned that YBB Quicksort is more
 // appropriate since Bentley and Bloch were involved in early stages of the development of the
 // algorithm.
-pub fn _dual_pivot_yaroslavskiy_bentley_bloch<T: Ord>(a: &mut [T], left: usize, right: usize) {
+pub fn _dual_pivot_yaroslavskiy_bentley_bloch<T: Copy + Ord>(
+    a: &mut [T],
+    left: usize,
+    right: usize,
+) {
     if left < right {
         if a[left] > a[right] {
             a.swap(left, right);
@@ -26,24 +30,24 @@ pub fn _dual_pivot_yaroslavskiy_bentley_bloch<T: Ord>(a: &mut [T], left: usize, 
         let mut g = right - 1;
         let mut k = left + 1;
 
-        // pivot_l is the left pivot index, and pivot_r is the right pivot index.
-        let pivot_l = left;
-        let pivot_r = right;
+        // pivot_l is the left pivot, and pivot_r is the right pivot.
+        let pivot_l = a[left];
+        let pivot_r = a[right];
 
         while k <= g {
             // If elements are less than the left pivot
-            if a[k] < a[pivot_l] {
+            if a[k] < pivot_l {
                 a.swap(k, j);
                 j += 1;
             }
             // If elements are greater than or equal to the right pivot
-            else if a[k] >= a[pivot_r] {
-                while a[g] > a[pivot_r] && k < g {
+            else if a[k] >= pivot_r {
+                while a[g] > pivot_r && k < g {
                     g -= 1;
                 }
                 a.swap(k, g);
                 g -= 1;
-                if a[k] < a[pivot_l] {
+                if a[k] < pivot_l {
                     a.swap(k, j);
                     j += 1;
                 }
@@ -65,7 +69,7 @@ pub fn _dual_pivot_yaroslavskiy_bentley_bloch<T: Ord>(a: &mut [T], left: usize, 
     }
 }
 
-pub fn dual_pivot_yaroslavskiy_bentley_bloch<T: Ord>(a: &mut [T]) {
+pub fn dual_pivot_yaroslavskiy_bentley_bloch<T: Copy + Ord>(a: &mut [T]) {
     let len = a.len();
     if len > 1 {
         _dual_pivot_yaroslavskiy_bentley_bloch(a, 0, len - 1);
