@@ -10,6 +10,12 @@
 // Quicksort was invented by [Hoa1962], and his version of PARTITION appears in Problem 7-1.
 // [Ben1999, p. 117] attributes the PARTITION procedure given in Section 7.1 to N. Lomuto.
 
+// [Wild2016, p.138]
+// Bentley [18] therefore advocates in his Programming Pearls to start with a conceptually simpler
+// method that we attributes to Nico Lomuto. It is given in Algorithm 3. Lomuto’s partitioning scheme
+// works unidirectional: instead of growing two segments from both ends, we have two segments on the
+// left. This makes the termination condition simpler: we are done when k reaches right.
+
 // [Wild2012, p.35]
 // Algorithm 2. Quicksort variant from [CLRS2009, Chapter 7]. It uses a particularly simple partitioning
 // scheme, which is not based on HOARE’s crossing pointers technique.
