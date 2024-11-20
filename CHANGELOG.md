@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.2.8](https://github.com/rodmoioliveira/algorithms/compare/0.2.7...0.2.8) - 2024-11-20
+
+[1d99f87](https://github.com/rodmoioliveira/algorithms/commit/1d99f87ebfc2ff56f77eda36df49d076d988febc)...[36a0c11](https://github.com/rodmoioliveira/algorithms/commit/36a0c11adec224a061363cf90fc2b89184347337)
+
+### Documentation
+
+- [91666bd](https://github.com/rodmoioliveira/algorithms/commit/91666bd0fa01559f930f49bc581d0b2d497f8587) - Add reference to dual_pivot_yaroslavskiy_bentley_bloch
+
+### Features
+
+- [03c768f](https://github.com/rodmoioliveira/algorithms/commit/03c768f8b7bc90f9d532bcd4f9fc969d59fbba4e) - Add quicksort/dual_pivot_sedgewick
+- [612d969](https://github.com/rodmoioliveira/algorithms/commit/612d9696f6e71338e1900548df34e23b5e8346ab) - Add Copy trait to quicksort algorithms
+- [9750cb2](https://github.com/rodmoioliveira/algorithms/commit/9750cb22093ff1235cb668a799606b3940d1a7f7) - Add quicksort/dual_pivot_kciwegdes
+
+### Miscellaneous Tasks
+
+- [36a0c11](https://github.com/rodmoioliveira/algorithms/commit/36a0c11adec224a061363cf90fc2b89184347337) - Bump version
+
+### Releases
+
+- [07c9a95](https://github.com/rodmoioliveira/algorithms/commit/07c9a95b28ad6807d26d5610e6fe8e55e7595852) - 0.2.7
+
 ## [0.2.7](https://github.com/rodmoioliveira/algorithms/compare/0.2.6...0.2.7) - 2024-11-20
 
 [19dafd3](https://github.com/rodmoioliveira/algorithms/commit/19dafd3d8ed8ca5b6cf87c89dbf605d90a8ee6dd)...[1d99f87](https://github.com/rodmoioliveira/algorithms/commit/1d99f87ebfc2ff56f77eda36df49d076d988febc)

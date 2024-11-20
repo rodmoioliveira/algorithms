@@ -11,6 +11,8 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 [back^](#index)
 
   - [sorting/quicksort/classic_hoare](/algorithms/src/sorting/quicksort/classic_hoare.rs)
+  - [sorting/quicksort/dual_pivot_kciwegdes](/algorithms/src/sorting/quicksort/dual_pivot_kciwegdes.rs)
+  - [sorting/quicksort/dual_pivot_sedgewick](/algorithms/src/sorting/quicksort/dual_pivot_sedgewick.rs)
   - [sorting/quicksort/dual_pivot_yaroslavskiy_bentley_bloch](/algorithms/src/sorting/quicksort/dual_pivot_yaroslavskiy_bentley_bloch.rs)
   - [sorting/quicksort/lomuto_clrs](/algorithms/src/sorting/quicksort/lomuto_clrs.rs)
   - [sorting/quicksort/three_way_bentley_mcilroy](/algorithms/src/sorting/quicksort/three_way_bentley_mcilroy.rs)
