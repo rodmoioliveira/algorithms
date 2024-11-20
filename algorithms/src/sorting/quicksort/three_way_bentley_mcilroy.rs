@@ -1,6 +1,8 @@
 // REFERENCES:
 //
 // - [BM93] J. L. J. Bentley and M. D. McIlroy, 1993. Engineering a sort function. Software: Practice and Experience, 23(11):1249–1265. doi:10.1002/spe.4380231105.
+// - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
+// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
 // - https://medium.com/@mcguire.crsr/quicksort-c850a4c6e47 [PERFECT!]
 // - https://sedgewick.io/wp-content/uploads/2022/03/2002QuicksortIsOptimal.pdf
 // - https://stackoverflow.com/questions/7264101/implementing-bentley-mcilroy-three-way-partitioning-using-stl-iterators

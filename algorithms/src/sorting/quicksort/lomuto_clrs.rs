@@ -4,6 +4,7 @@
 // - [CLRS2009] T. H. Cormen, C. E. Leiserson, R. L. Rivest and C. Stein, 2009. Introduction to Algorithms (3rd ed.). MIT Press. ISBN 978-0-262-03384-8.
 // - [Hoa1962] C. A. R. Hoare. Quicksort. The Computer Journal, 5(1):10315, 1962.
 // - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
+// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
 
 // [CLRS2009, p.204]
 // Quicksort was invented by [Hoa1962], and his version of PARTITION appears in Problem 7-1.
