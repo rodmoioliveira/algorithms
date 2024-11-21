@@ -12,7 +12,7 @@
 // Algorithm 4. Quicksort with BENTLEY and MCILROY’s three-way partitioning method proposed in
 // [BM93].
 //
-//  [https://algs4.cs.princeton.edu/23quicksort/]
+// [https://algs4.cs.princeton.edu/23quicksort/]
 //
 //  Before:
 //   ┄ ┄┌───┬─────────────────────────────────────────────────────────────────────────────────────┐┄ ┄

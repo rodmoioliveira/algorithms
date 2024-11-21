@@ -9,7 +9,7 @@
 // resemblance to Algorithm 8; in fact YAROSLAVSKIY’s algorithm can be seen as improved version of
 // this algorithm’s partitioning scheme.
 //
-//  [https://algs4.cs.princeton.edu/23quicksort/]
+// [https://algs4.cs.princeton.edu/23quicksort/]
 //
 //  Before:
 //   ┄ ┄┌───┬─────────────────────────────────────────────────────────────────────────────────────┐┄ ┄
