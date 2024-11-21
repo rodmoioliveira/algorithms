@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.2.9](https://github.com/rodmoioliveira/algorithms/compare/0.2.8...0.2.9) - 2024-11-21
+
+[36a0c11](https://github.com/rodmoioliveira/algorithms/commit/36a0c11adec224a061363cf90fc2b89184347337)...[39cfc68](https://github.com/rodmoioliveira/algorithms/commit/39cfc689e4e01632c102b3fab8efe9d1e810a2dd)
+
+### Features
+
+- [94fbc85](https://github.com/rodmoioliveira/algorithms/commit/94fbc859ef24d69fb12a25a85302fd817b4da21b) - Add graphical representation of quicksort variants
+
+### Miscellaneous Tasks
+
+- [39cfc68](https://github.com/rodmoioliveira/algorithms/commit/39cfc689e4e01632c102b3fab8efe9d1e810a2dd) - Bump version
+
+### Releases
+
+- [289b354](https://github.com/rodmoioliveira/algorithms/commit/289b3547cdf33eff7de7f399d23c6349c10b2d69) - 0.2.8
+
 ## [0.2.8](https://github.com/rodmoioliveira/algorithms/compare/0.2.7...0.2.8) - 2024-11-20
 
 [1d99f87](https://github.com/rodmoioliveira/algorithms/commit/1d99f87ebfc2ff56f77eda36df49d076d988febc)...[36a0c11](https://github.com/rodmoioliveira/algorithms/commit/36a0c11adec224a061363cf90fc2b89184347337)
