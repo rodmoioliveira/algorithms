@@ -8,6 +8,31 @@
 // Algorithm 3. Quicksort with simple three-way partitioning from [SW11, page 299]. Note the
 // resemblance to Algorithm 8; in fact YAROSLAVSKIY’s algorithm can be seen as improved version of
 // this algorithm’s partitioning scheme.
+//
+//  [https://algs4.cs.princeton.edu/23quicksort/]
+//
+//  Before:
+//   ┄ ┄┌───┬─────────────────────────────────────────────────────────────────────────────────────┐┄ ┄
+//      │ P │                                          ?                                          │
+//   ┄ ┄└───┴─────────────────────────────────────────────────────────────────────────────────────┘┄ ┄
+//    left                                                                                      right
+//
+//
+//  During:
+//   ┄ ┄┌──────────────────────────┬────────┬───────────────────────────┬─────────────────────────┐┄ ┄
+//      │           < P            │  = P   │             ?             │           > P           │
+//   ┄ ┄└──────────────────────────┴────────┴───────────────────────────┴─────────────────────────┘┄ ┄
+//    left                        lt        i                           gt                      right
+//                                -->      -->                         <--
+//
+//
+//  After:
+//   ┄ ┄┌─────────────────────────────┬──────────────────────────────┬────────────────────────────┐┄ ┄
+//      │            < P              │              = P             │             > P            │
+//   ┄ ┄└─────────────────────────────┴──────────────────────────────┴────────────────────────────┘┄ ┄
+//    left                           lt                              gt                         right
+//                                   -->                            <--
+//
 pub fn _three_way<T: Copy + Ord>(a: &mut [T], left: usize, right: usize) {
     use std::cmp::Ordering;
 

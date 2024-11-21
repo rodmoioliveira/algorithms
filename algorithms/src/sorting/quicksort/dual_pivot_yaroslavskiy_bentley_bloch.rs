@@ -15,6 +15,15 @@
 // pivots. From personal communication with the three I learned that YBB Quicksort is more
 // appropriate since Bentley and Bloch were involved in early stages of the development of the
 // algorithm.
+//
+// [Wild2016, p.140]
+//
+//   ┄ ┄┌──────────────────────┬──────────────────────┬────────────────────┬──────────────────────┐┄ ┄
+//      │        < P1          │    P1 <= o <= P2     │         ?          │         >= P2        │
+//   ┄ ┄└──────────────────────┴──────────────────────┴────────────────────┴──────────────────────┘┄ ┄
+//    left                     j                      k                    g                    right
+//                            -->                    -->                  <--
+//
 pub fn _dual_pivot_yaroslavskiy_bentley_bloch<T: Copy + Ord>(
     a: &mut [T],
     left: usize,

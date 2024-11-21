@@ -19,6 +19,15 @@
 // [Wild2012, p.35]
 // Algorithm 2. Quicksort variant from [CLRS2009, Chapter 7]. It uses a particularly simple partitioning
 // scheme, which is not based on HOARE’s crossing pointers technique.
+//
+// [Wild2016, p.138]
+//
+//   ┄ ┄┌─────────────────────────────┬─────────────────────────────┬─────────────────────────────┐┄ ┄
+//      │             <= P            │             > P             │              ?              │
+//   ┄ ┄└─────────────────────────────┴─────────────────────────────┴─────────────────────────────┘┄ ┄
+//    left                            i                             j                           right
+//                                   -->                           -->
+//
 pub fn _lomuto_clrs<T: Copy + Ord>(a: &mut [T], left: usize, right: usize) {
     if left < right {
         let pivot = a[right];

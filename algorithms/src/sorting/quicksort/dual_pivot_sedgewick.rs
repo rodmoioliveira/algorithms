@@ -14,6 +14,15 @@
 // suggest. To the authors knowledge, Program 5.1 of Sedgewick [162] is the first full Quicksort
 // implementation featuring two pivots. We reproduce it here as our Algorithm 6 and call it
 // Sedgewick’s (dual-pivot) partitioning.
+//
+// [Wild2016, p.142]
+//
+//   ┄ ┄┌─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┐┄ ┄
+//      │      < P1       │  P1 <= o <= P2  │        ?        │  P1 <= o <= P2  │       > P2      │
+//   ┄ ┄└─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┘┄ ┄
+//    left               i1                 i                 j                 j1              right
+//                       -->               -->               <--               <--
+//
 pub fn _dual_pivot_sedgewick<T: Copy + Ord>(a: &mut [T], left: usize, right: usize) {
     if left < right {
         if a[left] > a[right] {

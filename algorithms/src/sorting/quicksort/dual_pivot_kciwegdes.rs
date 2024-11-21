@@ -12,6 +12,15 @@
 // this modified version as Kciwegdes partitioning, Sedgewick reversed literally. The movement of
 // pointers otherwise coincides with the original. I discussed this variation in my master’s thesis
 // [182]; Algorithm 7 shows pseudocode for this method.
+//
+// [Wild2016, p.142]
+//
+//   ┄ ┄┌─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┐┄ ┄
+//      │      < P1       │  P1 <= o <= P2  │        ?        │  P1 <= o <= P2  │       > P2      │
+//   ┄ ┄└─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┘┄ ┄
+//    left               i1                 i                 j                 j1              right
+//                       -->               -->               <--               <--
+//
 pub fn _dual_pivot_kciwegdes<T: Copy + Ord>(a: &mut [T], left: usize, right: usize) {
     if left < right {
         if a[left] > a[right] {
