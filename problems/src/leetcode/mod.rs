@@ -1,7 +1,10 @@
 pub mod _0000151_reverse_words_in_a_string;
+pub mod _0000238_product_of_array_except_self;
 pub mod _0000345_reverse_vowels_of_a_string;
 pub mod _0000605_can_place_flowers;
 pub mod _0000724_find_pivot_index;
+pub mod _0001207_unique_number_of_occurrences;
 pub mod _0001431_kids_with_the_greatest_number_of_candies;
 pub mod _0001768_merge_strings_alternately;
 pub mod _0002215_find_the_difference_of_two_arrays;
+pub mod _0002390_removing_stars_from_a_string;
