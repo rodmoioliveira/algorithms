@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.2.10](https://github.com/rodmoioliveira/algorithms/compare/0.2.9...0.2.10) - 2024-11-24
+
+[39cfc68](https://github.com/rodmoioliveira/algorithms/commit/39cfc689e4e01632c102b3fab8efe9d1e810a2dd)...[368bf38](https://github.com/rodmoioliveira/algorithms/commit/368bf382b6ea69eb7293331e878a4281d41a4b31)
+
+### Documentation
+
+- [edab9d4](https://github.com/rodmoioliveira/algorithms/commit/edab9d416e69637e704884218334e71efb4646ef) - Remove space
+
+### Features
+
+- [d0388db](https://github.com/rodmoioliveira/algorithms/commit/d0388dbba8f7773163f006b400946590c53df4ab) - Leetcode problems (238,1207,2390)
+
+### Miscellaneous Tasks
+
+- [368bf38](https://github.com/rodmoioliveira/algorithms/commit/368bf382b6ea69eb7293331e878a4281d41a4b31) - Bump version
+
+### Releases
+
+- [b3b0956](https://github.com/rodmoioliveira/algorithms/commit/b3b095607def7477706dbdbddefeed3a67fb7f22) - 0.2.9
+
 ## [0.2.9](https://github.com/rodmoioliveira/algorithms/compare/0.2.8...0.2.9) - 2024-11-21
 
 [36a0c11](https://github.com/rodmoioliveira/algorithms/commit/36a0c11adec224a061363cf90fc2b89184347337)...[39cfc68](https://github.com/rodmoioliveira/algorithms/commit/39cfc689e4e01632c102b3fab8efe9d1e810a2dd)

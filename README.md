@@ -24,12 +24,15 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 
   - [codewars/_5667e8f4e3f572a8f2000039_mumbling](/problems/src/codewars/_5667e8f4e3f572a8f2000039_mumbling.rs)
   - [leetcode/_0000151_reverse_words_in_a_string](/problems/src/leetcode/_0000151_reverse_words_in_a_string.rs)
+  - [leetcode/_0000238_product_of_array_except_self](/problems/src/leetcode/_0000238_product_of_array_except_self.rs)
   - [leetcode/_0000345_reverse_vowels_of_a_string](/problems/src/leetcode/_0000345_reverse_vowels_of_a_string.rs)
   - [leetcode/_0000605_can_place_flowers](/problems/src/leetcode/_0000605_can_place_flowers.rs)
   - [leetcode/_0000724_find_pivot_index](/problems/src/leetcode/_0000724_find_pivot_index.rs)
+  - [leetcode/_0001207_unique_number_of_occurrences](/problems/src/leetcode/_0001207_unique_number_of_occurrences.rs)
   - [leetcode/_0001431_kids_with_the_greatest_number_of_candies](/problems/src/leetcode/_0001431_kids_with_the_greatest_number_of_candies.rs)
   - [leetcode/_0001768_merge_strings_alternately](/problems/src/leetcode/_0001768_merge_strings_alternately.rs)
   - [leetcode/_0002215_find_the_difference_of_two_arrays](/problems/src/leetcode/_0002215_find_the_difference_of_two_arrays.rs)
+  - [leetcode/_0002390_removing_stars_from_a_string](/problems/src/leetcode/_0002390_removing_stars_from_a_string.rs)
 
 # Make Recipes
 
