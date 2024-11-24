@@ -1,5 +1,6 @@
 fn main() {
     problems::codewars::_5667e8f4e3f572a8f2000039_mumbling::testcase();
+    problems::leetcode::_0000136_single_number::testcase();
     problems::leetcode::_0000151_reverse_words_in_a_string::testcase();
     problems::leetcode::_0000238_product_of_array_except_self::testcase();
     problems::leetcode::_0000345_reverse_vowels_of_a_string::testcase();

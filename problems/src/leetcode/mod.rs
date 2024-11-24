@@ -1,3 +1,4 @@
+pub mod _0000136_single_number;
 pub mod _0000151_reverse_words_in_a_string;
 pub mod _0000238_product_of_array_except_self;
 pub mod _0000345_reverse_vowels_of_a_string;
