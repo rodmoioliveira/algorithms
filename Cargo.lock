@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "algorithms"
-version = "0.2.9"
+version = "0.2.10"
 dependencies = [
  "rand",
 ]
@@ -49,7 +49,7 @@ dependencies = [
 
 [[package]]
 name = "problems"
-version = "0.2.9"
+version = "0.2.10"
 
 [[package]]
 name = "proc-macro2"
