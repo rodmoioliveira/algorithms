@@ -1,4 +1,4 @@
-pub mod bottom_up_dp;
-pub mod bottom_up_dp_ultimate;
-pub mod recursive_naive;
-pub mod top_down_memoize;
+pub mod bottom_up;
+pub mod bottom_up_space_optimized;
+pub mod recursive;
+pub mod top_down_memoized;

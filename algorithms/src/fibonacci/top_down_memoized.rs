@@ -63,7 +63,7 @@ pub fn fibonacci(n: usize) -> usize {
 pub fn example() {
     let n = 20;
     let res = fibonacci(n);
-    eprintln!("[{res}] fibonacci::top_down_memoize");
+    eprintln!("[{res}] fibonacci::top_down_memoized");
 }
 
 #[cfg(test)]
