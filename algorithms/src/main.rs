@@ -1,6 +1,7 @@
 fn fibonacci() {
     algorithms::fibonacci::bottom_up::example();
     algorithms::fibonacci::bottom_up_space_optimized::example();
+    algorithms::fibonacci::lookup_table::example();
     algorithms::fibonacci::recursive::example();
     algorithms::fibonacci::top_down_memoized::example();
 }
