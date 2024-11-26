@@ -42,17 +42,17 @@
 // you will use once and never refer to again.
 //
 fn _fibonacci(n: usize, memo: &mut [Option<usize>]) -> usize {
+    if n < 2 {
+        return n;
+    }
+
     match memo[n] {
         Some(v) => v,
-        None => match n {
-            0 => 0,
-            1 => 1,
-            _ => {
-                let v = _fibonacci(n - 1, memo) + _fibonacci(n - 2, memo);
-                memo[n] = Some(v);
-                v
-            }
-        },
+        None => {
+            let v = _fibonacci(n - 1, memo) + _fibonacci(n - 2, memo);
+            memo[n] = Some(v);
+            v
+        }
     }
 }
 

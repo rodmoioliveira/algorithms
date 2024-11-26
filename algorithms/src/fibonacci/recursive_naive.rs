@@ -43,11 +43,10 @@
 // laptop. You might well do it faster by hand using the algorithm below.
 //
 pub fn fibonacci(n: usize) -> usize {
-    match n {
-        0 => 0,
-        1 => 1,
-        _ => fibonacci(n - 1) + fibonacci(n - 2),
+    if n < 2 {
+        return n;
     }
+    fibonacci(n - 1) + fibonacci(n - 2)
 }
 
 pub fn example() {
