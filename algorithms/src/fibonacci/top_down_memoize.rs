@@ -3,8 +3,8 @@
 //
 // [ADM, 309]
 // In fact, we can do much better. We can explicitly store (or cache) the results of each Fibonacci
-// computation f(k) in a table data structure indexed by the parameter k—a technique also known as
-// memoization.
+// computation f(k) in a table data structure indexed by the parameter k — a technique also known
+// as memoization.
 //
 //
 //                                ┌──────────────────fib(6)───────────────────┐

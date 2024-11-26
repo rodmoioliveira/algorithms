@@ -5,7 +5,7 @@
 // We can calculate Fn in linear time more easily by explicitly specifying the order of evaluation
 // of the recurrence relation. Observe that we have removed all recursive calls! We evaluate the
 // Fibonacci numbers from smallest to biggest and store all the results, so we know that we have
-// Fi−1 and Fi−2 ready whenever we need to compute Fi . The linearity of this algorithm is now
+// Fi−1 and Fi−2 ready whenever we need to compute Fi. The linearity of this algorithm is now
 // obvious. Each of the n values is simply computed as the sum of two integers, in O(n) total time
 // and space.
 //

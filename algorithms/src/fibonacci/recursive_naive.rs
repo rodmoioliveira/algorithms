@@ -33,7 +33,7 @@
 //
 //
 // The course of execution for this recursive algorithm is illustrated by its recursion tree, as
-// illustrated in Figure 10.1. This tree is evaluated in a depth- ﬁrst fashion, as are all
+// illustrated in Figure 10.1. This tree is evaluated in a depth-ﬁrst fashion, as are all
 // recursive algorithms. I encourage you to trace this example by hand to refresh your knowledge of
 // recursion.
 //
