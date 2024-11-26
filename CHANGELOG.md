@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.2](https://github.com/rodmoioliveira/algorithms/compare/0.3.1...0.3.2) - 2024-11-26
+
+[687a2e7](https://github.com/rodmoioliveira/algorithms/commit/687a2e7e8c5a6b1c8d0e27dfa7e8320f60c1489b)...[7d2e318](https://github.com/rodmoioliveira/algorithms/commit/7d2e3182d60769f4625f076c7349dd0adbb00ca5)
+
+### Miscellaneous Tasks
+
+- [d6d9205](https://github.com/rodmoioliveira/algorithms/commit/d6d9205d913bc3471020a491180d3d546f483fc1) - Remove match from base case in fibonacci algorithms
+- [7d2e318](https://github.com/rodmoioliveira/algorithms/commit/7d2e3182d60769f4625f076c7349dd0adbb00ca5) - Bump version
+
+### Releases
+
+- [c07cd62](https://github.com/rodmoioliveira/algorithms/commit/c07cd62329d610c220eb2a7bc3c3f1a83fecb4ea) - 0.3.1
+
 ## [0.3.1](https://github.com/rodmoioliveira/algorithms/compare/0.3.0...0.3.1) - 2024-11-26
 
 [294b4c7](https://github.com/rodmoioliveira/algorithms/commit/294b4c7e5edbbc0e71b82509c4e822487e830df3)...[687a2e7](https://github.com/rodmoioliveira/algorithms/commit/687a2e7e8c5a6b1c8d0e27dfa7e8320f60c1489b)
