@@ -48,6 +48,7 @@ bash-all             Run all bash tests
 bash-check           Check format bash code
 bash-fmt             Format bash code
 bash-lint            Check lint bash code
+comments-tidy        Tidy comments within code
 doc-changelog        Write CHANGELOG.mode
 doc-readme           Write README.md
 help                 Display this help screen

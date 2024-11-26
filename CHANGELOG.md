@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.3.1](https://github.com/rodmoioliveira/algorithms/compare/0.3.0...0.3.1) - 2024-11-26
+
+[294b4c7](https://github.com/rodmoioliveira/algorithms/commit/294b4c7e5edbbc0e71b82509c4e822487e830df3)...[687a2e7](https://github.com/rodmoioliveira/algorithms/commit/687a2e7e8c5a6b1c8d0e27dfa7e8320f60c1489b)
+
+### Bug Fixes
+
+- [0428c12](https://github.com/rodmoioliveira/algorithms/commit/0428c12f3728eb06fd53ad5b27663b8f2dfa18ab) - Fix typos in fibonacci comments
+
+### CI
+
+- [e18a38f](https://github.com/rodmoioliveira/algorithms/commit/e18a38f2f801976dcdcb703fb8a2a07e9e7fb14c) - Add comments-tidy recipe
+
+### Miscellaneous Tasks
+
+- [687a2e7](https://github.com/rodmoioliveira/algorithms/commit/687a2e7e8c5a6b1c8d0e27dfa7e8320f60c1489b) - Bump version
+
+### Releases
+
+- [e859570](https://github.com/rodmoioliveira/algorithms/commit/e8595702b85264565c0d6c5321de6e4e5106a689) - 0.3.0
+
 ## [0.3.0](https://github.com/rodmoioliveira/algorithms/compare/0.2.11...0.3.0) - 2024-11-26
 
 [56a90eb](https://github.com/rodmoioliveira/algorithms/commit/56a90eb78ee7e8c319172b96a8cab7187835bbf1)...[294b4c7](https://github.com/rodmoioliveira/algorithms/commit/294b4c7e5edbbc0e71b82509c4e822487e830df3)
