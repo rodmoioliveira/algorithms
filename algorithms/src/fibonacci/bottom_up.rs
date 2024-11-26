@@ -2,31 +2,32 @@
 // - [ADM] Skiena, Steven S. The Algorithm Design Manual. Third Edition, 2020, ISBN 978-3-030-54255-9.
 //
 // [ADM, 312]
-// More careful study shows that we do not need to store all the intermediate values for the entire
-// period of execution. Because the recurrence depends on two arguments, we only need to retain the
-// last two values we have seen.
+// We can calculate Fn in linear time more easily by explicitly specifying the order of evaluation
+// of the recurrence relation. Observe that we have removed all recursive calls! We evaluate the
+// Fibonacci numbers from smallest to biggest and store all the results, so we know that we have
+// Fi−1 and Fi−2 ready whenever we need to compute Fi. The linearity of this algorithm is now
+// obvious. Each of the n values is simply computed as the sum of two integers, in O(n) total time
+// and space.
 //
 pub fn fibonacci(n: usize) -> usize {
     if n < 2 {
         return n;
     }
 
-    let mut memo = [0; 3];
+    let mut memo = vec![0; n + 1];
     memo[0] = 0;
     memo[1] = 1;
 
-    for _ in 2..=n {
-        memo[2] = memo[0] + memo[1];
-        memo[0] = memo[1];
-        memo[1] = memo[2];
+    for i in 2..=n {
+        memo[i] = memo[i - 1] + memo[i - 2];
     }
-    memo[2]
+    memo[n]
 }
 
 pub fn example() {
     let n = 20;
     let res = fibonacci(n);
-    eprintln!("[{res}] fibonacci::bottom_up_dp_ultimate");
+    eprintln!("[{res}] fibonacci::bottom_up");
 }
 
 #[cfg(test)]

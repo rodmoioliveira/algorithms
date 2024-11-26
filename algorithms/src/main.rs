@@ -1,8 +1,8 @@
 fn fibonacci() {
-    algorithms::fibonacci::recursive_naive::example();
-    algorithms::fibonacci::top_down_memoize::example();
-    algorithms::fibonacci::bottom_up_dp::example();
-    algorithms::fibonacci::bottom_up_dp_ultimate::example();
+    algorithms::fibonacci::bottom_up::example();
+    algorithms::fibonacci::bottom_up_space_optimized::example();
+    algorithms::fibonacci::recursive::example();
+    algorithms::fibonacci::top_down_memoized::example();
 }
 
 fn sorting() {
