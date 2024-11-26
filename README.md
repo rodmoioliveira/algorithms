@@ -10,6 +10,10 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 
 [back^](#index)
 
+  - [fibonacci/bottom_up_dp](/algorithms/src/fibonacci/bottom_up_dp.rs)
+  - [fibonacci/bottom_up_dp_ultimate](/algorithms/src/fibonacci/bottom_up_dp_ultimate.rs)
+  - [fibonacci/recursive_naive](/algorithms/src/fibonacci/recursive_naive.rs)
+  - [fibonacci/top_down_memoize](/algorithms/src/fibonacci/top_down_memoize.rs)
   - [sorting/quicksort/classic_hoare](/algorithms/src/sorting/quicksort/classic_hoare.rs)
   - [sorting/quicksort/dual_pivot_kciwegdes](/algorithms/src/sorting/quicksort/dual_pivot_kciwegdes.rs)
   - [sorting/quicksort/dual_pivot_sedgewick](/algorithms/src/sorting/quicksort/dual_pivot_sedgewick.rs)

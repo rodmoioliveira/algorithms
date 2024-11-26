@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.0](https://github.com/rodmoioliveira/algorithms/compare/0.2.11...0.3.0) - 2024-11-26
+
+[56a90eb](https://github.com/rodmoioliveira/algorithms/commit/56a90eb78ee7e8c319172b96a8cab7187835bbf1)...[294b4c7](https://github.com/rodmoioliveira/algorithms/commit/294b4c7e5edbbc0e71b82509c4e822487e830df3)
+
+### Features
+
+- [f9779d2](https://github.com/rodmoioliveira/algorithms/commit/f9779d2af59a8e8d36ee39cd1ab29a78c1479918) - Add fibonacci to algorithms
+
+### Miscellaneous Tasks
+
+- [294b4c7](https://github.com/rodmoioliveira/algorithms/commit/294b4c7e5edbbc0e71b82509c4e822487e830df3) - Bump version
+
+### Releases
+
+- [80faecf](https://github.com/rodmoioliveira/algorithms/commit/80faecfbd5863ffde574b8ef2b7dee54a5da929a) - 0.2.11
+
 ## [0.2.11](https://github.com/rodmoioliveira/algorithms/compare/0.2.10...0.2.11) - 2024-11-25
 
 [368bf38](https://github.com/rodmoioliveira/algorithms/commit/368bf382b6ea69eb7293331e878a4281d41a4b31)...[56a90eb](https://github.com/rodmoioliveira/algorithms/commit/56a90eb78ee7e8c319172b96a8cab7187835bbf1)
