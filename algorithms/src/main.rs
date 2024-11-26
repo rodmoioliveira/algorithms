@@ -1,3 +1,10 @@
+fn fibonacci() {
+    algorithms::fibonacci::recursive_naive::example();
+    algorithms::fibonacci::top_down_memoize::example();
+    algorithms::fibonacci::bottom_up_dp::example();
+    algorithms::fibonacci::bottom_up_dp_ultimate::example();
+}
+
 fn sorting() {
     algorithms::sorting::quicksort::classic_hoare::example();
     algorithms::sorting::quicksort::dual_pivot_kciwegdes::example();
@@ -9,5 +16,6 @@ fn sorting() {
 }
 
 fn main() {
+    fibonacci();
     sorting();
 }
