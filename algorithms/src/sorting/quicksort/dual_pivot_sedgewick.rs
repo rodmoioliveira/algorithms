@@ -1,19 +1,19 @@
 // REFERENCES:
 //
-// - [162] R. Sedgewick. Quicksort. Reprint of the author’s Ph. D. thesis, Garland Publishing, 1980.
+// - [162] R. Sedgewick. Quicksort. Reprint of the author's Ph. D. thesis, Garland Publishing, 1980.
 // - [Sed75] R. Sedgewick, 1975. Quicksort. PhD Thesis, Stanford University.
-// - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
-// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
+// - [Wild2012] S. Wild. Java 7's Dual Pivot Quicksort. Master's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
+// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
 //
 // [Wild2012, p.52]
-// Algorithm 7. Dual Pivot Quicksort with SEDGEWICK’s partitioning. This algorithm appears as
+// Algorithm 7. Dual Pivot Quicksort with SEDGEWICK's partitioning. This algorithm appears as
 // Program 5.1 in [Sed75].
 //
 // [Wild2016, p.142]
 // Dual-pivot Quicksort was considered much earlier than the recency of YBB Quicksort might
 // suggest. To the authors knowledge, Program 5.1 of Sedgewick [162] is the first full Quicksort
 // implementation featuring two pivots. We reproduce it here as our Algorithm 6 and call it
-// Sedgewick’s (dual-pivot) partitioning.
+// Sedgewick's (dual-pivot) partitioning.
 //
 // [Wild2016, p.142]
 //

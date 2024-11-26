@@ -1,13 +1,13 @@
 // REFERENCES:
 //
 // - [SW11] R. Sedgewick and K. Wayne, 2011. Algorithms. Addison-Wesley. ISBN 978-0-32-157351-3.
-// - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
-// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
+// - [Wild2012] S. Wild. Java 7's Dual Pivot Quicksort. Master's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
+// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
 //
 // [Wild2012, p.37]
 // Algorithm 3. Quicksort with simple three-way partitioning from [SW11, page 299]. Note the
-// resemblance to Algorithm 8; in fact YAROSLAVSKIY’s algorithm can be seen as improved version of
-// this algorithm’s partitioning scheme.
+// resemblance to Algorithm 8; in fact YAROSLAVSKIY's algorithm can be seen as improved version of
+// this algorithm's partitioning scheme.
 //
 // [https://algs4.cs.princeton.edu/23quicksort/]
 //

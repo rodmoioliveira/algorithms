@@ -1,7 +1,7 @@
 // REFERENCES:
 //
-// - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
-// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
+// - [Wild2012] S. Wild. Java 7's Dual Pivot Quicksort. Master's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
+// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
 // - [Yar09] V. Yaroslavskiy, 2009. Dual-Pivot Quicksort. URL: https://codeblab.com/wp-content/uploads/2009/09/DualPivotQuicksort.pdf
 // - https://learnforeverlearn.com/yaro_web/
 // - https://www.geeksforgeeks.org/dual-pivot-quicksort/
@@ -10,7 +10,7 @@
 // Since Java 7, the reference implementation of the Java runtime library uses dual-pivot Quicksort
 // as default sorting method for primitive-type arrays. At its core is the ternary partitioning
 // method given in Algorithm 4 below. The algorithm is due to V. Yaroslavskiy, J. Bentley and J.
-// Bloch and will be referred to as YBB Quicksort for short. I previously called it Yaroslavskiy’s
+// Bloch and will be referred to as YBB Quicksort for short. I previously called it Yaroslavskiy's
 // algorithm, because it was him who first discovered that time is ripe for a Quicksort with two
 // pivots. From personal communication with the three I learned that YBB Quicksort is more
 // appropriate since Bentley and Bloch were involved in early stages of the development of the

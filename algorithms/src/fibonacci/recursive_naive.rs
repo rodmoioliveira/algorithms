@@ -2,11 +2,11 @@
 // - [ADM] Skiena, Steven S. The Algorithm Design Manual. Third Edition, 2020, ISBN 978-3-030-54255-9.
 //
 // [ADM, 308]
-// The Fibonacci numbers were deﬁned by the Italian mathematician Fibonacci in the thirteenth century
+// The Fibonacci numbers were defined by the Italian mathematician Fibonacci in the thirteenth century
 // to model the growth of rabbit populations. Rabbits breed, well, like rabbits. Fibonacci surmised
 // that the number of pairs of rabbits born in a given month is equal to the number of pairs of
 // rabbits born in each of the two previous months, starting from one pair of rabbits at the start.
-// Thus, the number of rabbits born in the nth month is deﬁned by the recurrence relation:
+// Thus, the number of rabbits born in the nth month is defined by the recurrence relation:
 //
 // Fn = Fn−1 + Fn−2
 //
@@ -33,12 +33,12 @@
 //
 //
 // The course of execution for this recursive algorithm is illustrated by its recursion tree, as
-// illustrated in Figure 10.1. This tree is evaluated in a depth-ﬁrst fashion, as are all
+// illustrated in Figure 10.1. This tree is evaluated in a depth-first fashion, as are all
 // recursive algorithms. I encourage you to trace this example by hand to refresh your knowledge of
 // recursion.
 //
 // Note that f(4) is computed on both sides of the recursion tree, and f(2) is computed no less
-// than ﬁve times in this small example. The weight of all this redundancy becomes clear when you
+// than five times in this small example. The weight of all this redundancy becomes clear when you
 // run the program. It took 4 minutes and 40 seconds for this program to compute f(50) on my
 // laptop. You might well do it faster by hand using the algorithm below.
 //

@@ -6,6 +6,9 @@ help: ## Display this help screen
 		{printf "%-20s %s\n", $$1, $$2}' | \
 		sort
 
+comments-tidy: ## Tidy comments within code
+	@./dev/comments-tidy.sh
+
 doc-readme: ## Write README.md
 	@./dev/doc-readme.sh
 
@@ -105,6 +108,7 @@ yaml-lint: ## Check lint yaml code
 .PHONY: bash-check
 .PHONY: bash-fmt
 .PHONY: bash-lint
+.PHONY: comments-tidy
 .PHONY: doc-changelog
 .PHONY: doc-readme
 .PHONY: rs-audit

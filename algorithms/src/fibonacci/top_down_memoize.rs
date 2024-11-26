@@ -28,17 +28,17 @@
 //                        The recursion tree for computing Fibonacci numbers with caching.
 //
 //
-// This cached version runs instantly up to the largest value that can ﬁt in a long integer. The
+// This cached version runs instantly up to the largest value that can fit in a long integer. The
 // new recursion tree (Figure 10.2) explains why. There is no meaningful branching, because only
-// the left-side calls do computation. The right-side calls ﬁnd what they are looking for in the
+// the left-side calls do computation. The right-side calls find what they are looking for in the
 // cache and immediately return.
 //
 // This general method of explicitly caching (or tabling) results from recursive calls to avoid
-// recomputation provides a simple way to get most of the beneﬁts of full dynamic programming. It
+// recomputation provides a simple way to get most of the benefits of full dynamic programming. It
 // is thus worth a careful look. In principle, such caching can be employed on any recursive
 // algorithm. However, storing partial results would have done absolutely no good for such
-// recursive algorithms as quicksort, backtracking, and depth-ﬁrst search because all the recursive
-// calls made in these algorithms have distinct parameter values. It doesn’t pay to store something
+// recursive algorithms as quicksort, backtracking, and depth-first search because all the recursive
+// calls made in these algorithms have distinct parameter values. It doesn't pay to store something
 // you will use once and never refer to again.
 //
 fn _fibonacci(n: usize, memo: &mut [Option<usize>]) -> usize {

@@ -5,15 +5,15 @@
 // - [SF1996] R. Sedgewick and P. Flajolet, 1996. An Introduction to the Analysis of Algorithms. Addison-Wesley-Longman. ISBN 978-0-201-40009-0.
 // - [Sed1975] R. Sedgewick, 1975. Quicksort. PhD Thesis, Stanford University.
 // - [Sed1978] R. Sedgewick, 1978. Implementing Quicksort programs. Communications of the ACM, 21(10):847–857. doi:10.1145/359619.359631.
-// - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
-// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
+// - [Wild2012] S. Wild. Java 7's Dual Pivot Quicksort. Master's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
+// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
 //
 // [Wild2012, p.26]
 // Algorithm 1. Classic Quicksort implementation by SEDGEWICK as given and discussed in detail in
 // [Sed1975, Sed1978]. We take the rightmost element as pivot instead of the leftmost, as it is done in
 // Program 1.2 of [SF1996]. Partitioning is done as follows: Two pointers i and j scan the array from
 // left and right until they hit an element that does not belong in this subfile. Then the elements
-// A[i] and A[j] are exchanged. This crossing pointers technique dates back to HOARE’s original
+// A[i] and A[j] are exchanged. This crossing pointers technique dates back to HOARE's original
 // formulation of Quicksort [Hoa1961a].
 //
 // [Wild2016, p.137]

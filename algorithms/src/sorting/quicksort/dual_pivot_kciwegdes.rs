@@ -1,16 +1,16 @@
 // REFERENCES:
 //
-// - [162] R. Sedgewick. Quicksort. Reprint of the author’s Ph. D. thesis, Garland Publishing, 1980.
-// - [182] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis, University of Kaiserslautern, 2012. URL http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hbz:386-kluedo-34638
+// - [162] R. Sedgewick. Quicksort. Reprint of the author's Ph. D. thesis, Garland Publishing, 1980.
+// - [182] S. Wild. Java 7's Dual Pivot Quicksort. Master's Thesis, University of Kaiserslautern, 2012. URL http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hbz:386-kluedo-34638
 // - [Sed75] R. Sedgewick, 1975. Quicksort. PhD Thesis, Stanford University.
-// - [Wild2012] S. Wild. Java 7’s Dual Pivot Quicksort. Master’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
-// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral’s Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
+// - [Wild2012] S. Wild. Java 7's Dual Pivot Quicksort. Master's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2012.
+// - [Wild2016] S. Wild. Dual-Pivot Quicksort and Beyond: Analysis of Multiway Partitioning and Its Practical Potential. Doctoral's Thesis Department of Computer Science, Technische Universität Kaiserslautern, 2016.
 //
 // [Wild2016, p.142]
-// Kciwegdes. Sedgewick’s dual-pivot Quicksort can quite easily be improved w.r.t. the expected
+// Kciwegdes. Sedgewick's dual-pivot Quicksort can quite easily be improved w.r.t. the expected
 // comparison count: we have to reverse the order of comparisons with the two pivots. We refer to
 // this modified version as Kciwegdes partitioning, Sedgewick reversed literally. The movement of
-// pointers otherwise coincides with the original. I discussed this variation in my master’s thesis
+// pointers otherwise coincides with the original. I discussed this variation in my master's thesis
 // [182]; Algorithm 7 shows pseudocode for this method.
 //
 // [Wild2016, p.142]
