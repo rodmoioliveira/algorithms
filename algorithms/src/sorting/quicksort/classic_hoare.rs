@@ -65,7 +65,7 @@ pub fn classic_hoare<T: Copy + Ord>(a: &mut [T]) {
 pub fn example() {
     let mut res = vec![13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11];
     classic_hoare(&mut res);
-    eprintln!("{res:?} sorting::quicksort::classic_hoare");
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]

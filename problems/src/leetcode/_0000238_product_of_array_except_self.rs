@@ -63,11 +63,8 @@ pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
 
 pub fn testcase() {
     let nums = vec![1, 2, 3, 4];
-    let result = product_except_self(nums);
-    eprintln!(
-        "leetcode/0000238_product_of_array_except_self: {:?}",
-        result
-    );
+    let res = product_except_self(nums);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -77,24 +74,24 @@ mod tests {
     #[test]
     fn test_1() {
         let nums = vec![1, 2, 3, 4];
-        let result = product_except_self(nums);
+        let res = product_except_self(nums);
         let expected = vec![24, 12, 8, 6];
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let nums = vec![-1, 1, 0, -3, 3];
-        let result = product_except_self(nums);
+        let res = product_except_self(nums);
         let expected = vec![0, 0, 9, 0, 0];
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let nums = vec![-1, 1, 0, -3, 0];
-        let result = product_except_self(nums);
+        let res = product_except_self(nums);
         let expected = vec![0, 0, 0, 0, 0];
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

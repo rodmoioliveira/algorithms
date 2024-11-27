@@ -44,8 +44,8 @@ pub fn can_place_flowers(flowerbed: Vec<i32>, n: i32) -> bool {
 pub fn testcase() {
     let flowerbed = vec![1, 0, 0, 0, 1];
     let n = 1;
-    let result = can_place_flowers(flowerbed, n);
-    eprintln!("leetcode/0000605_can_place_flowers: {:?}", result);
+    let res = can_place_flowers(flowerbed, n);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -56,26 +56,26 @@ mod tests {
     fn test_1() {
         let flowerbed = vec![1, 0, 0, 0, 1];
         let n = 1;
-        let result = can_place_flowers(flowerbed, n);
+        let res = can_place_flowers(flowerbed, n);
         let expected = true;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let flowerbed = vec![1, 0, 0, 0, 1];
         let n = 2;
-        let result = can_place_flowers(flowerbed, n);
+        let res = can_place_flowers(flowerbed, n);
         let expected = false;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let flowerbed = vec![1, 0, 0, 0, 0, 1];
         let n = 2;
-        let result = can_place_flowers(flowerbed, n);
+        let res = can_place_flowers(flowerbed, n);
         let expected = false;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

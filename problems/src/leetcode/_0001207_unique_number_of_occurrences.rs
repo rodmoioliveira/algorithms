@@ -40,11 +40,8 @@ pub fn unique_occurrences(arr: Vec<i32>) -> bool {
 
 pub fn testcase() {
     let arr = vec![1, 2, 2, 1, 1, 3];
-    let result = unique_occurrences(arr);
-    eprintln!(
-        "leetcode/0001207_unique_number_of_occurrences: {:?}",
-        result
-    );
+    let res = unique_occurrences(arr);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -54,24 +51,24 @@ mod tests {
     #[test]
     fn test_1() {
         let arr = vec![1, 2, 2, 1, 1, 3];
-        let result = unique_occurrences(arr);
+        let res = unique_occurrences(arr);
         let expected = true;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let arr = vec![1, 2];
-        let result = unique_occurrences(arr);
+        let res = unique_occurrences(arr);
         let expected = false;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let arr = vec![-3, 0, 1, -3, 1, 1, 1, -3, 10, 0];
-        let result = unique_occurrences(arr);
+        let res = unique_occurrences(arr);
         let expected = true;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

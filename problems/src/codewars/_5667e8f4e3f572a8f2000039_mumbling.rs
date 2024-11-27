@@ -23,8 +23,8 @@ pub fn accum(s: &str) -> String {
 
 pub fn testcase() {
     let s = "abcd";
-    let result = accum(s);
-    eprintln!("codewars/5667e8f4e3f572a8f2000039_mumbling: {}", result);
+    let res = accum(s);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]

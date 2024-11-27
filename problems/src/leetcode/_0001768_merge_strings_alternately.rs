@@ -63,8 +63,8 @@ pub fn merge_alternately(word1: String, word2: String) -> String {
 pub fn testcase() {
     let word1 = "ab".to_string();
     let word2 = "pqrs".to_string();
-    let result = merge_alternately(word1, word2);
-    eprintln!("leetcode/0001768_merge_strings_alternately: {}", result);
+    let res = merge_alternately(word1, word2);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -75,26 +75,26 @@ mod tests {
     fn test_1() {
         let word1 = "abc".to_string();
         let word2 = "pqr".to_string();
-        let result = merge_alternately(word1, word2);
+        let res = merge_alternately(word1, word2);
         let expected = String::from("apbqcr");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let word1 = "ab".to_string();
         let word2 = "pqrs".to_string();
-        let result = merge_alternately(word1, word2);
+        let res = merge_alternately(word1, word2);
         let expected = String::from("apbqrs");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let word1 = "abcd".to_string();
         let word2 = "pq".to_string();
-        let result = merge_alternately(word1, word2);
+        let res = merge_alternately(word1, word2);
         let expected = String::from("apbqcd");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

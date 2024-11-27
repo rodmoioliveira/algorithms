@@ -53,8 +53,8 @@ pub fn reverse_vowels(s: String) -> String {
 
 pub fn testcase() {
     let s = String::from("IceCreAm");
-    let result = reverse_vowels(s);
-    eprintln!("leetcode/0000345_reverse_vowels_of_a_string: {:?}", result);
+    let res = reverse_vowels(s);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -64,32 +64,32 @@ mod tests {
     #[test]
     fn test_1() {
         let s = String::from("IceCreAm");
-        let result = reverse_vowels(s);
+        let res = reverse_vowels(s);
         let expected = String::from("AceCreIm");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let s = String::from("leetcode");
-        let result = reverse_vowels(s);
+        let res = reverse_vowels(s);
         let expected = String::from("leotcede");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let s = String::from(" ");
-        let result = reverse_vowels(s);
+        let res = reverse_vowels(s);
         let expected = String::from(" ");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_4() {
         let s = String::from(".,");
-        let result = reverse_vowels(s);
+        let res = reverse_vowels(s);
         let expected = String::from(".,");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }
