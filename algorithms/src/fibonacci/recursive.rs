@@ -1,4 +1,7 @@
 // REFERENCES:
+// - Dasdan, Ali. Twelve Simple Algorithms to Compute Fibonacci Numbers. https://arxiv.org/pdf/1803.07199
+// - Luo, Long. 9 Fibonacci Algorithms: The Most Complete Solutions. https://www.longluo.me/blog/2022/01/29/fibonacci-sequence/#solution-9-math-formula
+// - Nayuki. Fast Fibonacci algorithms. https://www.nayuki.io/page/fast-fibonacci-algorithms
 // - [ADM] Skiena, Steven S. The Algorithm Design Manual. Third Edition, 2020, ISBN 978-3-030-54255-9.
 //
 // [ADM, 308]
@@ -41,6 +44,10 @@
 // than five times in this small example. The weight of all this redundancy becomes clear when you
 // run the program. It took 4 minutes and 40 seconds for this program to compute f(50) on my
 // laptop. You might well do it faster by hand using the algorithm below.
+//
+// ANALYSIS:
+// Time Complexity: O(φ^n), where φ is the golden ratio ~= 1.618...
+// Space Complexity: O(φ^n), where φ is the golden ratio ~= 1.618... [TODO: confirm info!]
 //
 pub fn fibonacci(n: usize) -> usize {
     if n < 2 {
