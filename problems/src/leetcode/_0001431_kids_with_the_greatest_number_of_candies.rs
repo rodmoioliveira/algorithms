@@ -52,7 +52,7 @@ pub fn testcase() {
     let candies = vec![2, 3, 5, 1, 3];
     let extra_candies = 3;
     let res = kids_with_candies(candies, extra_candies);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

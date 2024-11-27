@@ -41,7 +41,7 @@ pub fn unique_occurrences(arr: Vec<i32>) -> bool {
 pub fn testcase() {
     let arr = vec![1, 2, 2, 1, 1, 3];
     let res = unique_occurrences(arr);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

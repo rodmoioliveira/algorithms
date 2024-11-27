@@ -47,7 +47,7 @@ pub fn testcase() {
     let nums1 = vec![1, 2, 3];
     let nums2 = vec![2, 4, 6];
     let res = find_difference(nums1, nums2);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

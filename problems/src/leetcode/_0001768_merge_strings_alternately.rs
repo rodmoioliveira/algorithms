@@ -64,7 +64,7 @@ pub fn testcase() {
     let word1 = "ab".to_string();
     let word2 = "pqrs".to_string();
     let res = merge_alternately(word1, word2);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

@@ -53,7 +53,7 @@ pub fn remove_stars(s: String) -> String {
 pub fn testcase() {
     let s = String::from("leet**cod*e");
     let res = remove_stars(s);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

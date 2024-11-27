@@ -45,7 +45,7 @@ pub fn reverse_words(s: String) -> String {
 pub fn testcase() {
     let s = String::from("the sky is blue");
     let res = reverse_words(s);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]
