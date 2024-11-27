@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.4.0](https://github.com/rodmoioliveira/algorithms/compare/0.3.2...0.4.0) - 2024-11-27
+
+[7d2e318](https://github.com/rodmoioliveira/algorithms/commit/7d2e3182d60769f4625f076c7349dd0adbb00ca5)...[e7c6cbf](https://github.com/rodmoioliveira/algorithms/commit/e7c6cbf1d4c4157d537df69bd14cc608f40b8600)
+
+### Features
+
+- [cf93a5c](https://github.com/rodmoioliveira/algorithms/commit/cf93a5c5436d14cf9b95f68e6b31fc3517f374d2) - Add lookup_table to fibonacci algorithms
+- [4b885e2](https://github.com/rodmoioliveira/algorithms/commit/4b885e2bfcb778079297146b81d80fdfee6cd49a) - Add binet_formula to fibonacci algorithms
+- [387b7c6](https://github.com/rodmoioliveira/algorithms/commit/387b7c66e4bd43c6e4a546c11631878b2a69478f) - Add time and space complexity analysis to fibonacci
+- [1c5bc15](https://github.com/rodmoioliveira/algorithms/commit/1c5bc154794c640c38ff661eae44586ed5366d2d) - Use module_path!() macro
+- [6715828](https://github.com/rodmoioliveira/algorithms/commit/67158280100613ae1c194a03b8bf8dc35ec4c23e) - Add fast_doubling and matrix_exponentiation to fibonacci
+- [4ae7794](https://github.com/rodmoioliveira/algorithms/commit/4ae77948247fb167e9a01c2d2cafdd7c800e033e) - Add mod numbers in algorithms
+
+### Miscellaneous Tasks
+
+- [00bf095](https://github.com/rodmoioliveira/algorithms/commit/00bf0952ed287d773bc75b43fd2020249fb0e359) - Rename files in fibonacci mod
+- [46564f0](https://github.com/rodmoioliveira/algorithms/commit/46564f006497ddf5c61063c51fb6bde06e03d11f) - Invert module_path!() position in eprintln!()
+- [e7c6cbf](https://github.com/rodmoioliveira/algorithms/commit/e7c6cbf1d4c4157d537df69bd14cc608f40b8600) - Bump version
+
+### Releases
+
+- [9c87482](https://github.com/rodmoioliveira/algorithms/commit/9c874820884631511a795d1a9332a06667dbdd46) - 0.3.2
+
 ## [0.3.2](https://github.com/rodmoioliveira/algorithms/compare/0.3.1...0.3.2) - 2024-11-26
 
 [687a2e7](https://github.com/rodmoioliveira/algorithms/commit/687a2e7e8c5a6b1c8d0e27dfa7e8320f60c1489b)...[7d2e318](https://github.com/rodmoioliveira/algorithms/commit/7d2e3182d60769f4625f076c7349dd0adbb00ca5)
