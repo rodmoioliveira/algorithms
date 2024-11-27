@@ -12,7 +12,7 @@
 // Note:
 //
 //     The input will be generated such that the operation is always possible.
-//     It can be shown that the resulting string will always be unique.
+//     It can be shown that the resing string will always be unique.
 //
 // Example 1:
 //
@@ -52,11 +52,8 @@ pub fn remove_stars(s: String) -> String {
 
 pub fn testcase() {
     let s = String::from("leet**cod*e");
-    let result = remove_stars(s);
-    eprintln!(
-        "leetcode/0002390_removing_stars_from_a_string: {:?}",
-        result
-    );
+    let res = remove_stars(s);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -66,16 +63,16 @@ mod tests {
     #[test]
     fn test_1() {
         let s = String::from("leet**cod*e");
-        let result = remove_stars(s);
+        let res = remove_stars(s);
         let expected = String::from("lecoe");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let s = String::from("erase*****");
-        let result = remove_stars(s);
+        let res = remove_stars(s);
         let expected = String::from("");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

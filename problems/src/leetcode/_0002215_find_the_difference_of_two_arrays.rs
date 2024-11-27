@@ -46,12 +46,8 @@ pub fn find_difference(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<Vec<i32>> {
 pub fn testcase() {
     let nums1 = vec![1, 2, 3];
     let nums2 = vec![2, 4, 6];
-    let result = find_difference(nums1, nums2);
-
-    eprintln!(
-        "leetcode/0002215_find_the_difference_of_two_arrays: {:?}",
-        result
-    );
+    let res = find_difference(nums1, nums2);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -63,7 +59,7 @@ mod tests {
     fn test_1() {
         let nums1 = vec![1, 2, 3];
         let nums2 = vec![2, 4, 6];
-        let result = find_difference(nums1, nums2)
+        let res = find_difference(nums1, nums2)
             .into_iter()
             .map(HashSet::from_iter)
             .collect::<Vec<HashSet<i32>>>();
@@ -71,14 +67,14 @@ mod tests {
             .into_iter()
             .map(HashSet::from_iter)
             .collect::<Vec<HashSet<i32>>>();
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let nums1 = vec![1, 2, 3, 3];
         let nums2 = vec![1, 1, 2, 2];
-        let result = find_difference(nums1, nums2)
+        let res = find_difference(nums1, nums2)
             .into_iter()
             .map(HashSet::from_iter)
             .collect::<Vec<HashSet<i32>>>();
@@ -86,6 +82,6 @@ mod tests {
             .into_iter()
             .map(HashSet::from_iter)
             .collect::<Vec<HashSet<i32>>>();
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

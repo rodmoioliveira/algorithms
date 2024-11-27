@@ -34,8 +34,8 @@ pub fn single_number(nums: Vec<i32>) -> i32 {
 
 pub fn testcase() {
     let nums = vec![2, 2, 1];
-    let result = single_number(nums);
-    eprintln!("leetcode/0000136_single_number: {:?}", result);
+    let res = single_number(nums);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -45,24 +45,24 @@ mod tests {
     #[test]
     fn test_1() {
         let nums = vec![2, 2, 1];
-        let result = single_number(nums);
+        let res = single_number(nums);
         let expected = 1;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let nums = vec![4, 1, 2, 1, 2];
-        let result = single_number(nums);
+        let res = single_number(nums);
         let expected = 4;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let nums = vec![1];
-        let result = single_number(nums);
+        let res = single_number(nums);
         let expected = 1;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

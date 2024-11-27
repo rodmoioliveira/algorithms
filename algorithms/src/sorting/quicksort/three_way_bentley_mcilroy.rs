@@ -109,7 +109,7 @@ pub fn three_way_bentley_mcilroy<T: Copy + Ord>(a: &mut [T]) {
 pub fn example() {
     let mut res = vec![13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11];
     three_way_bentley_mcilroy(&mut res);
-    eprintln!("{res:?} sorting::quicksort::three_way_bentley_mcilroy");
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]

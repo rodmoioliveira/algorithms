@@ -56,8 +56,8 @@ pub fn pivot_index(nums: Vec<i32>) -> i32 {
 
 pub fn testcase() {
     let nums = vec![1, 7, 3, 6, 5, 6];
-    let result = pivot_index(nums);
-    eprintln!("leetcode/0000724_find_pivot_index: {:?}", result);
+    let res = pivot_index(nums);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -67,56 +67,56 @@ mod tests {
     #[test]
     fn test_1() {
         let nums = vec![1, 7, 3, 6, 5, 6];
-        let result = pivot_index(nums);
+        let res = pivot_index(nums);
         let expected = 3;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let nums = vec![1, 2, 3];
-        let result = pivot_index(nums);
+        let res = pivot_index(nums);
         let expected = -1;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let nums = vec![2, 1, -1];
-        let result = pivot_index(nums);
+        let res = pivot_index(nums);
         let expected = 0;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_4() {
         let nums = vec![-1, -1, -1, -1, -1, -1];
-        let result = pivot_index(nums);
+        let res = pivot_index(nums);
         let expected = -1;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_5() {
         let nums = vec![-1, -1, -1, -1, -1, -1, -1];
-        let result = pivot_index(nums);
+        let res = pivot_index(nums);
         let expected = 3;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_6() {
         let nums = vec![-3, -1, -1, -1, -1];
-        let result = pivot_index(nums);
+        let res = pivot_index(nums);
         let expected = 1;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_7() {
         let nums = vec![-1, -1, 0, 1, 1, 0];
-        let result = pivot_index(nums);
+        let res = pivot_index(nums);
         let expected = 5;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

@@ -44,8 +44,8 @@ pub fn reverse_words(s: String) -> String {
 
 pub fn testcase() {
     let s = String::from("the sky is blue");
-    let result = reverse_words(s);
-    eprintln!("leetcode/0000151_reverse_words_in_a_string: {:?}", result);
+    let res = reverse_words(s);
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
@@ -55,18 +55,18 @@ mod tests {
     #[test]
     fn test_1() {
         let s = String::from("the sky is blue");
-        let result = reverse_words(s);
+        let res = reverse_words(s);
         let expected = String::from("blue is sky the");
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let s = String::from("  hello world  ");
-        let result = reverse_words(s);
+        let res = reverse_words(s);
         let expected = String::from("world hello");
         assert_eq!(
-            result, expected,
+            res, expected,
             "Your reversed string should not contain leading or trailing spaces."
         );
     }
@@ -74,8 +74,8 @@ mod tests {
     #[test]
     fn test_3() {
         let s = String::from("a good   example");
-        let result = reverse_words(s);
+        let res = reverse_words(s);
         let expected = String::from("example good a");
-        assert_eq!(result, expected, "You need to reduce multiple spaces between two words to a single space in the reversed string.");
+        assert_eq!(res, expected, "You need to reduce multiple spaces between two words to a single space in the reversed string.");
     }
 }

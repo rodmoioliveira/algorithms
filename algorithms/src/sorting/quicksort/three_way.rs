@@ -78,7 +78,7 @@ pub fn three_way<T: Copy + Ord>(a: &mut [T]) {
 pub fn example() {
     let mut res = vec![13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11];
     three_way(&mut res);
-    eprintln!("{res:?} sorting::quicksort::three_way");
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]
