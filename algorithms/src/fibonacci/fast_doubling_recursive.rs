@@ -4,30 +4,41 @@
 // - Nayuki. Fast Fibonacci algorithms. https://www.nayuki.io/page/fast-fibonacci-algorithms
 // - [ADM] Skiena, Steven S. The Algorithm Design Manual. Third Edition, 2020, ISBN 978-3-030-54255-9.
 //
-// [ADM, 312]
-// More careful study shows that we do not need to store all the intermediate values for the entire
-// period of execution. Because the recurrence depends on two arguments, we only need to retain the
-// last two values we have seen.
-//
 // ANALYSIS:
-// Time Complexity: O(n)
-// Space Complexity: O(1)
+// Time Complexity: O(log n)
+// Space Complexity: O(log n), if we consider the function call stack size, otherwise O(1)
 //
-pub fn fibonacci(n: usize) -> usize {
+// [https://www.longluo.me/blog/2022/01/29/fibonacci-sequence/#solution-8-ologn-time]
+// if n is even then k = n/2 giving F(n) = (2F(k - 1) + F(k)) * F(k)
+// else n is odd then (n + 1)/2  giving  F(n) = F(k)*F(k) + F(k - 1)*F(k - 1)
+//
+// [https://www.nayuki.io/page/fast-fibonacci-algorithms]
+// These identities can be extracted from the matrix exponentiation algorithm. In a sense, this
+// algorithm is the matrix exponentiation algorithm with the redundant calculations removed. It
+// should be a constant factor faster than matrix exponentiation, but the asymptotic time
+// complexity is still the same.
+//
+fn _fibonacci(n: usize, memo: &mut [usize]) -> usize {
     if n < 2 {
         return n;
     }
 
-    let mut memo = [0; 3];
-    memo[0] = 0;
-    memo[1] = 1;
-
-    for _ in 2..=n {
-        memo[2] = memo[0] + memo[1];
-        memo[0] = memo[1];
-        memo[1] = memo[2];
+    if memo[n] != 0 {
+        return memo[n];
     }
-    memo[2]
+
+    let k = if (n & 1) == 1 { (n + 1) / 2 } else { n / 2 };
+    memo[n] = if (n & 1) == 1 {
+        _fibonacci(k, memo) * _fibonacci(k, memo)
+            + _fibonacci(k - 1, memo) * _fibonacci(k - 1, memo)
+    } else {
+        (2 * _fibonacci(k - 1, memo) + _fibonacci(k, memo)) * _fibonacci(k, memo)
+    };
+    memo[n]
+}
+
+pub fn fibonacci(n: usize) -> usize {
+    _fibonacci(n, &mut vec![0; n + 1])
 }
 
 pub fn example() {
