@@ -54,7 +54,7 @@ pub fn reverse_vowels(s: String) -> String {
 pub fn testcase() {
     let s = String::from("IceCreAm");
     let res = reverse_vowels(s);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

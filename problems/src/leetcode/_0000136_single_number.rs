@@ -35,7 +35,7 @@ pub fn single_number(nums: Vec<i32>) -> i32 {
 pub fn testcase() {
     let nums = vec![2, 2, 1];
     let res = single_number(nums);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

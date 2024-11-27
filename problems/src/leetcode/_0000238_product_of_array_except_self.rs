@@ -64,7 +64,7 @@ pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
 pub fn testcase() {
     let nums = vec![1, 2, 3, 4];
     let res = product_except_self(nums);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

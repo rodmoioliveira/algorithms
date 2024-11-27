@@ -24,7 +24,7 @@ pub fn accum(s: &str) -> String {
 pub fn testcase() {
     let s = "abcd";
     let res = accum(s);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

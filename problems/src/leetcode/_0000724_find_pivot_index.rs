@@ -57,7 +57,7 @@ pub fn pivot_index(nums: Vec<i32>) -> i32 {
 pub fn testcase() {
     let nums = vec![1, 7, 3, 6, 5, 6];
     let res = pivot_index(nums);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]

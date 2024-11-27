@@ -45,7 +45,7 @@ pub fn testcase() {
     let flowerbed = vec![1, 0, 0, 0, 1];
     let n = 1;
     let res = can_place_flowers(flowerbed, n);
-    eprintln!("{:?} {}", res, module_path!());
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]
