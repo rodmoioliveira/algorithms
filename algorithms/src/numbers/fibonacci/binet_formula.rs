@@ -16,7 +16,7 @@ pub fn fibonacci(n: usize) -> usize {
     let n_f32 = n as f32;
     let sqrt_5: f32 = f32::sqrt(5_f32);
     let fib_n: f32 =
-        f32::powf((1.0 + sqrt_5) / 2_f32, n_f32) - f32::powf((1_f32 - sqrt_5) / 2.0, n_f32);
+        f32::powf((1_f32 + sqrt_5) / 2_f32, n_f32) - f32::powf((1_f32 - sqrt_5) / 2_f32, n_f32);
     f32::round(fib_n / sqrt_5) as usize
 }
 
