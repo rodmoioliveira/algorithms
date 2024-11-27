@@ -1,4 +1,5 @@
 fn fibonacci() {
+    algorithms::fibonacci::binet_formula::example();
     algorithms::fibonacci::bottom_up::example();
     algorithms::fibonacci::bottom_up_space_optimized::example();
     algorithms::fibonacci::lookup_table::example();
