@@ -1,3 +1,4 @@
+pub mod binet_formula;
 pub mod bottom_up;
 pub mod bottom_up_space_optimized;
 pub mod lookup_table;
