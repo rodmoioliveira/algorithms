@@ -2,7 +2,10 @@ fn fibonacci() {
     algorithms::fibonacci::binet_formula::example();
     algorithms::fibonacci::bottom_up::example();
     algorithms::fibonacci::bottom_up_space_optimized::example();
+    algorithms::fibonacci::fast_doubling_recursive::example();
     algorithms::fibonacci::lookup_table::example();
+    algorithms::fibonacci::matrix_exponentiation_optimized::example();
+    algorithms::fibonacci::matrix_exponentiation_recursive::example();
     algorithms::fibonacci::recursive::example();
     algorithms::fibonacci::top_down_memoized::example();
 }

@@ -4,30 +4,45 @@
 // - Nayuki. Fast Fibonacci algorithms. https://www.nayuki.io/page/fast-fibonacci-algorithms
 // - [ADM] Skiena, Steven S. The Algorithm Design Manual. Third Edition, 2020, ISBN 978-3-030-54255-9.
 //
-// [ADM, 312]
-// More careful study shows that we do not need to store all the intermediate values for the entire
-// period of execution. Because the recurrence depends on two arguments, we only need to retain the
-// last two values we have seen.
-//
 // ANALYSIS:
-// Time Complexity: O(n)
-// Space Complexity: O(1)
+// Time Complexity: O(log n)
+// Space Complexity: O(log n), if we consider the function call stack size, otherwise O(1)
 //
 pub fn fibonacci(n: usize) -> usize {
     if n < 2 {
         return n;
     }
 
-    let mut memo = [0; 3];
-    memo[0] = 0;
-    memo[1] = 1;
+    let mut _n = n;
+    let mut l_matrix = [[1, 1], [1, 0]];
+    let res = matrix_pow(&mut l_matrix, &mut (_n - 1));
+    res[0][0]
+}
 
-    for _ in 2..=n {
-        memo[2] = memo[0] + memo[1];
-        memo[0] = memo[1];
-        memo[1] = memo[2];
+fn matrix_mult(l_matrix: [[usize; 2]; 2], r_matrix: [[usize; 2]; 2]) -> [[usize; 2]; 2] {
+    let mut res = [[0, 0], [0, 0]];
+    for i in 0..2 {
+        for j in 0..2 {
+            res[i][j] = l_matrix[i][0] * r_matrix[0][j] + l_matrix[i][1] * r_matrix[1][j];
+        }
     }
-    memo[2]
+    res
+}
+
+// [https://www.longluo.me/blog/2022/01/29/fibonacci-sequence/#solution-7-fast-matrix-poweroptimized-method-6]
+// The key here is to compute `l_matrix^n` using the successive square method. Using this
+// algorithm, `l_matrix^n` is computed in O(log n) time (Note that for a fixed matrix size, the
+// matrix muliplication algorithm takes a constant amount of time).
+fn matrix_pow(l_matrix: &mut [[usize; 2]; 2], n: &mut usize) -> [[usize; 2]; 2] {
+    let mut res = [[1, 0], [0, 1]];
+    while *n > 0 {
+        if (*n & 1) == 1 {
+            res = matrix_mult(res, *l_matrix);
+        }
+        *n >>= 1;
+        *l_matrix = matrix_mult(*l_matrix, *l_matrix);
+    }
+    res
 }
 
 pub fn example() {

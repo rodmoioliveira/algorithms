@@ -25,7 +25,7 @@ pub fn fibonacci(n: usize) -> usize {
 pub fn example() {
     let n = 20;
     let res = fibonacci(n);
-    eprintln!("[{res}] fibonacci::lookup_table");
+    eprintln!("{:?} {}", res, module_path!());
 }
 
 #[cfg(test)]

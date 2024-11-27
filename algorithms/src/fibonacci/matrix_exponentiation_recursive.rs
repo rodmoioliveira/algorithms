@@ -4,11 +4,6 @@
 // - Nayuki. Fast Fibonacci algorithms. https://www.nayuki.io/page/fast-fibonacci-algorithms
 // - [ADM] Skiena, Steven S. The Algorithm Design Manual. Third Edition, 2020, ISBN 978-3-030-54255-9.
 //
-// [ADM, 312]
-// More careful study shows that we do not need to store all the intermediate values for the entire
-// period of execution. Because the recurrence depends on two arguments, we only need to retain the
-// last two values we have seen.
-//
 // ANALYSIS:
 // Time Complexity: O(n)
 // Space Complexity: O(1)
@@ -18,16 +13,27 @@ pub fn fibonacci(n: usize) -> usize {
         return n;
     }
 
-    let mut memo = [0; 3];
-    memo[0] = 0;
-    memo[1] = 1;
+    let mut l_matrix = [[1, 1], [1, 0]];
+    matrix_pow(&mut l_matrix, n - 1);
+    l_matrix[0][0]
+}
 
+fn matrix_mult(l_matrix: &mut [[usize; 2]; 2], r_matrix: [[usize; 2]; 2]) {
+    let x = l_matrix[0][0] * r_matrix[0][0] + l_matrix[0][1] * r_matrix[1][0];
+    let y = l_matrix[0][0] * r_matrix[0][1] + l_matrix[0][1] * r_matrix[1][1];
+    let z = l_matrix[1][0] * r_matrix[0][0] + l_matrix[1][1] * r_matrix[1][0];
+    let w = l_matrix[1][0] * r_matrix[0][1] + l_matrix[1][1] * r_matrix[1][1];
+
+    l_matrix[0][0] = x;
+    l_matrix[0][1] = y;
+    l_matrix[1][0] = z;
+    l_matrix[1][1] = w;
+}
+
+fn matrix_pow(l_matrix: &mut [[usize; 2]; 2], n: usize) {
     for _ in 2..=n {
-        memo[2] = memo[0] + memo[1];
-        memo[0] = memo[1];
-        memo[1] = memo[2];
+        matrix_mult(l_matrix, [[1, 1], [1, 0]]);
     }
-    memo[2]
 }
 
 pub fn example() {
