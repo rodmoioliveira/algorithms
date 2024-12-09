@@ -41,6 +41,7 @@ algorithms_list() {
     grep mod -v |
     grep utils -v |
     grep main -v |
+    grep my_benchmark -v |
     grep lib -v |
     sort |
     sed 's@algorithms/src/@@g' |
@@ -53,6 +54,7 @@ problems_list() {
     grep mod -v |
     grep utils -v |
     grep main -v |
+    grep my_benchmark -v |
     grep lib -v |
     sort |
     sed 's@problems/src/@@g' |
