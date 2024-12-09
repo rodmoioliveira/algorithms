@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.5.0](https://github.com/rodmoioliveira/algorithms/compare/0.4.0...0.5.0) - 2024-12-09
+
+[e7c6cbf](https://github.com/rodmoioliveira/algorithms/commit/e7c6cbf1d4c4157d537df69bd14cc608f40b8600)...[a5ed66c](https://github.com/rodmoioliveira/algorithms/commit/a5ed66ce700d282347b3acd0d1dbff32c0d4581b)
+
+### Bug Fixes
+
+- [f9dc8aa](https://github.com/rodmoioliveira/algorithms/commit/f9dc8aa43ae91510ef2efb8a7697f3cd5092ba4a) - Fix Luo reference in fibonacci algorithms
+
+### CI
+
+- [a9eb10e](https://github.com/rodmoioliveira/algorithms/commit/a9eb10e7b0f15d57e16789d9532b97221814662f) - Fix typos
+
+### Features
+
+- [d3a2409](https://github.com/rodmoioliveira/algorithms/commit/d3a2409c522491dd47ce3c01f920b22847b876ba) - Add benchmarks for fibonacci algorithms
+- [7a06981](https://github.com/rodmoioliveira/algorithms/commit/7a06981c7a637ef83277a7d1a8facac73ff0d045) - Add leetcode 334 to problems
+- [a7a7d85](https://github.com/rodmoioliveira/algorithms/commit/a7a7d852d7cb3e102f521304da50bc810740bc6a) - Add leetcode 283 to problems
+
+### Miscellaneous Tasks
+
+- [2d9a2b0](https://github.com/rodmoioliveira/algorithms/commit/2d9a2b0e4d18602db4758c122d63ccfcffeadafd) - Represent float as {n}_f32
+- [a5ed66c](https://github.com/rodmoioliveira/algorithms/commit/a5ed66ce700d282347b3acd0d1dbff32c0d4581b) - Bump version
+
+### Releases
+
+- [33203b2](https://github.com/rodmoioliveira/algorithms/commit/33203b24aa27ca74e6e0b79c01ff20a4491fc75b) - 0.4.0
+
 ## [0.4.0](https://github.com/rodmoioliveira/algorithms/compare/0.3.2...0.4.0) - 2024-11-27
 
 [7d2e318](https://github.com/rodmoioliveira/algorithms/commit/7d2e3182d60769f4625f076c7349dd0adbb00ca5)...[e7c6cbf](https://github.com/rodmoioliveira/algorithms/commit/e7c6cbf1d4c4157d537df69bd14cc608f40b8600)
