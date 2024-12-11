@@ -20,13 +20,37 @@
 //     -231 <= nums[i] <= 231 - 1
 //
 // Follow up: Could you minimize the total number of operations done?
-// ---
-pub fn move_zeroes(nums: &mut [i32]) {
+//
+// ======================
+// Previous Approaches
+// ======================
+pub fn _move_zeroes_previous_approach_1(nums: &mut [i32]) {
     let mut j = 0;
     for i in 0..nums.len() {
         if nums[i] != 0 {
             nums.swap(i, j);
             j += 1;
+        }
+    }
+}
+// ---
+pub fn move_zeroes(nums: &mut [i32]) {
+    let mut zero = 0;
+    let mut not_zero = 0;
+    let len = nums.len();
+
+    while zero < len && not_zero < len {
+        if zero < not_zero {
+            nums.swap(not_zero, zero);
+        } else {
+            not_zero += 1;
+        }
+
+        while zero < len && nums[zero] != 0 {
+            zero += 1;
+        }
+        while not_zero < len && nums[not_zero] == 0 {
+            not_zero += 1;
         }
     }
 }
@@ -76,9 +100,25 @@ mod tests {
 
     #[test]
     fn test_5() {
+        let mut nums = vec![1, 3, 12, 0, 1, 0];
+        move_zeroes(&mut nums);
+        let expected = vec![1, 3, 12, 1, 0, 0];
+        assert_eq!(nums, expected);
+    }
+
+    #[test]
+    fn test_6() {
         let mut nums = vec![0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1];
         move_zeroes(&mut nums);
         let expected = vec![1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        assert_eq!(nums, expected);
+    }
+
+    #[test]
+    fn test_7() {
+        let mut nums = vec![1, 2, 3, 4, 5];
+        move_zeroes(&mut nums);
+        let expected = vec![1, 2, 3, 4, 5];
         assert_eq!(nums, expected);
     }
 }
