@@ -6,6 +6,7 @@ fn main() {
     problems::leetcode::_0000283_move_zeroes::testcase();
     problems::leetcode::_0000334_increasing_triplet_subsequence::testcase();
     problems::leetcode::_0000345_reverse_vowels_of_a_string::testcase();
+    problems::leetcode::_0000392_is_subsequence::testcase();
     problems::leetcode::_0000605_can_place_flowers::testcase();
     problems::leetcode::_0000724_find_pivot_index::testcase();
     problems::leetcode::_0001207_unique_number_of_occurrences::testcase();
