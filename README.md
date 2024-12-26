@@ -38,6 +38,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
   - [leetcode/_0000283_move_zeroes](/problems/src/leetcode/_0000283_move_zeroes.rs)
   - [leetcode/_0000334_increasing_triplet_subsequence](/problems/src/leetcode/_0000334_increasing_triplet_subsequence.rs)
   - [leetcode/_0000345_reverse_vowels_of_a_string](/problems/src/leetcode/_0000345_reverse_vowels_of_a_string.rs)
+  - [leetcode/_0000392_is_subsequence](/problems/src/leetcode/_0000392_is_subsequence.rs)
   - [leetcode/_0000605_can_place_flowers](/problems/src/leetcode/_0000605_can_place_flowers.rs)
   - [leetcode/_0000724_find_pivot_index](/problems/src/leetcode/_0000724_find_pivot_index.rs)
   - [leetcode/_0001207_unique_number_of_occurrences](/problems/src/leetcode/_0001207_unique_number_of_occurrences.rs)

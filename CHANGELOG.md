@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.5.1](https://github.com/rodmoioliveira/algorithms/compare/0.5.0...0.5.1) - 2024-12-26
+
+[a5ed66c](https://github.com/rodmoioliveira/algorithms/commit/a5ed66ce700d282347b3acd0d1dbff32c0d4581b)...[df384b2](https://github.com/rodmoioliveira/algorithms/commit/df384b2513cde59fca348257ce735976b9bf82f3)
+
+### Features
+
+- [1cb4f8b](https://github.com/rodmoioliveira/algorithms/commit/1cb4f8bbd1f0e8a8eee56ba6e7a513c9aa4ab48f) - Add better approach to leetcode 283 problem
+- [59b0677](https://github.com/rodmoioliveira/algorithms/commit/59b06775ace10690540961f62ff4bb81d8788d9c) - Add leetcode 392 to problems
+
+### Releases
+
+- [a5b2304](https://github.com/rodmoioliveira/algorithms/commit/a5b23044624e0f301c89f7c8ec5531aa84f08e5a) - 0.5.0
+- [df384b2](https://github.com/rodmoioliveira/algorithms/commit/df384b2513cde59fca348257ce735976b9bf82f3) - Bump version
+
 ## [0.5.0](https://github.com/rodmoioliveira/algorithms/compare/0.4.0...0.5.0) - 2024-12-09
 
 [e7c6cbf](https://github.com/rodmoioliveira/algorithms/commit/e7c6cbf1d4c4157d537df69bd14cc608f40b8600)...[a5ed66c](https://github.com/rodmoioliveira/algorithms/commit/a5ed66ce700d282347b3acd0d1dbff32c0d4581b)
