@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.5.2](https://github.com/rodmoioliveira/algorithms/compare/0.5.1...0.5.2) - 2025-01-16
+
+[df384b2](https://github.com/rodmoioliveira/algorithms/commit/df384b2513cde59fca348257ce735976b9bf82f3)...[f1b2340](https://github.com/rodmoioliveira/algorithms/commit/f1b2340eee42015b268c70b16970cc595c84ce25)
+
+### Bug Fixes
+
+- [6a739a6](https://github.com/rodmoioliveira/algorithms/commit/6a739a6e1e159d9b8fee5bbfdf94054c0e4ea337) - Add LC_ALL=C to sort
+- [236012d](https://github.com/rodmoioliveira/algorithms/commit/236012d62b2a33ec9fd6a21d14426e7e2e76aea4) - Remove diacritics from index
+
+### Releases
+
+- [fc56168](https://github.com/rodmoioliveira/algorithms/commit/fc56168e1d3bc70c9563b57db30e06ec09bbb044) - 0.5.1
+- [f1b2340](https://github.com/rodmoioliveira/algorithms/commit/f1b2340eee42015b268c70b16970cc595c84ce25) - Bump version
+
 ## [0.5.1](https://github.com/rodmoioliveira/algorithms/compare/0.5.0...0.5.1) - 2024-12-26
 
 [a5ed66c](https://github.com/rodmoioliveira/algorithms/commit/a5ed66ce700d282347b3acd0d1dbff32c0d4581b)...[df384b2](https://github.com/rodmoioliveira/algorithms/commit/df384b2513cde59fca348257ce735976b9bf82f3)
