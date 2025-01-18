@@ -67,7 +67,6 @@ help                   Display this help screen
 makefile-descriptions  Check if all Makefile rules have descriptions
 rs-audit               Audit Cargo.lock
 rs-audit-fix           Update Cargo.toml to fix vulnerable dependency requirement
-rs-build               Build binary
 rs-cargo-deps          Install cargo dependencies
 rs-check               Run check
 rs-dev                 Run check in watch mode
@@ -75,13 +74,10 @@ rs-doc                 Open app documentation
 rs-fix                 Fix rust code
 rs-fmt                 Format rust code
 rs-fmt-fix             Format fix rust code
-rs-install             Install binary
 rs-lint                Lint rust code
 rs-lint-fix            Fix lint rust code
 rs-outdated            Display when dependencies are out of date
-rs-run                 Run rust code
 rs-tests               Run tests
-rs-uninstall           Uninstall binary
 rs-update-cargo        Update dependencies
 rs-update-rustup       Update rust
 typos                  Check typos
@@ -94,7 +90,7 @@ typos-fix              Fix typos
 
 To generate a new version, you need to follow these steps:
 
-1. In the `main` branch, you must bump the version inside the `Cargo.toml` file.
+1. In the `main` branch, you must bump the version inside the `Cargo.toml` files.
 2. Run `make rs-check` so that the version is changed in the `Cargo.lock` file.
 3. Run the command `git add -A && git commit -m "release: bump version"`.
 4. Run the command `git tag -a <your.new.version> -m "version <your.new.version>"`.

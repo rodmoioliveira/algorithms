@@ -44,13 +44,9 @@ rs-audit: ## Audit Cargo.lock
 rs-audit-fix: ## Update Cargo.toml to fix vulnerable dependency requirement
 	@cargo audit fix
 
-rs-build: ## Build binary
-	@cargo build --release --locked --frozen --bins
-
 rs-cargo-deps: ## Install cargo dependencies
 	@cargo install --locked cargo-outdated
 	@cargo install cargo-audit --features=fix
-	@cargo install cargo-udeps --locked
 	@cargo install cargo-watch
 	@cargo install typos-cli
 	@rustup component add clippy
@@ -73,9 +69,6 @@ rs-fmt: ## Format rust code
 rs-fmt-fix: ## Format fix rust code
 	@cargo fmt --all
 
-rs-install: ## Install binary
-	@cargo install --path .
-
 rs-lint: ## Lint rust code
 	@cargo clippy --workspace --all-targets --all-features --no-deps -- -D warnings
 
@@ -85,14 +78,8 @@ rs-lint-fix: ## Fix lint rust code
 rs-outdated: ## Display when dependencies are out of date
 	@cargo outdated -wR
 
-rs-run: ## Run rust code
-	@cargo run --bin algorithms && cargo run --bin problems
-
 rs-tests: ## Run tests
 	@cargo test
-
-rs-uninstall: ## Uninstall binary
-	@cargo uninstall
 
 rs-update-cargo: ## Update dependencies
 	@cargo update
@@ -120,7 +107,6 @@ typos-fix: ## Fix typos
 .PHONY: makefile-descriptions
 .PHONY: rs-audit
 .PHONY: rs-audit-fix
-.PHONY: rs-build
 .PHONY: rs-cargo-deps
 .PHONY: rs-check
 .PHONY: rs-dev
@@ -128,13 +114,10 @@ typos-fix: ## Fix typos
 .PHONY: rs-fix
 .PHONY: rs-fmt
 .PHONY: rs-fmt-fix
-.PHONY: rs-install
 .PHONY: rs-lint
 .PHONY: rs-lint-fix
 .PHONY: rs-outdated
-.PHONY: rs-run
 .PHONY: rs-tests
-.PHONY: rs-uninstall
 .PHONY: rs-update-cargo
 .PHONY: rs-update-rustup
 .PHONY: typos
