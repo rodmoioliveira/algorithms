@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.6.0](https://github.com/rodmoioliveira/algorithms/compare/0.5.2...0.6.0) - 2025-01-18
+
+[f1b2340](https://github.com/rodmoioliveira/algorithms/commit/f1b2340eee42015b268c70b16970cc595c84ce25)...[f398c35](https://github.com/rodmoioliveira/algorithms/commit/f398c35765b33e1955c85b01881f034c31e5fd88)
+
+### Bug Fixes
+
+- [63f4c51](https://github.com/rodmoioliveira/algorithms/commit/63f4c515cda16c95441b82f16121e18c8c1818ab) - Revert remove diacritics from index
+
+### CI
+
+- [7a9ebfe](https://github.com/rodmoioliveira/algorithms/commit/7a9ebfef290c657c41e85849a910979c1c291913) - Add makefile and dprint
+- [5117d1d](https://github.com/rodmoioliveira/algorithms/commit/5117d1d1d39f20af86982add1af5cae00507527d) - Remove unused recipes from Makefile
+
+### Miscellaneous Tasks
+
+- [ce19cd5](https://github.com/rodmoioliveira/algorithms/commit/ce19cd50d197fb53a1763ddf7e324a3cf99f902d) - Run dprint fmt
+
+### Releases
+
+- [8167d3f](https://github.com/rodmoioliveira/algorithms/commit/8167d3fc3ba0ab2822be9fc41b782c08abf4ac44) - 0.5.2
+- [f398c35](https://github.com/rodmoioliveira/algorithms/commit/f398c35765b33e1955c85b01881f034c31e5fd88) - Bump version
+
 ## [0.5.2](https://github.com/rodmoioliveira/algorithms/compare/0.5.1...0.5.2) - 2025-01-16
 
 [df384b2](https://github.com/rodmoioliveira/algorithms/commit/df384b2513cde59fca348257ce735976b9bf82f3)...[f1b2340](https://github.com/rodmoioliveira/algorithms/commit/f1b2340eee42015b268c70b16970cc595c84ce25)
