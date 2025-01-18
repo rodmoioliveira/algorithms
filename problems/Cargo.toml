@@ -1,6 +1,6 @@
 [package]
-    name = "problems"
-    version = "0.5.2"
-    edition = "2021"
+name = "problems"
+version = "0.5.2"
+edition = "2021"
 
 [dependencies]
