@@ -83,6 +83,10 @@ $(problems_list)
 \`\`\`
 $(make help)
 \`\`\`
+
+# How to Release
+
+$(cat HOW_TO_RELEASE.md)
 EOF
 
   sed -i -E '/^make\[[0-9]/d' README.md
