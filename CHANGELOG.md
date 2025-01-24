@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.7.0](https://github.com/rodmoioliveira/algorithms/compare/0.6.0...0.7.0) - 2025-01-24
+
+[f398c35](https://github.com/rodmoioliveira/algorithms/commit/f398c35765b33e1955c85b01881f034c31e5fd88)...[b36eb75](https://github.com/rodmoioliveira/algorithms/commit/b36eb750151fb9bf53fddb522eba7148769070ad)
+
+### Documentation
+
+- [ddd23d4](https://github.com/rodmoioliveira/algorithms/commit/ddd23d42dfabb78531113047e58f7596aac32157) - Fix typo in Makefile
+
+### Features
+
+- [b36eb75](https://github.com/rodmoioliveira/algorithms/commit/b36eb750151fb9bf53fddb522eba7148769070ad) - Add hacker gh-page theme
+
+### Miscellaneous Tasks
+
+- [38d8d48](https://github.com/rodmoioliveira/algorithms/commit/38d8d48e922f46380d26bac30b56e2183188878f) - Rename HOW_TO_RELEASE to RELEASE
+
+### Releases
+
+- [5d1c789](https://github.com/rodmoioliveira/algorithms/commit/5d1c789b7826c47d68f698e68b140887b2ca8869) - 0.6.0
+
 ## [0.6.0](https://github.com/rodmoioliveira/algorithms/compare/0.5.2...0.6.0) - 2025-01-18
 
 [f1b2340](https://github.com/rodmoioliveira/algorithms/commit/f1b2340eee42015b268c70b16970cc595c84ce25)...[f398c35](https://github.com/rodmoioliveira/algorithms/commit/f398c35765b33e1955c85b01881f034c31e5fd88)
