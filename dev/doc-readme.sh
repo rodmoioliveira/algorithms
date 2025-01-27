@@ -46,7 +46,7 @@ algorithms_list() {
     sort |
     sed 's@algorithms/src/@@g' |
     sed -E 's/\.rs$//g' |
-    sed -E 's@(.+)@  - [\1](/algorithms/src/\1.rs)@g'
+    sed -E 's@(.+)@  - [\1](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/\1.rs)@g'
 }
 
 problems_list() {
@@ -59,7 +59,7 @@ problems_list() {
     sort |
     sed 's@problems/src/@@g' |
     sed -E 's/\.rs$//g' |
-    sed -E 's@(.+)@  - [\1](/problems/src/\1.rs)@g'
+    sed -E 's@(.+)@  - [\1](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/\1.rs)@g'
 }
 
 readme() {
