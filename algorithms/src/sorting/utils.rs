@@ -63,7 +63,10 @@ pub fn generate_nearly_ordered_vec(n: u32, swap_times: u32) -> Vec<i32> {
     let mut count = swap_times;
 
     while count > 0 {
-        arr.swap(rng.random_range(0..n as usize), rng.random_range(0..n as usize));
+        arr.swap(
+            rng.random_range(0..n as usize),
+            rng.random_range(0..n as usize),
+        );
         count -= 1;
     }
 

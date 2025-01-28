@@ -9,6 +9,7 @@ fn main() {
     problems::leetcode::_0000392_is_subsequence::testcase();
     problems::leetcode::_0000605_can_place_flowers::testcase();
     problems::leetcode::_0000724_find_pivot_index::testcase();
+    problems::leetcode::_0000735_asteroid_collision::testcase();
     problems::leetcode::_0001207_unique_number_of_occurrences::testcase();
     problems::leetcode::_0001431_kids_with_the_greatest_number_of_candies::testcase();
     problems::leetcode::_0001768_merge_strings_alternately::testcase();

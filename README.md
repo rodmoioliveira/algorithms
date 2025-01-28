@@ -42,6 +42,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 - [leetcode/_0000392_is_subsequence](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000392_is_subsequence.rs)
 - [leetcode/_0000605_can_place_flowers](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000605_can_place_flowers.rs)
 - [leetcode/_0000724_find_pivot_index](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000724_find_pivot_index.rs)
+- [leetcode/_0000735_asteroid_collision](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000735_asteroid_collision.rs)
 - [leetcode/_0001207_unique_number_of_occurrences](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0001207_unique_number_of_occurrences.rs)
 - [leetcode/_0001431_kids_with_the_greatest_number_of_candies](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0001431_kids_with_the_greatest_number_of_candies.rs)
 - [leetcode/_0001768_merge_strings_alternately](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0001768_merge_strings_alternately.rs)
