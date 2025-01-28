@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.8.0](https://github.com/rodmoioliveira/algorithms/compare/0.7.0...0.8.0) - 2025-01-28
+
+[b36eb75](https://github.com/rodmoioliveira/algorithms/commit/b36eb750151fb9bf53fddb522eba7148769070ad)...[29b7fa7](https://github.com/rodmoioliveira/algorithms/commit/29b7fa73f9e048033a88a71c313f72e310e15617)
+
+### Bug Fixes
+
+- [25d082f](https://github.com/rodmoioliveira/algorithms/commit/25d082fc0d5db3f17173580d804819eabbc819a0) - Fix deprecated function gen_range
+
+### Dependencies
+
+- [d81adeb](https://github.com/rodmoioliveira/algorithms/commit/d81adeb64008dbe1779f6cb60d718c0f64f6eda3) - Bump rand from 0.8.5 to 0.9.0
+
+### Documentation
+
+- [1df6999](https://github.com/rodmoioliveira/algorithms/commit/1df69992364fa6c930cd18b35611db681ffe3e78) - Add absolute links to README
+
+### Features
+
+- [fc0e181](https://github.com/rodmoioliveira/algorithms/commit/fc0e181a61e937030749570d3624652ba13e7e9f) - Add leetcode 735 asteroid collision
+
+### Miscellaneous Tasks
+
+- [3243fda](https://github.com/rodmoioliveira/algorithms/commit/3243fdab46836d2cb0f128083c64aa47cc0f2327) - Remove hacker gh-page theme
+
+### Releases
+
+- [7fb6eca](https://github.com/rodmoioliveira/algorithms/commit/7fb6eca975e3ea3c17947bdf3c28a528f04849d4) - 0.7.0
+- [29b7fa7](https://github.com/rodmoioliveira/algorithms/commit/29b7fa73f9e048033a88a71c313f72e310e15617) - Bump version
+
 ## [0.7.0](https://github.com/rodmoioliveira/algorithms/compare/0.6.0...0.7.0) - 2025-01-24
 
 [f398c35](https://github.com/rodmoioliveira/algorithms/commit/f398c35765b33e1955c85b01881f034c31e5fd88)...[b36eb75](https://github.com/rodmoioliveira/algorithms/commit/b36eb750151fb9bf53fddb522eba7148769070ad)
