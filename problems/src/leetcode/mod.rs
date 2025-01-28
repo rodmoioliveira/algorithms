@@ -3,6 +3,7 @@ pub mod _0000151_reverse_words_in_a_string;
 pub mod _0000238_product_of_array_except_self;
 pub mod _0000283_move_zeroes;
 pub mod _0000334_increasing_triplet_subsequence;
+pub mod _0000338_counting_bits;
 pub mod _0000345_reverse_vowels_of_a_string;
 pub mod _0000392_is_subsequence;
 pub mod _0000605_can_place_flowers;

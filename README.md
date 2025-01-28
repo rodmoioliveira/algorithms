@@ -38,6 +38,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 - [leetcode/_0000238_product_of_array_except_self](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000238_product_of_array_except_self.rs)
 - [leetcode/_0000283_move_zeroes](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000283_move_zeroes.rs)
 - [leetcode/_0000334_increasing_triplet_subsequence](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000334_increasing_triplet_subsequence.rs)
+- [leetcode/_0000338_counting_bits](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000338_counting_bits.rs)
 - [leetcode/_0000345_reverse_vowels_of_a_string](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000345_reverse_vowels_of_a_string.rs)
 - [leetcode/_0000392_is_subsequence](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000392_is_subsequence.rs)
 - [leetcode/_0000605_can_place_flowers](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000605_can_place_flowers.rs)

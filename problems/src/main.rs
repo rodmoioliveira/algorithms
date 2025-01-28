@@ -5,6 +5,7 @@ fn main() {
     problems::leetcode::_0000238_product_of_array_except_self::testcase();
     problems::leetcode::_0000283_move_zeroes::testcase();
     problems::leetcode::_0000334_increasing_triplet_subsequence::testcase();
+    problems::leetcode::_0000338_counting_bits::testcase();
     problems::leetcode::_0000345_reverse_vowels_of_a_string::testcase();
     problems::leetcode::_0000392_is_subsequence::testcase();
     problems::leetcode::_0000605_can_place_flowers::testcase();
