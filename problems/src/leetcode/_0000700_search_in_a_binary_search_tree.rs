@@ -24,6 +24,7 @@
 //
 
 use std::cell::RefCell;
+use std::cmp::Ordering::{Equal, Greater, Less};
 use std::rc::Rc;
 
 // Definition for a binary tree node.
@@ -52,9 +53,9 @@ pub fn search_bst(
 ) -> Option<Rc<RefCell<TreeNode>>> {
     while let Some(node) = root {
         match node.borrow().val.cmp(&val) {
-            std::cmp::Ordering::Less => root = node.borrow().right.clone(),
-            std::cmp::Ordering::Equal => return Some(node.clone()),
-            std::cmp::Ordering::Greater => root = node.borrow().left.clone(),
+            Less => root = node.borrow().right.clone(),
+            Equal => return Some(node.clone()),
+            Greater => root = node.borrow().left.clone(),
         }
     }
     None
@@ -66,11 +67,9 @@ pub fn search_bst_recur(
 ) -> Option<Rc<RefCell<TreeNode>>> {
     if let Some(node) = root {
         match node.borrow().val.cmp(&val) {
-            std::cmp::Ordering::Less => return search_bst_recur(node.borrow().right.clone(), val),
-            std::cmp::Ordering::Equal => return Some(node.clone()),
-            std::cmp::Ordering::Greater => {
-                return search_bst_recur(node.borrow().left.clone(), val)
-            }
+            Less => return search_bst_recur(node.borrow().right.clone(), val),
+            Equal => return Some(node.clone()),
+            Greater => return search_bst_recur(node.borrow().left.clone(), val),
         }
     }
     None
