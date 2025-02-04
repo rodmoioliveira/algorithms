@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.9.0](https://github.com/rodmoioliveira/algorithms/compare/0.8.0...0.9.0) - 2025-02-04
+
+[29b7fa7](https://github.com/rodmoioliveira/algorithms/commit/29b7fa73f9e048033a88a71c313f72e310e15617)...[053f2dc](https://github.com/rodmoioliveira/algorithms/commit/053f2dccfa1e448317f4422a7115c75a7ee43a88)
+
+### Bug Fixes
+
+- [e53d467](https://github.com/rodmoioliveira/algorithms/commit/e53d4676099321a497ec6eb4c6178e2b432ef252) - Fix typo
+
+### Features
+
+- [3e6c6dd](https://github.com/rodmoioliveira/algorithms/commit/3e6c6dd659ac0de9c523ffeed5f660f372d477c3) - Add leetcode 338 counting bits
+- [894d200](https://github.com/rodmoioliveira/algorithms/commit/894d2008de63f22c2665b73399b0a9c9b1583de8) - Add leetcode 700
+
+### Releases
+
+- [111a92e](https://github.com/rodmoioliveira/algorithms/commit/111a92e44ee42c62fe089f7f77e729744db6efac) - 0.8.0
+- [053f2dc](https://github.com/rodmoioliveira/algorithms/commit/053f2dccfa1e448317f4422a7115c75a7ee43a88) - Bump version
+
 ## [0.8.0](https://github.com/rodmoioliveira/algorithms/compare/0.7.0...0.8.0) - 2025-01-28
 
 [b36eb75](https://github.com/rodmoioliveira/algorithms/commit/b36eb750151fb9bf53fddb522eba7148769070ad)...[29b7fa7](https://github.com/rodmoioliveira/algorithms/commit/29b7fa73f9e048033a88a71c313f72e310e15617)
