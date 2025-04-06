@@ -27,7 +27,7 @@ fn _fibonacci(n: usize, memo: &mut [usize]) -> usize {
         return memo[n];
     }
 
-    let k = if (n & 1) == 1 { (n + 1) / 2 } else { n / 2 };
+    let k = if (n & 1) == 1 { n.div_ceil(2) } else { n / 2 };
     memo[n] = if (n & 1) == 1 {
         _fibonacci(k, memo) * _fibonacci(k, memo)
             + _fibonacci(k - 1, memo) * _fibonacci(k - 1, memo)
