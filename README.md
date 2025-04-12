@@ -4,6 +4,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 
 - [Algorithms](#algorithms)
 - [Problems](#problems)
+- [Dependencies](#dependencies)
 - [Make Recipes](#make-recipes)
 - [How to Release](#how-to-release)
 
@@ -50,6 +51,12 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 - [leetcode/_0001768_merge_strings_alternately](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0001768_merge_strings_alternately.rs)
 - [leetcode/_0002215_find_the_difference_of_two_arrays](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0002215_find_the_difference_of_two_arrays.rs)
 - [leetcode/_0002390_removing_stars_from_a_string](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0002390_removing_stars_from_a_string.rs)
+
+# Dependencies
+
+[back^](#index)
+
+- [rand](https://crates.io/crates/rand) - Random number generators and other randomness functionality.
 
 # Make Recipes
 

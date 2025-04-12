@@ -78,6 +78,25 @@ $(algorithms_list)
 
 $(problems_list)
 
+# Dependencies
+
+$(
+    paste -d '@' \
+      <(
+        find "." -mindepth 2 -name "Cargo.toml" -print0 |
+          xargs -0 -n1 yq '.dependencies | keys[]' |
+          sort |
+          sed -E 's@(.+)@- [\1](https://crates.io/crates/\1)@g'
+      ) \
+      <(
+        find "." -mindepth 2 -name "Cargo.toml" -print0 |
+          xargs -0 -n1 yq '.dependencies | keys[]' |
+          sort |
+          xargs -n1 bash -c 'cargo info $0 2>/dev/null | sed -n "2p"'
+      ) |
+      sed 's/@/ - /g'
+  )
+
 # Make Recipes
 
 \`\`\`
