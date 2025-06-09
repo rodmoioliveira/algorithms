@@ -36,6 +36,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 - [codewars/_5667e8f4e3f572a8f2000039_mumbling](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/codewars/_5667e8f4e3f572a8f2000039_mumbling.rs)
 - [leetcode/_0000136_single_number](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000136_single_number.rs)
 - [leetcode/_0000151_reverse_words_in_a_string](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000151_reverse_words_in_a_string.rs)
+- [leetcode/_0000198_house_robber](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000198_house_robber.rs)
 - [leetcode/_0000238_product_of_array_except_self](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000238_product_of_array_except_self.rs)
 - [leetcode/_0000283_move_zeroes](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000283_move_zeroes.rs)
 - [leetcode/_0000334_increasing_triplet_subsequence](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000334_increasing_triplet_subsequence.rs)

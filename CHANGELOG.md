@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.10.0](https://github.com/rodmoioliveira/algorithms/compare/0.9.0...0.10.0) - 2025-06-09
+
+[053f2dc](https://github.com/rodmoioliveira/algorithms/commit/053f2dccfa1e448317f4422a7115c75a7ee43a88)...[bd2dca2](https://github.com/rodmoioliveira/algorithms/commit/bd2dca21a9c373ad8b8b079d392d6914d419c4eb)
+
+### CI
+
+- [d870274](https://github.com/rodmoioliveira/algorithms/commit/d8702747d2e87ff830939cda6c03ab5a0a8dbf86) - Remove webi.sh
+- [9b52561](https://github.com/rodmoioliveira/algorithms/commit/9b5256117f9380c3340b9234c9f48eff54665fac) - Change schedule
+- [2090e64](https://github.com/rodmoioliveira/algorithms/commit/2090e64ba87154cb8bdba77ba342438b53c9b612) - Fix rs-lint
+
+### Dependencies
+
+- [a06375c](https://github.com/rodmoioliveira/algorithms/commit/a06375ca93470d0c2104255402e92d33c562a45b) - Bump rand from 0.9.0 to 0.9.1
+- [74b2666](https://github.com/rodmoioliveira/algorithms/commit/74b26669f8241711f13672040804cc9959c662ce) - Bump criterion from 0.5.1 to 0.6.0
+
+### Documentation
+
+- [8f85045](https://github.com/rodmoioliveira/algorithms/commit/8f85045d62291e06e6ee0d3a0b09b421887770bb) - Add Dependencies section to README
+
+### Features
+
+- [128cd93](https://github.com/rodmoioliveira/algorithms/commit/128cd93f4d4b63815a8ae92de045ff0bb5e0d6f1) - Add leetcode 198 to problems
+
+### Miscellaneous Tasks
+
+- [8e66045](https://github.com/rodmoioliveira/algorithms/commit/8e660455ac50b9615f5a87d57a53fbe582fc4ea0) - Import std::cmp::Ordering in leetcode 700
+
+### Releases
+
+- [75567d5](https://github.com/rodmoioliveira/algorithms/commit/75567d59e15a90017cacfc5d13bf2f6e8ba7d05c) - 0.9.0
+- [bd2dca2](https://github.com/rodmoioliveira/algorithms/commit/bd2dca21a9c373ad8b8b079d392d6914d419c4eb) - Bump version
+
 ## [0.9.0](https://github.com/rodmoioliveira/algorithms/compare/0.8.0...0.9.0) - 2025-02-04
 
 [29b7fa7](https://github.com/rodmoioliveira/algorithms/commit/29b7fa73f9e048033a88a71c313f72e310e15617)...[053f2dc](https://github.com/rodmoioliveira/algorithms/commit/053f2dccfa1e448317f4422a7115c75a7ee43a88)
