@@ -13,7 +13,7 @@ dependencies = [
 
 [[package]]
 name = "algorithms"
-version = "0.9.0"
+version = "0.10.0"
 dependencies = [
  "criterion",
  "rand",
@@ -322,7 +322,7 @@ dependencies = [
 
 [[package]]
 name = "problems"
-version = "0.9.0"
+version = "0.10.0"
 
 [[package]]
 name = "proc-macro2"
