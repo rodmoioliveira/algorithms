@@ -1,4 +1,5 @@
 pub mod _0000136_single_number;
+pub mod _0000026_remove_duplicates_from_sorted_array;
 pub mod _0000151_reverse_words_in_a_string;
 pub mod _0000198_house_robber;
 pub mod _0000238_product_of_array_except_self;

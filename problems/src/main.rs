@@ -1,5 +1,6 @@
 fn main() {
     problems::codewars::_5667e8f4e3f572a8f2000039_mumbling::testcase();
+    problems::leetcode::_0000026_remove_duplicates_from_sorted_array::testcase();
     problems::leetcode::_0000136_single_number::testcase();
     problems::leetcode::_0000151_reverse_words_in_a_string::testcase();
     problems::leetcode::_0000198_house_robber::testcase();
