@@ -13,6 +13,7 @@ fn main() {
     problems::leetcode::_0000392_is_subsequence::testcase();
     problems::leetcode::_0000605_can_place_flowers::testcase();
     problems::leetcode::_0000700_search_in_a_binary_search_tree::testcase();
+    problems::leetcode::_0000704_binary_search::testcase();
     problems::leetcode::_0000724_find_pivot_index::testcase();
     problems::leetcode::_0000735_asteroid_collision::testcase();
     problems::leetcode::_0001207_unique_number_of_occurrences::testcase();
