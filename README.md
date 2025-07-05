@@ -52,6 +52,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 - [leetcode/_0000735_asteroid_collision](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000735_asteroid_collision.rs)
 - [leetcode/_0001207_unique_number_of_occurrences](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0001207_unique_number_of_occurrences.rs)
 - [leetcode/_0001431_kids_with_the_greatest_number_of_candies](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0001431_kids_with_the_greatest_number_of_candies.rs)
+- [leetcode/_0001657_determine_if_two_strings_are_close](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0001657_determine_if_two_strings_are_close.rs)
 - [leetcode/_0001768_merge_strings_alternately](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0001768_merge_strings_alternately.rs)
 - [leetcode/_0002215_find_the_difference_of_two_arrays](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0002215_find_the_difference_of_two_arrays.rs)
 - [leetcode/_0002390_removing_stars_from_a_string](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0002390_removing_stars_from_a_string.rs)

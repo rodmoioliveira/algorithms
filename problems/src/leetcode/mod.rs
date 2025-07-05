@@ -16,6 +16,7 @@ pub mod _0000724_find_pivot_index;
 pub mod _0000735_asteroid_collision;
 pub mod _0001207_unique_number_of_occurrences;
 pub mod _0001431_kids_with_the_greatest_number_of_candies;
+pub mod _0001657_determine_if_two_strings_are_close;
 pub mod _0001768_merge_strings_alternately;
 pub mod _0002215_find_the_difference_of_two_arrays;
 pub mod _0002390_removing_stars_from_a_string;
