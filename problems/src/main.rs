@@ -19,6 +19,7 @@ fn main() {
     problems::leetcode::_0001207_unique_number_of_occurrences::testcase();
     problems::leetcode::_0001431_kids_with_the_greatest_number_of_candies::testcase();
     problems::leetcode::_0001657_determine_if_two_strings_are_close::testcase();
+    problems::leetcode::_0001732_find_the_highest_altitude::testcase();
     problems::leetcode::_0001768_merge_strings_alternately::testcase();
     problems::leetcode::_0002215_find_the_difference_of_two_arrays::testcase();
     problems::leetcode::_0002390_removing_stars_from_a_string::testcase();
