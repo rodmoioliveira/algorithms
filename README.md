@@ -45,6 +45,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 - [leetcode/_0000338_counting_bits](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000338_counting_bits.rs)
 - [leetcode/_0000345_reverse_vowels_of_a_string](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000345_reverse_vowels_of_a_string.rs)
 - [leetcode/_0000392_is_subsequence](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000392_is_subsequence.rs)
+- [leetcode/_0000394_decode_string](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000394_decode_string.rs)
 - [leetcode/_0000605_can_place_flowers](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000605_can_place_flowers.rs)
 - [leetcode/_0000700_search_in_a_binary_search_tree](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000700_search_in_a_binary_search_tree.rs)
 - [leetcode/_0000704_binary_search](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000704_binary_search.rs)

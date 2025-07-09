@@ -76,6 +76,9 @@ mod tests {
         let s = String::from("a good   example");
         let res = reverse_words(s);
         let expected = String::from("example good a");
-        assert_eq!(res, expected, "You need to reduce multiple spaces between two words to a single space in the reversed string.");
+        assert_eq!(
+            res, expected,
+            "You need to reduce multiple spaces between two words to a single space in the reversed string."
+        );
     }
 }

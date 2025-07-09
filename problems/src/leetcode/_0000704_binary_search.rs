@@ -36,11 +36,7 @@ pub fn search_1(nums: Vec<i32>, target: i32) -> i32 {
         mid /= 2;
     }
 
-    if nums[lo] == target {
-        lo as i32
-    } else {
-        -1
-    }
+    if nums[lo] == target { lo as i32 } else { -1 }
 }
 
 pub fn search_2(nums: Vec<i32>, target: i32) -> i32 {
@@ -57,11 +53,7 @@ pub fn search_2(nums: Vec<i32>, target: i32) -> i32 {
         }
     }
 
-    if nums[lo] == target {
-        lo as i32
-    } else {
-        -1
-    }
+    if nums[lo] == target { lo as i32 } else { -1 }
 }
 
 pub fn search_3(nums: Vec<i32>, target: i32) -> i32 {

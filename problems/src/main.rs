@@ -11,6 +11,7 @@ fn main() {
     problems::leetcode::_0000338_counting_bits::testcase();
     problems::leetcode::_0000345_reverse_vowels_of_a_string::testcase();
     problems::leetcode::_0000392_is_subsequence::testcase();
+    problems::leetcode::_0000394_decode_string::testcase();
     problems::leetcode::_0000605_can_place_flowers::testcase();
     problems::leetcode::_0000700_search_in_a_binary_search_tree::testcase();
     problems::leetcode::_0000704_binary_search::testcase();

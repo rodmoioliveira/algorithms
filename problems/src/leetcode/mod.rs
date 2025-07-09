@@ -9,6 +9,7 @@ pub mod _0000334_increasing_triplet_subsequence;
 pub mod _0000338_counting_bits;
 pub mod _0000345_reverse_vowels_of_a_string;
 pub mod _0000392_is_subsequence;
+pub mod _0000394_decode_string;
 pub mod _0000605_can_place_flowers;
 pub mod _0000700_search_in_a_binary_search_tree;
 pub mod _0000704_binary_search;
