@@ -37,6 +37,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 - [competitive_programmers_handbook/_0000002_maximum_subarray_sum](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/competitive_programmers_handbook/_0000002_maximum_subarray_sum.rs)
 - [leetcode/_0000026_remove_duplicates_from_sorted_array](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000026_remove_duplicates_from_sorted_array.rs)
 - [leetcode/_0000035_search_insert_position](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000035_search_insert_position.rs)
+- [leetcode/_0000053_maximum_subarray](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000053_maximum_subarray.rs)
 - [leetcode/_0000136_single_number](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000136_single_number.rs)
 - [leetcode/_0000151_reverse_words_in_a_string](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000151_reverse_words_in_a_string.rs)
 - [leetcode/_0000198_house_robber](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000198_house_robber.rs)

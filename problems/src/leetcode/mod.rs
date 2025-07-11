@@ -1,5 +1,6 @@
 pub mod _0000026_remove_duplicates_from_sorted_array;
 pub mod _0000035_search_insert_position;
+pub mod _0000053_maximum_subarray;
 pub mod _0000136_single_number;
 pub mod _0000151_reverse_words_in_a_string;
 pub mod _0000198_house_robber;

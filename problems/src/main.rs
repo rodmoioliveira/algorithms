@@ -3,6 +3,7 @@ fn main() {
     problems::competitive_programmers_handbook::_0000002_maximum_subarray_sum::testcase();
     problems::leetcode::_0000026_remove_duplicates_from_sorted_array::testcase();
     problems::leetcode::_0000035_search_insert_position::testcase();
+    problems::leetcode::_0000053_maximum_subarray::testcase();
     problems::leetcode::_0000136_single_number::testcase();
     problems::leetcode::_0000151_reverse_words_in_a_string::testcase();
     problems::leetcode::_0000198_house_robber::testcase();
