@@ -1,6 +1,7 @@
 fn main() {
     problems::codewars::_5667e8f4e3f572a8f2000039_mumbling::testcase();
     problems::competitive_programmers_handbook::_0000002_maximum_subarray_sum::testcase();
+    problems::leetcode::_0000020_valid_parentheses::testcase();
     problems::leetcode::_0000026_remove_duplicates_from_sorted_array::testcase();
     problems::leetcode::_0000035_search_insert_position::testcase();
     problems::leetcode::_0000053_maximum_subarray::testcase();
