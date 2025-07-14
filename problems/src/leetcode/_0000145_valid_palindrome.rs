@@ -32,7 +32,7 @@
 //     1 <= s.length <= 2 * 105
 //     s consists only of printable ASCII characters.
 // ---
-pub fn is_palindrome(s: String) -> bool {
+pub fn is_palindrome_reverse(s: String) -> bool {
     let p: Vec<char> = s
         .chars()
         .filter(|c| c.is_ascii_alphanumeric())
@@ -42,34 +42,94 @@ pub fn is_palindrome(s: String) -> bool {
     v.reverse();
     p == v
 }
+
+pub fn is_palindrome_two_pointers(s: String) -> bool {
+    let c: Vec<char> = s
+        .chars()
+        .filter(|c| c.is_ascii_alphanumeric())
+        .map(|c| c.to_ascii_lowercase())
+        .collect();
+
+    let mut low = 0;
+    let mut hi = c.len().saturating_sub(1);
+
+    while low < hi {
+        if c[low] != c[hi] {
+            return false;
+        }
+        low += 1;
+        hi -= 1;
+    }
+    true
+}
 // ---
 
 pub fn testcase() {
-    let res = is_palindrome(String::from("A man, a plan, a canal: Panama"));
+    let res = is_palindrome_reverse(String::from("A man, a plan, a canal: Panama"));
     eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]
-mod tests {
+mod tests_reverse {
     use super::*;
 
     #[test]
     fn test_1() {
-        let res = is_palindrome(String::from("A man, a plan, a canal: Panama"));
+        let res = is_palindrome_reverse(String::from("A man, a plan, a canal: Panama"));
         let expected = true;
         assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
-        let res = is_palindrome(String::from("race a car"));
+        let res = is_palindrome_reverse(String::from("race a car"));
         let expected = false;
         assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
-        let res = is_palindrome(String::from(" "));
+        let res = is_palindrome_reverse(String::from(" "));
+        let expected = true;
+        assert_eq!(res, expected);
+    }
+
+    #[test]
+    fn test_4() {
+        let res = is_palindrome_reverse(String::from("a."));
+        let expected = true;
+        assert_eq!(res, expected);
+    }
+}
+
+#[cfg(test)]
+mod tests_two_pointers {
+    use super::*;
+
+    #[test]
+    fn test_1() {
+        let res = is_palindrome_two_pointers(String::from("A man, a plan, a canal: Panama"));
+        let expected = true;
+        assert_eq!(res, expected);
+    }
+
+    #[test]
+    fn test_2() {
+        let res = is_palindrome_two_pointers(String::from("race a car"));
+        let expected = false;
+        assert_eq!(res, expected);
+    }
+
+    #[test]
+    fn test_3() {
+        let res = is_palindrome_two_pointers(String::from(" "));
+        let expected = true;
+        assert_eq!(res, expected);
+    }
+
+    #[test]
+    fn test_4() {
+        let res = is_palindrome_two_pointers(String::from("a."));
         let expected = true;
         assert_eq!(res, expected);
     }
