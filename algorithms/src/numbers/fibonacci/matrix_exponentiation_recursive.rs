@@ -49,40 +49,40 @@ mod tests {
     #[test]
     fn test_1() {
         let n = 0;
-        let result = fibonacci(n);
+        let res = fibonacci(n);
         let expected = 0;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let n = 1;
-        let result = fibonacci(n);
+        let res = fibonacci(n);
         let expected = 1;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let n = 2;
-        let result = fibonacci(n);
+        let res = fibonacci(n);
         let expected = 1;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_4() {
         let n = 3;
-        let result = fibonacci(n);
+        let res = fibonacci(n);
         let expected = 2;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_5() {
         let n = 20;
-        let result = fibonacci(n);
+        let res = fibonacci(n);
         let expected = 6765;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

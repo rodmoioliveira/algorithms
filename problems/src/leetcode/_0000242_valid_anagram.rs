@@ -33,8 +33,8 @@ pub fn is_anagram(s: String, t: String) -> bool {
 // ---
 
 pub fn testcase() {
-    let result = is_anagram(String::from("anagram"), String::from("nagaram"));
-    eprintln!("{} {:?}", module_path!(), result);
+    let res = is_anagram(String::from("anagram"), String::from("nagaram"));
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]
@@ -43,15 +43,15 @@ mod tests {
 
     #[test]
     fn test_1() {
-        let result = is_anagram(String::from("anagram"), String::from("nagaram"));
+        let res = is_anagram(String::from("anagram"), String::from("nagaram"));
         let expected = true;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
-        let result = is_anagram(String::from("rat"), String::from("car"));
+        let res = is_anagram(String::from("rat"), String::from("car"));
         let expected = false;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

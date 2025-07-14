@@ -54,24 +54,24 @@ mod tests_1 {
     #[test]
     fn test_1() {
         let nums = vec![-2, 1, -3, 4, -1, 2, 1, -5, 4];
-        let result = max_sub_array(nums);
+        let res = max_sub_array(nums);
         let expected = 6;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
         let nums = vec![1];
-        let result = max_sub_array(nums);
+        let res = max_sub_array(nums);
         let expected = 1;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
         let nums = vec![5, 4, -1, 7, 8];
-        let result = max_sub_array(nums);
+        let res = max_sub_array(nums);
         let expected = 23;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }

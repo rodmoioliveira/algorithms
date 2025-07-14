@@ -51,8 +51,8 @@ pub fn is_valid(s: String) -> bool {
 // ---
 
 pub fn testcase() {
-    let result = is_valid(String::from("()"));
-    eprintln!("{} {:?}", module_path!(), result);
+    let res = is_valid(String::from("()"));
+    eprintln!("{} {:?}", module_path!(), res);
 }
 
 #[cfg(test)]
@@ -61,36 +61,36 @@ mod tests {
 
     #[test]
     fn test_1() {
-        let result = is_valid(String::from("()"));
+        let res = is_valid(String::from("()"));
         let expected = true;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_2() {
-        let result = is_valid(String::from("()[]{}"));
+        let res = is_valid(String::from("()[]{}"));
         let expected = true;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_3() {
-        let result = is_valid(String::from("(]"));
+        let res = is_valid(String::from("(]"));
         let expected = false;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_4() {
-        let result = is_valid(String::from("([])"));
+        let res = is_valid(String::from("([])"));
         let expected = true;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 
     #[test]
     fn test_5() {
-        let result = is_valid(String::from("]"));
+        let res = is_valid(String::from("]"));
         let expected = false;
-        assert_eq!(result, expected);
+        assert_eq!(res, expected);
     }
 }
