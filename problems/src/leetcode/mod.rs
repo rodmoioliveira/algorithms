@@ -6,6 +6,7 @@ pub mod _0000136_single_number;
 pub mod _0000151_reverse_words_in_a_string;
 pub mod _0000198_house_robber;
 pub mod _0000238_product_of_array_except_self;
+pub mod _0000242_valid_anagram;
 pub mod _0000283_move_zeroes;
 pub mod _0000334_increasing_triplet_subsequence;
 pub mod _0000338_counting_bits;
