@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.13.0](https://github.com/rodmoioliveira/algorithms/compare/0.12.0...0.13.0) - 2025-09-25
+
+[ca4052a](https://github.com/rodmoioliveira/algorithms/commit/ca4052ac1b19dff47d1c61791a84bda58b0f370c)...[bb4bbab](https://github.com/rodmoioliveira/algorithms/commit/bb4bbab0cf84e401760b30710258d629fa1dac61)
+
+### Dependencies
+
+- [45da81a](https://github.com/rodmoioliveira/algorithms/commit/45da81a8b13e207468101fc2d0e0b3cdce38022e) - Bump rand from 0.9.1 to 0.9.2
+- [a812f8d](https://github.com/rodmoioliveira/algorithms/commit/a812f8dfa7c98f2bc8f350797372afd0d8d63d2e) - Bump criterion from 0.6.0 to 0.7.0
+- [e778f0b](https://github.com/rodmoioliveira/algorithms/commit/e778f0b43f0161a6331e939785086a1c1d26680a) - Bump actions/checkout from 4 to 5
+
+### Features
+
+- [b8374c0](https://github.com/rodmoioliveira/algorithms/commit/b8374c0e837aa3d3cce01ede990318dd7d799dc9) - Add leetcode 394
+- [c4e0af1](https://github.com/rodmoioliveira/algorithms/commit/c4e0af1cbdaf2971e17aaa4ff45511d1a987d0d1) - Add competitive_programmers_handbook
+- [febff10](https://github.com/rodmoioliveira/algorithms/commit/febff10dba738bc0746d540cc7eb37a577965d11) - Add leetcode 53
+- [785c46b](https://github.com/rodmoioliveira/algorithms/commit/785c46b3c3c97d15a4f5c428e3fab6e5e70ebcf5) - Add leetcode 20
+- [0035ae0](https://github.com/rodmoioliveira/algorithms/commit/0035ae0612879b10274a3ca765eb844bc4e2e14d) - Add leetcode 242
+- [50662b4](https://github.com/rodmoioliveira/algorithms/commit/50662b4b4802b786e4d30545a54e11fe9e37bbd9) - Add leetcode 145
+- [0fade73](https://github.com/rodmoioliveira/algorithms/commit/0fade73af1ad17cf0b5894976eb530bb539c4f36) - Add new approach to 145 and 242 leetcode problems
+- [04f10c0](https://github.com/rodmoioliveira/algorithms/commit/04f10c0a1a78b9d1d3f200463bdc69f7bee5d75b) - Update deps
+
+### Miscellaneous Tasks
+
+- [d0873e2](https://github.com/rodmoioliveira/algorithms/commit/d0873e2b6336147e018c4b581e356718851e7b65) - Add new approach to leetcode 1657
+- [00b8751](https://github.com/rodmoioliveira/algorithms/commit/00b87513dc2e13dc79639da7216b1a908a4471d1) - Add new approach to leetcode 1732
+- [de63b6b](https://github.com/rodmoioliveira/algorithms/commit/de63b6b868edaae79fef0991d45cad3d727337b0) - Rename result to res
+
+### Releases
+
+- [7b2a18a](https://github.com/rodmoioliveira/algorithms/commit/7b2a18a2b12ade4d394b42dfb2daf75f1f3eed64) - 0.12.0
+- [bb4bbab](https://github.com/rodmoioliveira/algorithms/commit/bb4bbab0cf84e401760b30710258d629fa1dac61) - Bump version
+
 ## [0.12.0](https://github.com/rodmoioliveira/algorithms/compare/0.11.0...0.12.0) - 2025-07-05
 
 [29efa6c](https://github.com/rodmoioliveira/algorithms/commit/29efa6c637c175ef703f6ff6f6b0761d6102fa3d)...[ca4052a](https://github.com/rodmoioliveira/algorithms/commit/ca4052ac1b19dff47d1c61791a84bda58b0f370c)
