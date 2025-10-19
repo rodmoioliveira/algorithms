@@ -32,7 +32,7 @@ fn matrix_mult(l_matrix: [[usize; 2]; 2], r_matrix: [[usize; 2]; 2]) -> [[usize;
 // [https://www.longluo.me/blog/2022/01/29/fibonacci-sequence/#solution-7-fast-matrix-poweroptimized-method-6]
 // The key here is to compute `l_matrix^n` using the successive square method. Using this
 // algorithm, `l_matrix^n` is computed in O(log n) time (Note that for a fixed matrix size, the
-// matrix muliplication algorithm takes a constant amount of time).
+// matrix multiplication algorithm takes a constant amount of time).
 fn matrix_pow(l_matrix: &mut [[usize; 2]; 2], n: &mut usize) -> [[usize; 2]; 2] {
     let mut res = [[1, 0], [0, 1]];
     while *n > 0 {
