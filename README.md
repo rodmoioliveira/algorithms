@@ -39,6 +39,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 - [leetcode/_0000026_remove_duplicates_from_sorted_array](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000026_remove_duplicates_from_sorted_array.rs)
 - [leetcode/_0000035_search_insert_position](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000035_search_insert_position.rs)
 - [leetcode/_0000053_maximum_subarray](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000053_maximum_subarray.rs)
+- [leetcode/_0000121_best_time_to_buy_and_sell_stock](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000121_best_time_to_buy_and_sell_stock.rs)
 - [leetcode/_0000136_single_number](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000136_single_number.rs)
 - [leetcode/_0000145_valid_palindrome](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000145_valid_palindrome.rs)
 - [leetcode/_0000151_reverse_words_in_a_string](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000151_reverse_words_in_a_string.rs)
