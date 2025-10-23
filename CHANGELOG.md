@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.14.0](https://github.com/rodmoioliveira/algorithms/compare/0.13.0...0.14.0) - 2025-10-23
+
+[bb4bbab](https://github.com/rodmoioliveira/algorithms/commit/bb4bbab0cf84e401760b30710258d629fa1dac61)...[d776637](https://github.com/rodmoioliveira/algorithms/commit/d7766375a9a642aef7bad9043dbfcd9010887f25)
+
+### Bug Fixes
+
+- [9cd2898](https://github.com/rodmoioliveira/algorithms/commit/9cd2898e184670dfa0e06777ad6ec5b4d295a3c9) - Fix typo
+
+### Features
+
+- [15cfb0c](https://github.com/rodmoioliveira/algorithms/commit/15cfb0c74d55e15266587542107d79e8551a4064) - Add leetcode 121
+
+### Miscellaneous Tasks
+
+- [4143e63](https://github.com/rodmoioliveira/algorithms/commit/4143e63cb97314bb8d6483a20603e3282783a22c) - Update dependencies
+
+### Releases
+
+- [8d0f64b](https://github.com/rodmoioliveira/algorithms/commit/8d0f64bd79c536d30fbad72ff8087774fb43d5cf) - 0.13.0
+- [d776637](https://github.com/rodmoioliveira/algorithms/commit/d7766375a9a642aef7bad9043dbfcd9010887f25) - Bump version
+
 ## [0.13.0](https://github.com/rodmoioliveira/algorithms/compare/0.12.0...0.13.0) - 2025-09-25
 
 [ca4052a](https://github.com/rodmoioliveira/algorithms/commit/ca4052ac1b19dff47d1c61791a84bda58b0f370c)...[bb4bbab](https://github.com/rodmoioliveira/algorithms/commit/bb4bbab0cf84e401760b30710258d629fa1dac61)
