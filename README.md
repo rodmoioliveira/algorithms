@@ -35,6 +35,7 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 
 - [codewars/_5667e8f4e3f572a8f2000039_mumbling](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/codewars/_5667e8f4e3f572a8f2000039_mumbling.rs)
 - [competitive_programmers_handbook/_0000002_maximum_subarray_sum](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/competitive_programmers_handbook/_0000002_maximum_subarray_sum.rs)
+- [leetcode/_0000013_roman_to_integer](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000013_roman_to_integer.rs)
 - [leetcode/_0000020_valid_parentheses](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000020_valid_parentheses.rs)
 - [leetcode/_0000026_remove_duplicates_from_sorted_array](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000026_remove_duplicates_from_sorted_array.rs)
 - [leetcode/_0000035_search_insert_position](https://github.com/rodmoioliveira/algorithms/blob/main/problems/src/leetcode/_0000035_search_insert_position.rs)

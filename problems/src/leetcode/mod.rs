@@ -1,3 +1,4 @@
+pub mod _0000013_roman_to_integer;
 pub mod _0000020_valid_parentheses;
 pub mod _0000026_remove_duplicates_from_sorted_array;
 pub mod _0000035_search_insert_position;
