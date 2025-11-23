@@ -5,6 +5,7 @@ fn main() {
     problems::leetcode::_0000020_valid_parentheses::testcase();
     problems::leetcode::_0000026_remove_duplicates_from_sorted_array::testcase();
     problems::leetcode::_0000035_search_insert_position::testcase();
+    problems::leetcode::_0000039_combination_sum::testcase();
     problems::leetcode::_0000053_maximum_subarray::testcase();
     problems::leetcode::_0000136_single_number::testcase();
     problems::leetcode::_0000121_best_time_to_buy_and_sell_stock::testcase();
