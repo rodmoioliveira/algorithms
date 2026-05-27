@@ -39,7 +39,7 @@ pub fn is_descending_sorted<T: PartialOrd>(arr: &[T]) -> bool {
 
 #[cfg(test)]
 pub fn generate_random_vec(n: u32, range_l: i32, range_r: i32) -> Vec<i32> {
-    use rand::Rng;
+    use rand::RngExt;
 
     let mut arr = Vec::<i32>::with_capacity(n as usize);
     let mut rng = rand::rng();
@@ -55,7 +55,7 @@ pub fn generate_random_vec(n: u32, range_l: i32, range_r: i32) -> Vec<i32> {
 
 #[cfg(test)]
 pub fn generate_nearly_ordered_vec(n: u32, swap_times: u32) -> Vec<i32> {
-    use rand::Rng;
+    use rand::RngExt;
 
     let mut arr: Vec<i32> = (0..n as i32).collect();
     let mut rng = rand::rng();
@@ -87,7 +87,7 @@ pub fn generate_reverse_ordered_vec(n: u32) -> Vec<i32> {
 
 #[cfg(test)]
 pub fn generate_repeated_elements_vec(n: u32, unique_elements: u8) -> Vec<i32> {
-    use rand::Rng;
+    use rand::RngExt;
 
     let mut rng = rand::rng();
     let v = rng.random_range(0..n as i32);
