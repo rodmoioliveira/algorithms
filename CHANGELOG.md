@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.15.0](https://github.com/rodmoioliveira/algorithms/compare/0.14.0...0.15.0) - 2026-05-27
+
+[d776637](https://github.com/rodmoioliveira/algorithms/commit/d7766375a9a642aef7bad9043dbfcd9010887f25)...[b0dee98](https://github.com/rodmoioliveira/algorithms/commit/b0dee98f11040eff8daf6ab6b9fc12e314f341b2)
+
+### Dependencies
+
+- [0448786](https://github.com/rodmoioliveira/algorithms/commit/04487862b0ac27de76d76742fdc2061298f75037) - Bump actions/checkout from 5 to 6
+- [22d2fe6](https://github.com/rodmoioliveira/algorithms/commit/22d2fe687797a64604383f5c5f28069b66b782d7) - Bump criterion from 0.7.0 to 0.8.0
+- [d2068a9](https://github.com/rodmoioliveira/algorithms/commit/d2068a90369124d12a161219f2da64be005808fd) - Bump criterion from 0.8.0 to 0.8.1
+- [61c8d08](https://github.com/rodmoioliveira/algorithms/commit/61c8d080f9d1033ca0c51d72e69770184932450f) - Bump rand from 0.9.2 to 0.10.0
+- [0f07670](https://github.com/rodmoioliveira/algorithms/commit/0f07670b8b4dd5ea94d469e248376f90b660fa22) - Bump criterion from 0.8.1 to 0.8.2
+- [c21954d](https://github.com/rodmoioliveira/algorithms/commit/c21954d6f5e1d5d7ee95b9200547648993ac3df7) - Bump rand from 0.10.0 to 0.10.1
+- [570fd38](https://github.com/rodmoioliveira/algorithms/commit/570fd38bdb4df0e38879731b769cbb58244bf45e) - Bump dependabot/fetch-metadata from 2 to 3
+
+### Features
+
+- [af3b169](https://github.com/rodmoioliveira/algorithms/commit/af3b169ca4e512581643e92eacbd1d03263be91b) - Add leetcode 13
+
+### Miscellaneous Tasks
+
+- [b8605d3](https://github.com/rodmoioliveira/algorithms/commit/b8605d3685955b0740ee883562259d014bd0e2b8) - Update deps
+
+### Releases
+
+- [8ce515b](https://github.com/rodmoioliveira/algorithms/commit/8ce515bf02c0de2d8d01f9320fb5214a6dd45bbd) - 0.14.0
+- [b0dee98](https://github.com/rodmoioliveira/algorithms/commit/b0dee98f11040eff8daf6ab6b9fc12e314f341b2) - Bump version
+
 ## [0.14.0](https://github.com/rodmoioliveira/algorithms/compare/0.13.0...0.14.0) - 2025-10-23
 
 [bb4bbab](https://github.com/rodmoioliveira/algorithms/commit/bb4bbab0cf84e401760b30710258d629fa1dac61)...[d776637](https://github.com/rodmoioliveira/algorithms/commit/d7766375a9a642aef7bad9043dbfcd9010887f25)
