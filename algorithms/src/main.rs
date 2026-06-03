@@ -20,7 +20,15 @@ fn sorting() {
     algorithms::sorting::quicksort::three_way_bentley_mcilroy::example();
 }
 
+fn exponentiation() {
+    algorithms::numbers::exponentiation::expt_recursive::example();
+    algorithms::numbers::exponentiation::expt_iterative::example();
+    algorithms::numbers::exponentiation::expt_square_recursive::example();
+    algorithms::numbers::exponentiation::expt_square_iterative::example();
+}
+
 fn main() {
     fibonacci();
     sorting();
+    exponentiation();
 }
