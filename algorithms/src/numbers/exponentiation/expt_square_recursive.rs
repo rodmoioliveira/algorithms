@@ -1,11 +1,15 @@
 // REFERENCES:
 // - Harold Abelson and Gerald Jay Sussman with Julie Sussman. Structure and Interpretation of Computer Programs. Chapter 1: 1.2.4 Exponentiation
 //
+fn square(i: u32) -> u32 {
+    i * i
+}
+
 pub fn expt_square_recursive(base: u32, exponent: u32) -> u32 {
     match exponent == 0 {
         true => 1,
         false => match exponent.is_multiple_of(2) {
-            true => expt_square_recursive(base, exponent / 2).pow(2),
+            true => square(expt_square_recursive(base, exponent / 2)),
             false => base * expt_square_recursive(base, exponent - 1),
         },
     }
