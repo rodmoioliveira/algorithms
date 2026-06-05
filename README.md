@@ -12,9 +12,14 @@ I've reimplemented a few algorithms and resolved some problems for fun.
 
 [back^](#index)
 
+- [numbers/exponentiation/expt_iterative](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/exponentiation/expt_iterative.rs)
+- [numbers/exponentiation/expt_recursive](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/exponentiation/expt_recursive.rs)
+- [numbers/exponentiation/expt_square_iterative](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/exponentiation/expt_square_iterative.rs)
+- [numbers/exponentiation/expt_square_recursive](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/exponentiation/expt_square_recursive.rs)
 - [numbers/fibonacci/binet_formula](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/fibonacci/binet_formula.rs)
 - [numbers/fibonacci/bottom_up](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/fibonacci/bottom_up.rs)
 - [numbers/fibonacci/bottom_up_space_optimized](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/fibonacci/bottom_up_space_optimized.rs)
+- [numbers/fibonacci/fast_doubling_iterative](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/fibonacci/fast_doubling_iterative.rs)
 - [numbers/fibonacci/fast_doubling_recursive](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/fibonacci/fast_doubling_recursive.rs)
 - [numbers/fibonacci/lookup_table](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/fibonacci/lookup_table.rs)
 - [numbers/fibonacci/matrix_exponentiation_optimized](https://github.com/rodmoioliveira/algorithms/blob/main/algorithms/src/numbers/fibonacci/matrix_exponentiation_optimized.rs)
@@ -91,6 +96,7 @@ help                   Display this help screen
 makefile-descriptions  Check if all Makefile rules have descriptions
 rs-audit               Audit Cargo.lock
 rs-audit-fix           Update Cargo.toml to fix vulnerable dependency requirement
+rs-bench               Run benchmarks
 rs-cargo-deps          Install cargo dependencies
 rs-check               Run check
 rs-dev                 Run check in watch mode

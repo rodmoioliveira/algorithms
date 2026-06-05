@@ -3,6 +3,7 @@ fn fibonacci() {
     algorithms::numbers::fibonacci::bottom_up::example();
     algorithms::numbers::fibonacci::bottom_up_space_optimized::example();
     algorithms::numbers::fibonacci::fast_doubling_recursive::example();
+    algorithms::numbers::fibonacci::fast_doubling_iterative::example();
     algorithms::numbers::fibonacci::lookup_table::example();
     algorithms::numbers::fibonacci::matrix_exponentiation_optimized::example();
     algorithms::numbers::fibonacci::matrix_exponentiation_recursive::example();

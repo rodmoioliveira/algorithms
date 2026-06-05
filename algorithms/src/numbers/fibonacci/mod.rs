@@ -1,6 +1,7 @@
 pub mod binet_formula;
 pub mod bottom_up;
 pub mod bottom_up_space_optimized;
+pub mod fast_doubling_iterative;
 pub mod fast_doubling_recursive;
 pub mod lookup_table;
 pub mod matrix_exponentiation_optimized;

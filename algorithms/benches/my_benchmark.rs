@@ -2,6 +2,7 @@ use algorithms::numbers::fibonacci::{
     binet_formula,
     bottom_up,
     bottom_up_space_optimized,
+    fast_doubling_iterative,
     fast_doubling_recursive,
     lookup_table,
     matrix_exponentiation_optimized,
@@ -13,7 +14,8 @@ use criterion::{BenchmarkId, Criterion, criterion_group, criterion_main};
 
 fn bench_fibonacci(c: &mut Criterion) {
     let mut group = c.benchmark_group("Fibonacci");
-    let i = 20_usize;
+    let i = 40_usize;
+    // group.bench_with_input(BenchmarkId::new("recursive", i), &i, |b, i| b.iter(|| recursive::fibonacci(*i)));
     group.bench_with_input(BenchmarkId::new("binet_formula", i), &i, |b, i| {
         b.iter(|| binet_formula::fibonacci(*i))
     });
@@ -30,6 +32,11 @@ fn bench_fibonacci(c: &mut Criterion) {
         &i,
         |b, i| b.iter(|| fast_doubling_recursive::fibonacci(*i)),
     );
+    group.bench_with_input(
+        BenchmarkId::new("fast_doubling_iterative", i),
+        &i,
+        |b, i| b.iter(|| fast_doubling_iterative::fibonacci(*i)),
+    );
     group.bench_with_input(BenchmarkId::new("lookup_table", i), &i, |b, i| {
         b.iter(|| lookup_table::fibonacci(*i))
     });
@@ -43,7 +50,6 @@ fn bench_fibonacci(c: &mut Criterion) {
         &i,
         |b, i| b.iter(|| matrix_exponentiation_recursive::fibonacci(*i)),
     );
-    // group.bench_with_input(BenchmarkId::new("recursive", i), &i, |b, i| b.iter(|| recursive::fibonacci(*i)));
     group.bench_with_input(BenchmarkId::new("top_down_memoized", i), &i, |b, i| {
         b.iter(|| top_down_memoized::fibonacci(*i))
     });

@@ -44,11 +44,15 @@ rs-audit: ## Audit Cargo.lock
 rs-audit-fix: ## Update Cargo.toml to fix vulnerable dependency requirement
 	@cargo audit fix
 
+rs-bench: ## Run benchmarks
+	@cargo criterion
+
 rs-cargo-deps: ## Install cargo dependencies
 	@cargo install --locked cargo-outdated
 	@cargo install cargo-audit --features=fix
 	@cargo install cargo-watch
 	@cargo install typos-cli
+	@cargo install cargo-criterion
 	@rustup component add clippy
 
 rs-check: ## Run check
@@ -107,6 +111,7 @@ typos-fix: ## Fix typos
 .PHONY: makefile-descriptions
 .PHONY: rs-audit
 .PHONY: rs-audit-fix
+.PHONY: rs-bench
 .PHONY: rs-cargo-deps
 .PHONY: rs-check
 .PHONY: rs-dev
